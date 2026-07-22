@@ -1,0 +1,34 @@
+name: Update KidCal calendar
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC daily (~6-7am Eastern)
+  workflow_dispatch:        # allows manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Build calendar from live sources
+        run: python build.py
+
+      - name: Commit updated calendar if changed
+        run: |
+          git config user.name "kidcal-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/kidevents.ics
+          if git diff --staged --quiet; then
+            echo "No calendar changes."
+          else
+            git commit -m "Auto-update kids' events calendar"
+            git push
+          fi
