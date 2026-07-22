@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import ingest
+import mec
 from generate_ics import (
     CAL_NAME, PRODID, TZID, VTIMEZONE, build_vevent, escape_text, fold,
 )
@@ -123,20 +124,26 @@ def main() -> None:
     seed = json.loads(SEED.read_text(encoding="utf-8"))
     sources = json.loads(SOURCES.read_text(encoding="utf-8"))
 
+    today = datetime.now().strftime("%Y%m%d")
     kept: list[tuple[dict, str]] = []
     seen: set[tuple] = set()
     for src in sources:
         name = src["name"]
         scope = src.get("scope", "venue")
         try:
-            raw = ingest.fetch(src["url"])
-            events = ingest.parse_ics(raw)
+            if src.get("type") == "mec":
+                events = mec.fetch_events(src["url"], src.get("default_location", ""))
+            else:
+                events = ingest.parse_ics(ingest.fetch(src["url"]))
         except Exception as e:  # noqa: BLE001 - report and continue
             print(f"  ! {name}: fetch/parse failed: {e}")
             continue
-        n_kept = n_age = n_dup = n_geo = 0
+        n_kept = n_age = n_dup = n_geo = n_past = 0
         for ev in events:
             if not ev.get("start_date") or not ev.get("dtstart_line"):
+                continue
+            if ev["start_date"] < today:  # drop events already in the past
+                n_past += 1
                 continue
             ok, _ = ingest.keep_event(ev.get("summary", ""), ev.get("description", ""))
             if not ok:
@@ -158,8 +165,8 @@ def main() -> None:
             seen.add(key)
             kept.append((ev, name))
             n_kept += 1
-        print(f"  {name}: {len(events)} feed -> kept {n_kept} "
-              f"(dropped {n_age} off-age, {n_geo} out-of-radius, {n_dup} dup-of-seed)")
+        print(f"  {name}: {len(events)} feed -> kept {n_kept} (dropped "
+              f"{n_past} past, {n_age} off-age, {n_geo} out-of-radius, {n_dup} dup)")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(build(seed, kept), encoding="utf-8", newline="")
