@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Keene Public Library",
+    "type": "ics",
+    "url": "https://keenenh.libcal.com/ical_subscribe.php?cid=19465",
+    "town": "Keene, NH",
+    "scope": "venue"
+  },
+  {
+    "name": "Brooks Memorial Library",
+    "type": "ics",
+    "url": "https://brookslibraryvt.org/events/?ical=1",
+    "town": "Brattleboro, VT",
+    "scope": "venue"
+  },
+  {
+    "name": "Putney Public Library",
+    "type": "ics",
+    "url": "https://putneylibrary.org/events/?ical=1",
+    "town": "Putney, VT",
+    "scope": "venue"
+  },
+  {
+    "name": "Moore Free Library",
+    "type": "ics",
+    "url": "https://moorefreelibrary.org/events/?ical=1",
+    "town": "Newfane, VT",
+    "scope": "venue"
+  },
+  {
+    "name": "Vermont Journal & Shopper",
+    "type": "ics",
+    "url": "https://vermontjournal.com/events/?ical=1",
+    "town": "Springfield/Chester/Ludlow, VT",
+    "scope": "regional"
+  }
+]
