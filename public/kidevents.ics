@@ -1,0 +1,1204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//KidCal//Bellows Falls Kids Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:KidCal — Kids' Events near Bellows Falls, VT
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ce4c5e628bd02bdd@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260721T103000
+DTEND;TZID=America/New_York:20260721T111500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Preschool Storytime — Rockingham Free Public Library
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/storytime/
+CATEGORIES:storytime\,preschool
+DESCRIPTION:Interactive read/sing/play preschool storytime. Drop-in friend
+ ly. (Seed data — verify current schedule with the library.)\nSource: Roc
+ kingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:61c34a4a86c4866d@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260724T103000
+DTEND;TZID=America/New_York:20260724T120000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Friday Playgroup — Rockingham Free Public Library
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/youth-dept/
+CATEGORIES:playgroup\,0-6
+DESCRIPTION:Drop-in playgroup for young children and caregivers. (Seed dat
+ a — verify with the library.)\nSource: Rockingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:d428c2b43cbbf796@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260721T093000
+DTEND;TZID=America/New_York:20260721T110000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Prouty Playgroup — Winston Prouty Center
+LOCATION:Thomas Hall\, 209 Austine Dr\, Brattleboro\, VT 05301
+URL:https://winstonprouty.org/prouty-play-group/
+CATEGORIES:playgroup\,0-5
+DESCRIPTION:Free weekly playgroup for families with children through age 5
+ \; facilitators join at 10:00\, snack and story at 10:45. No registration.
+  (Seed data — verify.)\nSource: Winston Prouty Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bf6b21a99d6a9e20@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260722T103000
+DTEND;TZID=America/New_York:20260722T110000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Rhyme Time — Brooks Memorial Library
+LOCATION:Brooks Memorial Library\, 224 Main St\, Brattleboro\, VT 05301
+URL:https://brookslibraryvt.org/calendar/
+CATEGORIES:storytime\,5 & under
+DESCRIPTION:30 minutes of stories\, songs\, and fun for kids 5 & under and
+  their caregivers. Verified Jul 2026.\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e7dc13bf110a2262@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260723T103000
+DTEND;TZID=America/New_York:20260723T113000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Sing & Dance with Robin — Brooks Memorial Library
+LOCATION:Brattleboro Common (or Brooks Memorial Library if weather require
+ s)\, Brattleboro\, VT 05301
+URL:https://brookslibraryvt.org/calendar/
+CATEGORIES:music\,0-5
+DESCRIPTION:Enriching music and movement for toddlers and preschoolers (ag
+ es 0–5) and caregivers\, on the Brattleboro Common (weather permitting).
+  Verified Jul 2026.\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:6868fc53355ea6e3@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260622T200000Z
+DTEND:20260622T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/16067279
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:14f4f861581a7928@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260625T193000Z
+DTEND:20260625T203000Z
+SUMMARY:Kids STEAM: Salt Dough Dino Fossils
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/16737270
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Dinosaurs are loose at KPL\, and we have fossil evidence as pr
+ oof!\n\nMake salt dough\, and then create your own dinosaur fossils!\n\nFo
+ r children age 5 - 12 and their caregivers. \n\nRegistration is required.\
+ nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:803cab79189ebcc6@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260629T200000Z
+DTEND:20260629T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/16067280
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:6205a32b6ade7d0e@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260706T200000Z
+DTEND:20260706T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103881
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:a1b412998f8163e6@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260708T143000Z
+DTEND:20260708T153000Z
+SUMMARY:Ashuelot Park Storytime w Virgil the dog
+LOCATION:Off-Site
+URL:https://keenenh.libcal.com/event/16523609
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Kick off our summer session of story time in the park with spe
+ cial guest Virgil the therapy dog. \n\nJoin librarians Scout and Parker fo
+ r some doggone fun stories\, songs and activities\, and meet with Virgil t
+ o learn all about his job as a therapy dog. This is a great introduction f
+ or Virgil's future library visits!\n\nBring blankets or chairs\, whatever 
+ makes your story time more comfortable!\n\nRegistration is greatly appreci
+ ated and encouraged in order to receive emails for weather related changes
+ . \n\nFor children 0 - 6 and their caregivers.\nSource: Keene Public Libra
+ ry
+END:VEVENT
+BEGIN:VEVENT
+UID:35fed5dc9874cdeb@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260709T193000Z
+DTEND:20260709T203000Z
+SUMMARY:Kids STEAM: Volcanos!
+LOCATION:Gallup-Minard Courtyard
+URL:https://keenenh.libcal.com/event/16810057
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Join Miss Scout for a scientific experiment with a prehistoric
+  theme!\n\nPractice making VOLCANOS!\nLearn how to create a chemical react
+ ion for a bubbly explosion\, as well as designing a volcano to take home a
+ nd keep the messy fun going :) \n\nFor ages 5 - 12 and their caregivers. \
+ n\nRegistration is required.\n\nPlease not that participants later than 15
+  minutes may have their spots given to those on the waitlist.\nSource: Kee
+ ne Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:b4b5bc1dde8b139d@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260710T203000Z
+DTEND:20260710T213000Z
+SUMMARY:Kids Comic Club
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/16862740
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
+ gether\, discuss great graphic novels\, and watch interviews and tutorials
+  from our favorite artists. All skill levels are welcome\, and materials w
+ ill be provided! Meetings will be held on the second Friday of each month.
+ \n\nRegistration is appreciated. Questions or Concerns call the library 60
+ 3.352.0157.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:c1fae6e8684ee36a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260711T150000Z
+DTEND:20260711T160000Z
+SUMMARY:Super Saturday - Expedition Reptiles
+LOCATION:Heberton Hall
+URL:https://keenenh.libcal.com/event/16635291
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Shedding Fears One Snake at a Time. Do you love reptiles? Come
+  learn about and meet 15 different reptile species - (snakes\, tortoises\,
+  and tegus) from around the globe in this hands-on reptile show. This prog
+ ram is free and open to all ages. Registration is Appreciated.\n\nQuestion
+ s\, contact Amy Kraemer akraemer@keenenh.gov\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:f4a9c3fbcf59ca66@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260713T200000Z
+DTEND:20260713T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103882
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:853da77f0e6b007d@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260715T143000Z
+DTEND:20260715T153000Z
+SUMMARY:Ashuelot Park Storytime
+LOCATION:Off-Site
+URL:https://keenenh.libcal.com/event/16523610
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Join librarians Scout and Parker for some fishy fun stories\, 
+ songs and activities. \n\nBring blankets or chairs\, whatever makes your s
+ tory time more comfortable!\n\nRegistration is greatly appreciated and enc
+ ouraged in order to receive email updates for any weather related changes.
+  \n\nFor children 0 - 6 and their caregivers.\nSource: Keene Public Librar
+ y
+END:VEVENT
+BEGIN:VEVENT
+UID:57e2056c567d90bb@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260718T150000Z
+DTEND:20260718T160000Z
+SUMMARY:Wigs and Wiggles
+LOCATION:Cohen Hall
+URL:https://keenenh.libcal.com/event/16635297
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Super Saturdays continue with The Monarchs of Mayhem! Drag is 
+ a fun\, sparkly\, inclusive art form that is for everyone! It features out
+ rageous costumes\, make-up\, and wigs! The Monarchs of Mayhem present a un
+ ique show combining storytime with full drag performances and interactive 
+ play with music\, dancing\, lip syncing\, and more. This show is for child
+ ren ages 0 - 18 and their caregivers.\n\nRegistration is required and will
+  be checked at the door. \n\nFor more information\, please contact Amy Kra
+ emer at akraemer@keenenh.gov\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:a50a73ec93cbfd44@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260720T200000Z
+DTEND:20260720T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103883
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:30ed4b7977ceff72@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260722T143000Z
+DTEND:20260722T153000Z
+SUMMARY:Ashuelot Park Storytime
+LOCATION:Off-Site
+URL:https://keenenh.libcal.com/event/16523611
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Join librarians Scout and Parker for some archeological finds\
+ , fun stories\, songs and activities. \n\nBring blankets or chairs\, whate
+ ver makes your story time more comfortable!\n\nRegistration is greatly app
+ reciated and encouraged in order to receive email updates for any weather 
+ related changes. \n\nFor children 0 - 6 and their caregivers.\nSource: Kee
+ ne Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:73894f57172e9621@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260723T193000Z
+DTEND:20260723T203000Z
+SUMMARY:Kids STEAM: Leaf Clay Dish
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/16810072
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Play around with petrification by creating an air-dry clay lea
+ f molded dish. You can bring any leaf you want\, but we will have plenty o
+ f leaves available!\n\nFor ages 5 - 12 and their caregivers. \n\nRegistrat
+ ion is required.\n\nPlease not that participants later than 15 minutes may
+  have their spots given to those on the waitlist.\nSource: Keene Public Li
+ brary
+END:VEVENT
+BEGIN:VEVENT
+UID:faa001d4ed2a7ff2@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260725T150000Z
+DTEND:20260725T170000Z
+SUMMARY:Lindsay Acela & her Puppet Pals
+LOCATION:Heberton Hall
+URL:https://keenenh.libcal.com/event/16635300
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Lindsay is back with her larger-than-life Puppet Pals in this 
+ funny\, fast-paced\, and highly interactive variety show that will delight
+  our youngest friends and the young at heart! You never know who you might
+  meet. Perhaps a goofy moose\, a heroic tiger\, or a lovable bear. Oh my! 
+ Maybe a dancing robot or flamingo\, a spunky chicken\, a stubborn goat\, a
+  shy dragon\, or a singing dinosaur! Come find out who's making an appeara
+ nce this time!\n\nLindsay has been performing full-time since 2011\, prese
+ nting to several thousand children each year. Through animated storytellin
+ g and thoughtful messaging\, she hopes to model social-emotional learning 
+ and creative play. She believes shared joy and laughter strengthens commun
+ ities of all kinds!\n\nThis program is free and is a great fit for ages 3-
+ 8 and families. Registration is Appreciated.\n\nFor more information conta
+ ct Amy Kraemer akraemer@keenenh.gov\n\nHope to see you there!\nSource: Kee
+ ne Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:164ffaa43a6add94@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260727T200000Z
+DTEND:20260727T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103884
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:fae5af67f4f99a1a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260729T143000Z
+DTEND:20260729T153000Z
+SUMMARY:Ashuelot Park Storytime
+LOCATION:Off-Site
+URL:https://keenenh.libcal.com/event/16523612
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Join librarians Scout and Parker for some fun stories\, songs 
+ and activities. \n\nThis is the last story time for our summer session\, s
+ o you can believe we will make it extra special!\n\nBring blankets or chai
+ rs\, whatever makes your story time more comfortable!\n\nRegistration is g
+ reatly appreciated and encouraged in order to receive email updates for an
+ y weather related changes. \n\nFor children 0 - 6 and their caregivers.\nS
+ ource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:a2ad7f8716b0b033@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260803T200000Z
+DTEND:20260803T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103885
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:371e1c131b15c6e7@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260808T150000Z
+DTEND:20260808T170000Z
+SUMMARY:Summer Reading Celebration
+LOCATION:Heberton Hall
+URL:https://keenenh.libcal.com/event/16681854
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:You don't want to miss this big grand finale celebration of al
+ l your summer reading and find out who wins the raffle prizes.  We are hos
+ tng Jungle Jim a super high energy\,  jaw-dropping grand finale performanc
+ e you won't soon forget. \n\nThis program is free and intended for childre
+ n ages 3 - 18 and their caregivers.  \n\nRegistration is Required.\nSource
+ : Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:d5d268c8337591d0@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260810T200000Z
+DTEND:20260810T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103886
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:245bbdbeadbd22b8@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260814T203000Z
+DTEND:20260814T213000Z
+SUMMARY:Kids Comic Club
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/16865804
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
+ gether\, discuss great graphic novels\, and watch interviews and tutorials
+  from our favorite artists. All skill levels are welcome\, and materials w
+ ill be provided! Meetings will be held on the second Friday of each month.
+ \n\nRegistration is appreciated. Questions or Concerns call the library 60
+ 3.352.0157.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:4b377ae48f71ac74@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260817T200000Z
+DTEND:20260817T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103887
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e415be0e693b1a53@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260824T200000Z
+DTEND:20260824T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103888
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:15a2fe747843d87f@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260831T200000Z
+DTEND:20260831T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103889
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:489a411a30e0562a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260907T200000Z
+DTEND:20260907T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103890
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:2d85e3e38bf52f3c@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260914T200000Z
+DTEND:20260914T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103891
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:68b4b26552f034d9@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260921T200000Z
+DTEND:20260921T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103892
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:4f88c06e38ae7451@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260928T200000Z
+DTEND:20260928T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103893
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:00bb456007fe61d4@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20260930T143000Z
+DTEND:20260930T151500Z
+SUMMARY:Preschool Storytime
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17090835
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
+ es 3 to 5\, who can sit and listen to short stories and participate in sim
+ ple songs and rhymes. Storytime will always include read-aloud stories and
+  fingerplays and may include poems\, music\, dramatic play\, and crafts. \
+ n\n \n\nThis is a 7-week series\, which ends the week of November 15th. Wh
+ en you sign up for one class\, you will automatically be registered for ea
+ ch class in the series.\n\nPLEASE NOTE: We will not meet on Wednesday Nove
+ mber 11th in honor of Veterans Day. Our last meeting will be Wednesday Nov
+ ember 18th.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:fd01b1066298d02a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261001T143000Z
+DTEND:20261001T151500Z
+SUMMARY:Book time with Babies and Toddlers
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17146447
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
+ \, and get-up-and-move activities specially designed for infants and toddl
+ ers. At the end of the program\, there will be a playtime when parents and
+  caregivers share books\, puzzles\, or other early literacy activities wit
+ h their toddlers.  This 7 week series ends the week of November 8th.  When
+  you sign up for one class\, you will automatically be registered for each
+  session in the series.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:c10d0a69ed061561@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261005T200000Z
+DTEND:20261005T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103894
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:09bdfd35099222e7@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261007T143000Z
+DTEND:20261007T151500Z
+SUMMARY:Music preschool Storytime with Kim
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17090836
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
+ es 3 to 5\, who can sit and listen to short stories and participate in sim
+ ple songs and rhymes. Storytime will always include read-aloud stories and
+  fingerplays and may include poems\, music\, dramatic play\, and crafts. \
+ n\n \n\nThis is a 7-week series\, which ends the week of November 15th. Wh
+ en you sign up for one class\, you will automatically be registered for ea
+ ch class in the series.\n\nPLEASE NOTE: We will not meet on Wednesday Nove
+ mber 11th in honor of Veterans Day. Our last meeting will be Wednesday Nov
+ ember 18th.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:ca01684b2b5aa361@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261008T143000Z
+DTEND:20261008T151500Z
+SUMMARY:Book time with Babies and Toddlers
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17146448
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
+ \, and get-up-and-move activities specially designed for infants and toddl
+ ers. At the end of the program\, there will be a playtime when parents and
+  caregivers share books\, puzzles\, or other early literacy activities wit
+ h their toddlers.  This 7 week series ends the week of November 8th.  When
+  you sign up for one class\, you will automatically be registered for each
+  session in the series.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:650831c756ed9f54@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261012T200000Z
+DTEND:20261012T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103895
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:482aaedc6cb53c94@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261014T143000Z
+DTEND:20261014T151500Z
+SUMMARY:@Stonewall Farm preschool Storytime
+LOCATION:Off-Site
+URL:https://keenenh.libcal.com/event/17090837
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
+ es 3 to 5\, who can sit and listen to short stories and participate in sim
+ ple songs and rhymes. Storytime will always include read-aloud stories and
+  fingerplays and may include poems\, music\, dramatic play\, and crafts. \
+ n\n \n\nThis is a 7-week series\, which ends the week of November 15th. Wh
+ en you sign up for one class\, you will automatically be registered for ea
+ ch class in the series.\n\nPLEASE NOTE: We will not meet on Wednesday Nove
+ mber 11th in honor of Veterans Day. Our last meeting will be Wednesday Nov
+ ember 18th.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:b3a0ba736c0bcbea@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261015T143000Z
+DTEND:20261015T151500Z
+SUMMARY:Book time with Babies and Toddlers
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17146449
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
+ \, and get-up-and-move activities specially designed for infants and toddl
+ ers. At the end of the program\, there will be a playtime when parents and
+  caregivers share books\, puzzles\, or other early literacy activities wit
+ h their toddlers.  This 7 week series ends the week of November 8th.  When
+  you sign up for one class\, you will automatically be registered for each
+  session in the series.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:addf799736432f86@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261019T200000Z
+DTEND:20261019T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103896
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:678769777270d632@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261021T143000Z
+DTEND:20261021T151500Z
+SUMMARY:Preschool Storytime
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17090838
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
+ es 3 to 5\, who can sit and listen to short stories and participate in sim
+ ple songs and rhymes. Storytime will always include read-aloud stories and
+  fingerplays and may include poems\, music\, dramatic play\, and crafts. \
+ n\n \n\nThis is a 7-week series\, which ends the week of November 15th. Wh
+ en you sign up for one class\, you will automatically be registered for ea
+ ch class in the series.\n\nPLEASE NOTE: We will not meet on Wednesday Nove
+ mber 11th in honor of Veterans Day. Our last meeting will be Wednesday Nov
+ ember 18th.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:41d5dec39da2eb14@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261022T143000Z
+DTEND:20261022T151500Z
+SUMMARY:Book time with Babies and Toddlers
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17146450
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
+ \, and get-up-and-move activities specially designed for infants and toddl
+ ers. At the end of the program\, there will be a playtime when parents and
+  caregivers share books\, puzzles\, or other early literacy activities wit
+ h their toddlers.  This 7 week series ends the week of November 8th.  When
+  you sign up for one class\, you will automatically be registered for each
+  session in the series.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:ae0d7e619d5f796a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261026T200000Z
+DTEND:20261026T210000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103897
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:0a95dca4a52dd16a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261028T143000Z
+DTEND:20261028T151500Z
+SUMMARY:Preschool Storytime
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17090839
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
+ es 3 to 5\, who can sit and listen to short stories and participate in sim
+ ple songs and rhymes. Storytime will always include read-aloud stories and
+  fingerplays and may include poems\, music\, dramatic play\, and crafts. \
+ n\n \n\nThis is a 7-week series\, which ends the week of November 15th. Wh
+ en you sign up for one class\, you will automatically be registered for ea
+ ch class in the series.\n\nPLEASE NOTE: We will not meet on Wednesday Nove
+ mber 11th in honor of Veterans Day. Our last meeting will be Wednesday Nov
+ ember 18th.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:41fd2a6a8979e63b@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261029T143000Z
+DTEND:20261029T151500Z
+SUMMARY:Book time with Babies and Toddlers
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17146451
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
+ \, and get-up-and-move activities specially designed for infants and toddl
+ ers. At the end of the program\, there will be a playtime when parents and
+  caregivers share books\, puzzles\, or other early literacy activities wit
+ h their toddlers.  This 7 week series ends the week of November 8th.  When
+  you sign up for one class\, you will automatically be registered for each
+  session in the series.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:569da0da22298c10@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261102T210000Z
+DTEND:20261102T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103898
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e54339a0f56de56f@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261104T153000Z
+DTEND:20261104T161500Z
+SUMMARY:Music Preschool Storytime with Kim
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17090840
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
+ es 3 to 5\, who can sit and listen to short stories and participate in sim
+ ple songs and rhymes. Storytime will always include read-aloud stories and
+  fingerplays and may include poems\, music\, dramatic play\, and crafts. \
+ n\n \n\nThis is a 7-week series\, which ends the week of November 15th. Wh
+ en you sign up for one class\, you will automatically be registered for ea
+ ch class in the series.\n\nPLEASE NOTE: We will not meet on Wednesday Nove
+ mber 11th in honor of Veterans Day. Our last meeting will be Wednesday Nov
+ ember 18th.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e459fb91a8ba4adf@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261105T153000Z
+DTEND:20261105T161500Z
+SUMMARY:Book time with Babies and Toddlers
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17146452
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
+ \, and get-up-and-move activities specially designed for infants and toddl
+ ers. At the end of the program\, there will be a playtime when parents and
+  caregivers share books\, puzzles\, or other early literacy activities wit
+ h their toddlers.  This 7 week series ends the week of November 8th.  When
+  you sign up for one class\, you will automatically be registered for each
+  session in the series.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:ff917578dd6e3a66@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261109T210000Z
+DTEND:20261109T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103899
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:441069195ee56d2c@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261112T153000Z
+DTEND:20261112T161500Z
+SUMMARY:Book time with Babies and Toddlers
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17146453
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
+ \, and get-up-and-move activities specially designed for infants and toddl
+ ers. At the end of the program\, there will be a playtime when parents and
+  caregivers share books\, puzzles\, or other early literacy activities wit
+ h their toddlers.  This 7 week series ends the week of November 8th.  When
+  you sign up for one class\, you will automatically be registered for each
+  session in the series.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:dcaed9120b7c9b43@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261116T210000Z
+DTEND:20261116T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103900
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:1158868489650c44@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261118T153000Z
+DTEND:20261118T161500Z
+SUMMARY:Preschool Storytime
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17090842
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
+ es 3 to 5\, who can sit and listen to short stories and participate in sim
+ ple songs and rhymes. Storytime will always include read-aloud stories and
+  fingerplays and may include poems\, music\, dramatic play\, and crafts. \
+ n\n \n\nThis is a 7-week series\, which ends the week of November 15th. Wh
+ en you sign up for one class\, you will automatically be registered for ea
+ ch class in the series.\n\nPLEASE NOTE: We will not meet on Wednesday Nove
+ mber 11th in honor of Veterans Day. Our last meeting will be Wednesday Nov
+ ember 18th.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:939f214f30cbe07a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261123T210000Z
+DTEND:20261123T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103901
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:bc8a3518303154ec@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261130T210000Z
+DTEND:20261130T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103902
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:12cc3fcb122d6b99@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261207T210000Z
+DTEND:20261207T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103903
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:38828a9c3501cab0@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261209T153000Z
+DTEND:20261209T161500Z
+SUMMARY:Holiday Storytime with Kim Wallach
+LOCATION:Storyroom
+URL:https://keenenh.libcal.com/event/17091065
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Come celebrate the season with Kim Wallach.  Kim will share st
+ ories and music from around the world.  \n\nThis storytime is designed for
+  preschool children\, but siblings are always welcome.\nSource: Keene Publ
+ ic Library
+END:VEVENT
+BEGIN:VEVENT
+UID:6a895cf082248a7b@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261214T210000Z
+DTEND:20261214T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103904
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:cb5578fd3ea9ae1e@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261221T210000Z
+DTEND:20261221T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103905
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:537c4160a72da8dd@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART:20261228T210000Z
+DTEND:20261228T220000Z
+SUMMARY:Library Build a Rama
+LOCATION:Youth Department
+URL:https://keenenh.libcal.com/event/17103906
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
+ a huge variety of bricks to encourage your imagination to go wild. Our Bui
+ ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:3992996458ac3a41@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260723T130000
+DTEND;TZID=America/New_York:20260723T170000
+SUMMARY:LEGO-Palooza Summer Session
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/lego-palooza-summer-session-3/2026-0
+ 7-23/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
+ y Thursday from June 25th through August 6th\, 1:00 pm to 5:00 pm. \nCome 
+ build something fun with the library’s LEGOs and get a chance to see the
+ m on display. FREE! \n  \nLEGO-palooza happens from 3:00 to 5:00 pm on th
+ e first Thursday of the month with occasional special sessions during scho
+ ol breaks and the summer. \nFor more information\, call 802-254-5290 ext. 
+ 1210\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:546d54c38cadd847@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260728T103000
+DTEND;TZID=America/New_York:20260728T110000
+SUMMARY:AT RETREAT FARM- Stories in the Sun
+LOCATION:Retreat Farm\, 45 Farmhouse Sq.\, Brattleboro\, VT\, 05301-4801\,
+  United States
+URL:https://brookslibraryvt.org/event/retreat-farm-storytime-in-the-sun-2/
+ 2026-07-28/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Join Brooks Memorial Library at Retreat Farm for storytime as 
+ part of our Summer Reading Program! \nTuesdays at 10:30am\, June 23rd thro
+ ugh July 29th.  This even is held under a under a marquee tent at Retreat
+  Farm\, rain or shine. \nCome for the stories\, stay for the goats! Free a
+ nd open to all ages. Bring your own blanket or chair.\nSource: Brooks Memo
+ rial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:eed33c802d1fccd7@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260730T130000
+DTEND;TZID=America/New_York:20260730T170000
+SUMMARY:LEGO-Palooza Summer Session
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/lego-palooza-summer-session-3/2026-0
+ 7-30/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
+ y Thursday from June 25th through August 6th\, 1:00 pm to 5:00 pm. \nCome 
+ build something fun with the library’s LEGOs and get a chance to see the
+ m on display. FREE! \n  \nLEGO-palooza happens from 3:00 to 5:00 pm on th
+ e first Thursday of the month with occasional special sessions during scho
+ ol breaks and the summer. \nFor more information\, call 802-254-5290 ext. 
+ 1210\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:fecc532c8574594b@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260806T130000
+DTEND;TZID=America/New_York:20260806T170000
+SUMMARY:LEGO-Palooza Summer Session
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/lego-palooza-summer-session-3/2026-0
+ 8-06/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
+ y Thursday from June 25th through August 6th\, 1:00 pm to 5:00 pm. \nCome 
+ build something fun with the library’s LEGOs and get a chance to see the
+ m on display. FREE! \n  \nLEGO-palooza happens from 3:00 to 5:00 pm on th
+ e first Thursday of the month with occasional special sessions during scho
+ ol breaks and the summer. \nFor more information\, call 802-254-5290 ext. 
+ 1210\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:c8f52f528c78b4e0@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260722T160000
+DTEND;TZID=America/New_York:20260722T170000
+SUMMARY:Summer Reading Program - Dirt Cups with the Brattleboro Food Coop
+URL:https://putneylibrary.org/event/summer-reading-program-dirt-cups-with-
+ the-brattleboro-food-coop/
+CATEGORIES:kids\,Putney Public Library
+DESCRIPTION:Let’s learn about soil health by eating some dirt! Well\, di
+ rt pudding cups\, actually. Each young participant will create their own b
+ owl of healthy soil using homemade chocolate whipped cream\, crushed graha
+ ms\, and all kinds of other delicious ingredients!  Gluten-free\, vegan an
+ d dairy-free options will be available\; if your family needs any other di
+ etary accommodations please let the library know by Friday\, July 17th.\nS
+ ource: Putney Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:84364801353b7d51@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260729T160000
+DTEND;TZID=America/New_York:20260729T170000
+SUMMARY:Summer Reading Program - Author Visit\, Book giveaway & Ice Cream 
+ Social
+URL:https://putneylibrary.org/event/summer-reading-program-clif-storytelle
+ r-book-giveaway-ice-cream-social/
+CATEGORIES:kids\,Putney Public Library
+DESCRIPTION:Meet Steve Swinburne\, acclaimed  Vermont children’s book au
+ thor and nature writer who has written over 40 books including Big Truck S
+ uper Wash. Steve will share stories and songs. Pick two free books to take
+  home!\nCelebrate the end of Summer Reading with an ice cream social!\nSou
+ rce: Putney Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:bafee6cbd9ff64f1@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260906T130000
+DTEND;TZID=America/New_York:20260906T153000
+SUMMARY:"The Family Tree" Art Opening
+URL:https://moorefreelibrary.org/event/the-family-tree-art-opening/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Source: Moore Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:bc53bd6d0d0e6a9b@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260722T100000
+DTEND;TZID=America/New_York:20260722T110000
+SUMMARY:Story Hour at Whiting Library!
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/story-hour-at-whiting-library/2026-07
+ -22/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but 
+ all children of all ages are encouraged to join in the fun. Enjoy stories\
+ , music\, crafts\, and new book previews from Whiting Library. The storyti
+ me will be adapted each week to fit the kids’ abilities in the room. Sto
+ ry Hour is approximately 30-60 minutes long\, depending on the kids’ att
+ ention span and interest each week.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:0250261d294bd258@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260724T150000
+DTEND;TZID=America/New_York:20260724T180000
+SUMMARY:Level Up Your Games: Games Group for School Aged Kids
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/level-up-your-games-games-group-for-s
+ chool-aged-kids/2026-07-24/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
+ ames to choose from\, including classic board\, new tabletop\, fan-favorit
+ e card games\, and more. \nGames are an essential component of the library
+ . Information presented in new formats that encourage critical thinking an
+ d problem-solving\, and games that encourage social interaction among peer
+ s are just a few of the reasons to consider joining the Whiting Library Ga
+ me Group.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:cad61f88854f893a@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260724T160000
+DTEND;TZID=America/New_York:20260724T210000
+SUMMARY:BINGO
+LOCATION:SAPCC Workforce Development & Training Center\, 51 Jack & Jill La
+ ne\, North Springfield\, 05150
+URL:https://vermontjournal.com/event/bingo-2/2026-07-24/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:NORTH SPRINGFIELD\, Vt. – The Springfield Area Parent Child 
+ Center (SAPCC) Workforce Development and Training Center\, 51 Jack and Jil
+ l Lane\, hosts bingo every Friday\, from 4-9 p.m. Doors open at 4 p.m.\, a
+ nd bingo begins at 6 p.m. This is a family-friendly weekly fundraiser even
+ t to benefit SAPCC and other nonprofits in the Springfield\, Vt.\, region.
+  Open to all. See flyer attached for more info\, or call SAPCC at 802-886-
+ 5242. Follow on Facebook at www.facebook.com/SAPCCTrainingCenter.\nSource:
+  Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:dbac129e39d4d776@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260726T120000
+DTEND;TZID=America/New_York:20260726T180000
+SUMMARY:Bingo at SAPCC
+LOCATION:SAPCC Workforce Development & Training Center\, 51 Jack & Jill La
+ ne\, North Springfield\, 05150
+URL:https://vermontjournal.com/event/bingo-at-sapcc/2026-07-26/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:NORTH SPRINGFIELD\, Vt. – The Springfield Area Parent Child 
+ Center (SAPCC) Workforce Development and Training Center\, 51 Jack and Jil
+ l Lane\, hosts bingo every Sunday\, from 12-6 p.m. Doors open at 12 p.m.\,
+  and bingo begins at 1:30 p.m. This is a family-friendly weekly fundraiser
+  event to benefit SAPCC and other nonprofits in the Springfield\, Vt.\, re
+ gion. Open to all. See flyer attached for more info\, or call SAPCC at 802
+ -886-5242. Follow on Facebook at www.facebook.com/SAPCCTrainingCenter.\nSo
+ urce: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:bbb7f99182d7175c@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260728T100000
+DTEND;TZID=America/New_York:20260728T113000
+SUMMARY:Playgroup for Wee Littles (0-5) and Caregivers
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/playgroup-for-wee-littles-0-5-caregiv
+ ers/2026-07-28/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Whiting Library is home to a weekly playgrou
+ p for the Wee Littles (0-5 years old) and their caregivers on Tuesdays\, f
+ rom 10-11:30 a.m. This is a free\, fun\, and relaxed gathering where littl
+ e kids play while their grown-ups supervise and socialize. \nYou don’t n
+ eed to pre-register\; you can just drop into the library Community Room. S
+ tay as long or as little as you like. Our playtime is geared towards careg
+ ivers who want to find friendships and build connections with their childr
+ en and the greater wee little people (0-5 years old) community. \nFun and 
+ games\, plus art and craft projects in the community room downstairs – a
+ vailable to enjoy when the Community Room is not booked for other events. 
+ \nEveryone learns best through play. Contact our youth librarian for more 
+ information via youthlibrarian@whitinglibrary.org\, or call 802-875-2277.\
+ nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:3c455842feaa9617@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260729T100000
+DTEND;TZID=America/New_York:20260729T110000
+SUMMARY:Story Hour at Whiting Library!
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/story-hour-at-whiting-library/2026-07
+ -29/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but 
+ all children of all ages are encouraged to join in the fun. Enjoy stories\
+ , music\, crafts\, and new book previews from Whiting Library. The storyti
+ me will be adapted each week to fit the kids’ abilities in the room. Sto
+ ry Hour is approximately 30-60 minutes long\, depending on the kids’ att
+ ention span and interest each week.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:37c677968ff48815@kidcal
+DTSTAMP:20260722T164129Z
+DTSTART;TZID=America/New_York:20260731T150000
+DTEND;TZID=America/New_York:20260731T180000
+SUMMARY:Level Up Your Games: Games Group for School Aged Kids
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/level-up-your-games-games-group-for-s
+ chool-aged-kids/2026-07-31/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
+ ames to choose from\, including classic board\, new tabletop\, fan-favorit
+ e card games\, and more. \nGames are an essential component of the library
+ . Information presented in new formats that encourage critical thinking an
+ d problem-solving\, and games that encourage social interaction among peer
+ s are just a few of the reasons to consider joining the Whiting Library Ga
+ me Group.\nSource: Vermont Journal & Shopper
+END:VEVENT
+END:VCALENDAR
