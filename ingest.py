@@ -40,7 +40,8 @@ SOFT_EXCLUDE = [
     "job ", "resume", "town meeting", "select board", "budget", "writers group",
     "memoir", "depression", "holistic", "felting", "community read",
     "community conversation", "reel night out", "game cafe", "game café",
-    "sweetgrass", "needle",
+    "sweetgrass", "needle", "bingo", "fundraiser", "babysitter", "babysitting",
+    "art opening", "gala", "auction",
 ]
 
 
