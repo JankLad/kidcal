@@ -27,7 +27,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ce4c5e628bd02bdd@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260721T103000
 DTEND;TZID=America/New_York:20260721T111500
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -42,7 +42,7 @@ DESCRIPTION:Interactive read/sing/play preschool storytime. Drop-in friend
 END:VEVENT
 BEGIN:VEVENT
 UID:61c34a4a86c4866d@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260724T103000
 DTEND;TZID=America/New_York:20260724T120000
 RRULE:FREQ=WEEKLY;BYDAY=FR
@@ -56,7 +56,7 @@ DESCRIPTION:Drop-in playgroup for young children and caregivers. (Seed dat
 END:VEVENT
 BEGIN:VEVENT
 UID:d428c2b43cbbf796@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260721T093000
 DTEND;TZID=America/New_York:20260721T110000
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -70,7 +70,7 @@ DESCRIPTION:Free weekly playgroup for families with children through age 5
 END:VEVENT
 BEGIN:VEVENT
 UID:bf6b21a99d6a9e20@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260722T103000
 DTEND;TZID=America/New_York:20260722T110000
 RRULE:FREQ=WEEKLY;BYDAY=WE
@@ -83,7 +83,7 @@ DESCRIPTION:30 minutes of stories\, songs\, and fun for kids 5 & under and
 END:VEVENT
 BEGIN:VEVENT
 UID:e7dc13bf110a2262@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260723T103000
 DTEND;TZID=America/New_York:20260723T113000
 RRULE:FREQ=WEEKLY;BYDAY=TH
@@ -98,7 +98,7 @@ DESCRIPTION:Enriching music and movement for toddlers and preschoolers (ag
 END:VEVENT
 BEGIN:VEVENT
 UID:6868fc53355ea6e3@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260622T200000Z
 DTEND:20260622T210000Z
 SUMMARY:Library Build a Rama
@@ -111,7 +111,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:14f4f861581a7928@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260625T193000Z
 DTEND:20260625T203000Z
 SUMMARY:Kids STEAM: Salt Dough Dino Fossils
@@ -125,7 +125,7 @@ DESCRIPTION:Dinosaurs are loose at KPL\, and we have fossil evidence as pr
 END:VEVENT
 BEGIN:VEVENT
 UID:803cab79189ebcc6@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260629T200000Z
 DTEND:20260629T210000Z
 SUMMARY:Library Build a Rama
@@ -138,7 +138,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:6205a32b6ade7d0e@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260706T200000Z
 DTEND:20260706T210000Z
 SUMMARY:Library Build a Rama
@@ -151,7 +151,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:a1b412998f8163e6@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260708T143000Z
 DTEND:20260708T153000Z
 SUMMARY:Ashuelot Park Storytime w Virgil the dog
@@ -170,7 +170,7 @@ DESCRIPTION:Kick off our summer session of story time in the park with spe
 END:VEVENT
 BEGIN:VEVENT
 UID:35fed5dc9874cdeb@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260709T193000Z
 DTEND:20260709T203000Z
 SUMMARY:Kids STEAM: Volcanos!
@@ -187,7 +187,7 @@ DESCRIPTION:Join Miss Scout for a scientific experiment with a prehistoric
 END:VEVENT
 BEGIN:VEVENT
 UID:b4b5bc1dde8b139d@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260710T203000Z
 DTEND:20260710T213000Z
 SUMMARY:Kids Comic Club
@@ -203,7 +203,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:c1fae6e8684ee36a@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260711T150000Z
 DTEND:20260711T160000Z
 SUMMARY:Super Saturday - Expedition Reptiles
@@ -218,7 +218,7 @@ DESCRIPTION:Shedding Fears One Snake at a Time. Do you love reptiles? Come
 END:VEVENT
 BEGIN:VEVENT
 UID:f4a9c3fbcf59ca66@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260713T200000Z
 DTEND:20260713T210000Z
 SUMMARY:Library Build a Rama
@@ -231,7 +231,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:853da77f0e6b007d@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260715T143000Z
 DTEND:20260715T153000Z
 SUMMARY:Ashuelot Park Storytime
@@ -247,7 +247,7 @@ DESCRIPTION:Join librarians Scout and Parker for some fishy fun stories\,
 END:VEVENT
 BEGIN:VEVENT
 UID:57e2056c567d90bb@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260718T150000Z
 DTEND:20260718T160000Z
 SUMMARY:Wigs and Wiggles
@@ -265,7 +265,7 @@ DESCRIPTION:Super Saturdays continue with The Monarchs of Mayhem! Drag is
 END:VEVENT
 BEGIN:VEVENT
 UID:a50a73ec93cbfd44@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260720T200000Z
 DTEND:20260720T210000Z
 SUMMARY:Library Build a Rama
@@ -278,7 +278,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:30ed4b7977ceff72@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260722T143000Z
 DTEND:20260722T153000Z
 SUMMARY:Ashuelot Park Storytime
@@ -294,7 +294,7 @@ DESCRIPTION:Join librarians Scout and Parker for some archeological finds\
 END:VEVENT
 BEGIN:VEVENT
 UID:73894f57172e9621@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260723T193000Z
 DTEND:20260723T203000Z
 SUMMARY:Kids STEAM: Leaf Clay Dish
@@ -310,7 +310,7 @@ DESCRIPTION:Play around with petrification by creating an air-dry clay lea
 END:VEVENT
 BEGIN:VEVENT
 UID:faa001d4ed2a7ff2@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260725T150000Z
 DTEND:20260725T170000Z
 SUMMARY:Lindsay Acela & her Puppet Pals
@@ -334,7 +334,7 @@ DESCRIPTION:Lindsay is back with her larger-than-life Puppet Pals in this
 END:VEVENT
 BEGIN:VEVENT
 UID:164ffaa43a6add94@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260727T200000Z
 DTEND:20260727T210000Z
 SUMMARY:Library Build a Rama
@@ -347,7 +347,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:fae5af67f4f99a1a@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260729T143000Z
 DTEND:20260729T153000Z
 SUMMARY:Ashuelot Park Storytime
@@ -364,7 +364,7 @@ DESCRIPTION:Join librarians Scout and Parker for some fun stories\, songs
 END:VEVENT
 BEGIN:VEVENT
 UID:a2ad7f8716b0b033@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260803T200000Z
 DTEND:20260803T210000Z
 SUMMARY:Library Build a Rama
@@ -377,7 +377,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:371e1c131b15c6e7@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260808T150000Z
 DTEND:20260808T170000Z
 SUMMARY:Summer Reading Celebration
@@ -393,7 +393,7 @@ DESCRIPTION:You don't want to miss this big grand finale celebration of al
 END:VEVENT
 BEGIN:VEVENT
 UID:d5d268c8337591d0@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260810T200000Z
 DTEND:20260810T210000Z
 SUMMARY:Library Build a Rama
@@ -406,7 +406,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:245bbdbeadbd22b8@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260814T203000Z
 DTEND:20260814T213000Z
 SUMMARY:Kids Comic Club
@@ -422,7 +422,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:4b377ae48f71ac74@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260817T200000Z
 DTEND:20260817T210000Z
 SUMMARY:Library Build a Rama
@@ -435,7 +435,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:e415be0e693b1a53@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260824T200000Z
 DTEND:20260824T210000Z
 SUMMARY:Library Build a Rama
@@ -448,7 +448,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:15a2fe747843d87f@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260831T200000Z
 DTEND:20260831T210000Z
 SUMMARY:Library Build a Rama
@@ -461,7 +461,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:489a411a30e0562a@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260907T200000Z
 DTEND:20260907T210000Z
 SUMMARY:Library Build a Rama
@@ -474,7 +474,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:2d85e3e38bf52f3c@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260914T200000Z
 DTEND:20260914T210000Z
 SUMMARY:Library Build a Rama
@@ -487,7 +487,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:68b4b26552f034d9@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260921T200000Z
 DTEND:20260921T210000Z
 SUMMARY:Library Build a Rama
@@ -500,7 +500,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:4f88c06e38ae7451@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260928T200000Z
 DTEND:20260928T210000Z
 SUMMARY:Library Build a Rama
@@ -513,7 +513,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:00bb456007fe61d4@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20260930T143000Z
 DTEND:20260930T151500Z
 SUMMARY:Preschool Storytime
@@ -532,7 +532,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:fd01b1066298d02a@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261001T143000Z
 DTEND:20261001T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -549,7 +549,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:c10d0a69ed061561@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261005T200000Z
 DTEND:20261005T210000Z
 SUMMARY:Library Build a Rama
@@ -562,7 +562,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:09bdfd35099222e7@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261007T143000Z
 DTEND:20261007T151500Z
 SUMMARY:Music preschool Storytime with Kim
@@ -581,7 +581,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:ca01684b2b5aa361@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261008T143000Z
 DTEND:20261008T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -598,7 +598,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:650831c756ed9f54@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261012T200000Z
 DTEND:20261012T210000Z
 SUMMARY:Library Build a Rama
@@ -611,7 +611,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:482aaedc6cb53c94@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261014T143000Z
 DTEND:20261014T151500Z
 SUMMARY:@Stonewall Farm preschool Storytime
@@ -630,7 +630,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:b3a0ba736c0bcbea@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261015T143000Z
 DTEND:20261015T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -647,7 +647,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:addf799736432f86@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261019T200000Z
 DTEND:20261019T210000Z
 SUMMARY:Library Build a Rama
@@ -660,7 +660,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:678769777270d632@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261021T143000Z
 DTEND:20261021T151500Z
 SUMMARY:Preschool Storytime
@@ -679,7 +679,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:41d5dec39da2eb14@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261022T143000Z
 DTEND:20261022T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -696,7 +696,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:ae0d7e619d5f796a@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261026T200000Z
 DTEND:20261026T210000Z
 SUMMARY:Library Build a Rama
@@ -709,7 +709,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:0a95dca4a52dd16a@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261028T143000Z
 DTEND:20261028T151500Z
 SUMMARY:Preschool Storytime
@@ -728,7 +728,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:41fd2a6a8979e63b@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261029T143000Z
 DTEND:20261029T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -745,7 +745,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:569da0da22298c10@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261102T210000Z
 DTEND:20261102T220000Z
 SUMMARY:Library Build a Rama
@@ -758,7 +758,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:e54339a0f56de56f@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261104T153000Z
 DTEND:20261104T161500Z
 SUMMARY:Music Preschool Storytime with Kim
@@ -777,7 +777,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:e459fb91a8ba4adf@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261105T153000Z
 DTEND:20261105T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -794,7 +794,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:ff917578dd6e3a66@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261109T210000Z
 DTEND:20261109T220000Z
 SUMMARY:Library Build a Rama
@@ -807,7 +807,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:441069195ee56d2c@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261112T153000Z
 DTEND:20261112T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -824,7 +824,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:dcaed9120b7c9b43@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261116T210000Z
 DTEND:20261116T220000Z
 SUMMARY:Library Build a Rama
@@ -837,7 +837,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:1158868489650c44@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261118T153000Z
 DTEND:20261118T161500Z
 SUMMARY:Preschool Storytime
@@ -856,7 +856,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:939f214f30cbe07a@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261123T210000Z
 DTEND:20261123T220000Z
 SUMMARY:Library Build a Rama
@@ -869,7 +869,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:bc8a3518303154ec@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261130T210000Z
 DTEND:20261130T220000Z
 SUMMARY:Library Build a Rama
@@ -882,7 +882,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:12cc3fcb122d6b99@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261207T210000Z
 DTEND:20261207T220000Z
 SUMMARY:Library Build a Rama
@@ -895,7 +895,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:38828a9c3501cab0@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261209T153000Z
 DTEND:20261209T161500Z
 SUMMARY:Holiday Storytime with Kim Wallach
@@ -909,7 +909,7 @@ DESCRIPTION:Come celebrate the season with Kim Wallach.  Kim will share st
 END:VEVENT
 BEGIN:VEVENT
 UID:6a895cf082248a7b@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261214T210000Z
 DTEND:20261214T220000Z
 SUMMARY:Library Build a Rama
@@ -922,7 +922,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:cb5578fd3ea9ae1e@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261221T210000Z
 DTEND:20261221T220000Z
 SUMMARY:Library Build a Rama
@@ -935,7 +935,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:537c4160a72da8dd@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART:20261228T210000Z
 DTEND:20261228T220000Z
 SUMMARY:Library Build a Rama
@@ -948,7 +948,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:3992996458ac3a41@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260723T130000
 DTEND;TZID=America/New_York:20260723T170000
 SUMMARY:LEGO-Palooza Summer Session
@@ -967,7 +967,7 @@ DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
 END:VEVENT
 BEGIN:VEVENT
 UID:546d54c38cadd847@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260728T103000
 DTEND;TZID=America/New_York:20260728T110000
 SUMMARY:AT RETREAT FARM- Stories in the Sun
@@ -985,7 +985,7 @@ DESCRIPTION:Join Brooks Memorial Library at Retreat Farm for storytime as
 END:VEVENT
 BEGIN:VEVENT
 UID:eed33c802d1fccd7@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260730T130000
 DTEND;TZID=America/New_York:20260730T170000
 SUMMARY:LEGO-Palooza Summer Session
@@ -1004,7 +1004,7 @@ DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
 END:VEVENT
 BEGIN:VEVENT
 UID:fecc532c8574594b@kidcal
-DTSTAMP:20260722T154318Z
+DTSTAMP:20260722T155438Z
 DTSTART;TZID=America/New_York:20260806T130000
 DTEND;TZID=America/New_York:20260806T170000
 SUMMARY:LEGO-Palooza Summer Session
@@ -1020,5 +1020,185 @@ DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
  e first Thursday of the month with occasional special sessions during scho
  ol breaks and the summer. \nFor more information\, call 802-254-5290 ext. 
  1210\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:c8f52f528c78b4e0@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260722T160000
+DTEND;TZID=America/New_York:20260722T170000
+SUMMARY:Summer Reading Program - Dirt Cups with the Brattleboro Food Coop
+URL:https://putneylibrary.org/event/summer-reading-program-dirt-cups-with-
+ the-brattleboro-food-coop/
+CATEGORIES:kids\,Putney Public Library
+DESCRIPTION:Let’s learn about soil health by eating some dirt! Well\, di
+ rt pudding cups\, actually. Each young participant will create their own b
+ owl of healthy soil using homemade chocolate whipped cream\, crushed graha
+ ms\, and all kinds of other delicious ingredients!  Gluten-free\, vegan an
+ d dairy-free options will be available\; if your family needs any other di
+ etary accommodations please let the library know by Friday\, July 17th.\nS
+ ource: Putney Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:84364801353b7d51@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260729T160000
+DTEND;TZID=America/New_York:20260729T170000
+SUMMARY:Summer Reading Program - Author Visit\, Book giveaway & Ice Cream 
+ Social
+URL:https://putneylibrary.org/event/summer-reading-program-clif-storytelle
+ r-book-giveaway-ice-cream-social/
+CATEGORIES:kids\,Putney Public Library
+DESCRIPTION:Meet Steve Swinburne\, acclaimed  Vermont children’s book au
+ thor and nature writer who has written over 40 books including Big Truck S
+ uper Wash. Steve will share stories and songs. Pick two free books to take
+  home!\nCelebrate the end of Summer Reading with an ice cream social!\nSou
+ rce: Putney Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:bafee6cbd9ff64f1@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260906T130000
+DTEND;TZID=America/New_York:20260906T153000
+SUMMARY:"The Family Tree" Art Opening
+URL:https://moorefreelibrary.org/event/the-family-tree-art-opening/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Source: Moore Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:bc53bd6d0d0e6a9b@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260722T100000
+DTEND;TZID=America/New_York:20260722T110000
+SUMMARY:Story Hour at Whiting Library!
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/story-hour-at-whiting-library/2026-07
+ -22/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but 
+ all children of all ages are encouraged to join in the fun. Enjoy stories\
+ , music\, crafts\, and new book previews from Whiting Library. The storyti
+ me will be adapted each week to fit the kids’ abilities in the room. Sto
+ ry Hour is approximately 30-60 minutes long\, depending on the kids’ att
+ ention span and interest each week.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:0250261d294bd258@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260724T150000
+DTEND;TZID=America/New_York:20260724T180000
+SUMMARY:Level Up Your Games: Games Group for School Aged Kids
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/level-up-your-games-games-group-for-s
+ chool-aged-kids/2026-07-24/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
+ ames to choose from\, including classic board\, new tabletop\, fan-favorit
+ e card games\, and more. \nGames are an essential component of the library
+ . Information presented in new formats that encourage critical thinking an
+ d problem-solving\, and games that encourage social interaction among peer
+ s are just a few of the reasons to consider joining the Whiting Library Ga
+ me Group.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:cad61f88854f893a@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260724T160000
+DTEND;TZID=America/New_York:20260724T210000
+SUMMARY:BINGO
+LOCATION:SAPCC Workforce Development & Training Center\, 51 Jack & Jill La
+ ne\, North Springfield\, 05150
+URL:https://vermontjournal.com/event/bingo-2/2026-07-24/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:NORTH SPRINGFIELD\, Vt. – The Springfield Area Parent Child 
+ Center (SAPCC) Workforce Development and Training Center\, 51 Jack and Jil
+ l Lane\, hosts bingo every Friday\, from 4-9 p.m. Doors open at 4 p.m.\, a
+ nd bingo begins at 6 p.m. This is a family-friendly weekly fundraiser even
+ t to benefit SAPCC and other nonprofits in the Springfield\, Vt.\, region.
+  Open to all. See flyer attached for more info\, or call SAPCC at 802-886-
+ 5242. Follow on Facebook at www.facebook.com/SAPCCTrainingCenter.\nSource:
+  Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:dbac129e39d4d776@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260726T120000
+DTEND;TZID=America/New_York:20260726T180000
+SUMMARY:Bingo at SAPCC
+LOCATION:SAPCC Workforce Development & Training Center\, 51 Jack & Jill La
+ ne\, North Springfield\, 05150
+URL:https://vermontjournal.com/event/bingo-at-sapcc/2026-07-26/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:NORTH SPRINGFIELD\, Vt. – The Springfield Area Parent Child 
+ Center (SAPCC) Workforce Development and Training Center\, 51 Jack and Jil
+ l Lane\, hosts bingo every Sunday\, from 12-6 p.m. Doors open at 12 p.m.\,
+  and bingo begins at 1:30 p.m. This is a family-friendly weekly fundraiser
+  event to benefit SAPCC and other nonprofits in the Springfield\, Vt.\, re
+ gion. Open to all. See flyer attached for more info\, or call SAPCC at 802
+ -886-5242. Follow on Facebook at www.facebook.com/SAPCCTrainingCenter.\nSo
+ urce: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:bbb7f99182d7175c@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260728T100000
+DTEND;TZID=America/New_York:20260728T113000
+SUMMARY:Playgroup for Wee Littles (0-5) and Caregivers
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/playgroup-for-wee-littles-0-5-caregiv
+ ers/2026-07-28/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Whiting Library is home to a weekly playgrou
+ p for the Wee Littles (0-5 years old) and their caregivers on Tuesdays\, f
+ rom 10-11:30 a.m. This is a free\, fun\, and relaxed gathering where littl
+ e kids play while their grown-ups supervise and socialize. \nYou don’t n
+ eed to pre-register\; you can just drop into the library Community Room. S
+ tay as long or as little as you like. Our playtime is geared towards careg
+ ivers who want to find friendships and build connections with their childr
+ en and the greater wee little people (0-5 years old) community. \nFun and 
+ games\, plus art and craft projects in the community room downstairs – a
+ vailable to enjoy when the Community Room is not booked for other events. 
+ \nEveryone learns best through play. Contact our youth librarian for more 
+ information via youthlibrarian@whitinglibrary.org\, or call 802-875-2277.\
+ nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:3c455842feaa9617@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260729T100000
+DTEND;TZID=America/New_York:20260729T110000
+SUMMARY:Story Hour at Whiting Library!
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/story-hour-at-whiting-library/2026-07
+ -29/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but 
+ all children of all ages are encouraged to join in the fun. Enjoy stories\
+ , music\, crafts\, and new book previews from Whiting Library. The storyti
+ me will be adapted each week to fit the kids’ abilities in the room. Sto
+ ry Hour is approximately 30-60 minutes long\, depending on the kids’ att
+ ention span and interest each week.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:37c677968ff48815@kidcal
+DTSTAMP:20260722T155438Z
+DTSTART;TZID=America/New_York:20260731T150000
+DTEND;TZID=America/New_York:20260731T180000
+SUMMARY:Level Up Your Games: Games Group for School Aged Kids
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/level-up-your-games-games-group-for-s
+ chool-aged-kids/2026-07-31/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
+ ames to choose from\, including classic board\, new tabletop\, fan-favorit
+ e card games\, and more. \nGames are an essential component of the library
+ . Information presented in new formats that encourage critical thinking an
+ d problem-solving\, and games that encourage social interaction among peer
+ s are just a few of the reasons to consider joining the Whiting Library Ga
+ me Group.\nSource: Vermont Journal & Shopper
 END:VEVENT
 END:VCALENDAR
