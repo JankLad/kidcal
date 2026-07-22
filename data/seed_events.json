@@ -26,6 +26,32 @@
     "description": "Drop-in playgroup for young children and caregivers. (Seed data — verify with the library.)"
   },
   {
+    "title": "LEGO Club — Rockingham Free Public Library",
+    "location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
+    "start_local": "2026-07-23T12:00",
+    "duration_min": 60,
+    "rrule": "FREQ=WEEKLY;BYDAY=TH;UNTIL=20260815T000000Z",
+    "url": "https://rockinghamlibrary.org/youth-dept/",
+    "source": "Rockingham Free Public Library",
+    "category": "lego",
+    "age": "kids",
+    "town": "Bellows Falls, VT",
+    "description": "Drop in and get creative with LEGO Club — build, design, and invent. Summer schedule (through Aug 15). Verified Jul 2026."
+  },
+  {
+    "title": "Let's Game — Rockingham Free Public Library",
+    "location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
+    "start_local": "2026-07-20T12:00",
+    "duration_min": 90,
+    "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20260815T000000Z",
+    "url": "https://rockinghamlibrary.org/youth-dept/",
+    "source": "Rockingham Free Public Library",
+    "category": "games",
+    "age": "kids",
+    "town": "Bellows Falls, VT",
+    "description": "Board games and card games for kids. Summer schedule (through Aug 15). Verified Jul 2026."
+  },
+  {
     "title": "Prouty Playgroup — Winston Prouty Center",
     "location": "Thomas Hall, 209 Austine Dr, Brattleboro, VT 05301",
     "start_local": "2026-07-21T09:30",
