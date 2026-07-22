@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//KidCal//Bellows Falls Kids Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:KidCal — Kids' Events near Bellows Falls, VT
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ce4c5e628bd02bdd@kidcal
+DTSTAMP:20260722T151429Z
+DTSTART;TZID=America/New_York:20260721T103000
+DTEND;TZID=America/New_York:20260721T111500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Preschool Storytime — Rockingham Free Public Library
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/storytime/
+CATEGORIES:storytime\,preschool
+DESCRIPTION:Interactive read/sing/play preschool storytime. Drop-in friend
+ ly. (Seed data — verify current schedule with the library.)\nSource: Roc
+ kingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:61c34a4a86c4866d@kidcal
+DTSTAMP:20260722T151429Z
+DTSTART;TZID=America/New_York:20260724T103000
+DTEND;TZID=America/New_York:20260724T120000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Friday Playgroup — Rockingham Free Public Library
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/youth-dept/
+CATEGORIES:playgroup\,0-6
+DESCRIPTION:Drop-in playgroup for young children and caregivers. (Seed dat
+ a — verify with the library.)\nSource: Rockingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:d428c2b43cbbf796@kidcal
+DTSTAMP:20260722T151429Z
+DTSTART;TZID=America/New_York:20260721T093000
+DTEND;TZID=America/New_York:20260721T110000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Prouty Playgroup — Winston Prouty Center
+LOCATION:Thomas Hall\, 209 Austine Dr\, Brattleboro\, VT 05301
+URL:https://winstonprouty.org/prouty-play-group/
+CATEGORIES:playgroup\,0-5
+DESCRIPTION:Free weekly playgroup for families with children through age 5
+ \; facilitators join at 10:00\, snack and story at 10:45. No registration.
+  (Seed data — verify.)\nSource: Winston Prouty Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bf6b21a99d6a9e20@kidcal
+DTSTAMP:20260722T151429Z
+DTSTART;TZID=America/New_York:20260722T103000
+DTEND;TZID=America/New_York:20260722T110000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Rhyme Time — Brooks Memorial Library
+LOCATION:Brooks Memorial Library\, 224 Main St\, Brattleboro\, VT 05301
+URL:https://brookslibraryvt.org/calendar/
+CATEGORIES:storytime\,5 & under
+DESCRIPTION:30 minutes of stories\, songs\, and fun for kids 5 & under and
+  their caregivers. Verified Jul 2026.\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e7dc13bf110a2262@kidcal
+DTSTAMP:20260722T151429Z
+DTSTART;TZID=America/New_York:20260723T103000
+DTEND;TZID=America/New_York:20260723T113000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Sing & Dance with Robin — Brooks Memorial Library
+LOCATION:Brattleboro Common (or Brooks Memorial Library if weather require
+ s)\, Brattleboro\, VT 05301
+URL:https://brookslibraryvt.org/calendar/
+CATEGORIES:music\,0-5
+DESCRIPTION:Enriching music and movement for toddlers and preschoolers (ag
+ es 0–5) and caregivers\, on the Brattleboro Common (weather permitting).
+  Verified Jul 2026.\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:6e9d170d1cab1b43@kidcal
+DTSTAMP:20260722T151429Z
+DTSTART;TZID=America/New_York:20260725T110000
+DTEND;TZID=America/New_York:20260725T114500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Family Storytime — Keene Public Library
+LOCATION:Keene Public Library\, 60 Winter St\, Keene\, NH 03431
+URL:https://keenenh.libcal.com/calendar
+CATEGORIES:storytime\,3-6 / family
+DESCRIPTION:Family storytime held many (not all) Saturday mornings at 11am
+ \; runs in 7–9 week sessions with breaks between. CONFIRM current sessio
+ n dates on the library's LibCal calendar before relying on this.\nSource: 
+ Keene Public Library
+END:VEVENT
+END:VCALENDAR
