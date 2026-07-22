@@ -29,6 +29,9 @@ STRONG_INCLUDE = [
     "children", "childrens", "children's", "tot ", "tots", "family storytime",
     "read to a dog", "read with a dog", "birth to", "ages 2", "ages 3", "ages 4",
     "ages 5", "under 6", "0-5", "under 5", "wiggle", "reptiles", "build a rama",
+    "dino", "folktale", "folk tale", "little hands", "jamboree", "gingerbread",
+    "diorama", "family night", "mess-tival", "messtival", "pokewalk",
+    "poke walk", "tie dye", "tie-dye", "puppet", "fairy", "gnome",
 ]
 INCLUDE = [
     "family", "all ages", "all-ages", "movies for kids", "movie for kids",
@@ -42,7 +45,12 @@ SOFT_EXCLUDE = [
     "memoir", "depression", "holistic", "felting", "community read",
     "community conversation", "reel night out", "game cafe", "game café",
     "sweetgrass", "needle", "bingo", "fundraiser", "babysitter", "babysitting",
-    "art opening", "gala", "auction",
+    "art opening", "gala", "auction", "potluck", "gathers program",
+    "community meeting", "community workshop", "cookbook", "silent book",
+    "candidates forum", "annual meeting", "membership meeting", "committee",
+    "selectboard", "legislator", "heat transfer", "feldenkrais", "tai chi",
+    "no-sew", "weaver", "weaving", "sourdough", "botanical", "yoga",
+    "cooking club", "cook with me: ", "after school opportunities",
 ]
 
 
