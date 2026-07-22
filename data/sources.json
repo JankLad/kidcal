@@ -33,5 +33,12 @@
     "url": "https://vermontjournal.com/events/?ical=1",
     "town": "Springfield/Chester/Ludlow, VT",
     "scope": "regional"
+  },
+  {
+    "name": "Springfield Area Parent Child Center",
+    "type": "ics",
+    "url": "https://sapcc-vt.org/events/?ical=1",
+    "town": "Springfield, VT",
+    "scope": "venue"
   }
 ]
