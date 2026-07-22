@@ -20,6 +20,7 @@ HARD_EXCLUDE = [
     "teen", "tween", "young adult", " ya ", "grades 6", "grade 6", "grade 7",
     "grade 8", "grades 7", "grades 8", "middle school", "high school",
     "adult", "adults", "18+", "21+", "grown-ups night",
+    "babysitter", "babysitting",  # contain "baby" but are not for a 4-yo
 ]
 STRONG_INCLUDE = [
     "storytime", "story time", "story hour", "playgroup", "preschool",
