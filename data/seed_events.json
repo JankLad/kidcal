@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Preschool Storytime — Rockingham Free Public Library",
+    "location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
+    "start_local": "2026-07-21T10:30",
+    "duration_min": 45,
+    "rrule": "FREQ=WEEKLY;BYDAY=TU",
+    "url": "https://rockinghamlibrary.org/storytime/",
+    "source": "Rockingham Free Public Library",
+    "category": "storytime",
+    "age": "preschool",
+    "town": "Bellows Falls, VT",
+    "description": "Interactive read/sing/play preschool storytime. Drop-in friendly. (Seed data — verify current schedule with the library.)"
+  },
+  {
+    "title": "Friday Playgroup — Rockingham Free Public Library",
+    "location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
+    "start_local": "2026-07-24T10:30",
+    "duration_min": 90,
+    "rrule": "FREQ=WEEKLY;BYDAY=FR",
+    "url": "https://rockinghamlibrary.org/youth-dept/",
+    "source": "Rockingham Free Public Library",
+    "category": "playgroup",
+    "age": "0-6",
+    "town": "Bellows Falls, VT",
+    "description": "Drop-in playgroup for young children and caregivers. (Seed data — verify with the library.)"
+  },
+  {
+    "title": "Prouty Playgroup — Winston Prouty Center",
+    "location": "Thomas Hall, 209 Austine Dr, Brattleboro, VT 05301",
+    "start_local": "2026-07-21T09:30",
+    "duration_min": 90,
+    "rrule": "FREQ=WEEKLY;BYDAY=TU",
+    "url": "https://winstonprouty.org/prouty-play-group/",
+    "source": "Winston Prouty Center",
+    "category": "playgroup",
+    "age": "0-5",
+    "town": "Brattleboro, VT",
+    "description": "Free weekly playgroup for families with children through age 5; facilitators join at 10:00, snack and story at 10:45. No registration. (Seed data — verify.)"
+  },
+  {
+    "title": "Rhyme Time — Brooks Memorial Library",
+    "location": "Brooks Memorial Library, 224 Main St, Brattleboro, VT 05301",
+    "start_local": "2026-07-22T10:30",
+    "duration_min": 30,
+    "rrule": "FREQ=WEEKLY;BYDAY=WE",
+    "url": "https://brookslibraryvt.org/calendar/",
+    "source": "Brooks Memorial Library",
+    "category": "storytime",
+    "age": "5 & under",
+    "town": "Brattleboro, VT",
+    "description": "30 minutes of stories, songs, and fun for kids 5 & under and their caregivers. Verified Jul 2026."
+  },
+  {
+    "title": "Sing & Dance with Robin — Brooks Memorial Library",
+    "location": "Brattleboro Common (or Brooks Memorial Library if weather requires), Brattleboro, VT 05301",
+    "start_local": "2026-07-23T10:30",
+    "duration_min": 60,
+    "rrule": "FREQ=WEEKLY;BYDAY=TH",
+    "url": "https://brookslibraryvt.org/calendar/",
+    "source": "Brooks Memorial Library",
+    "category": "music",
+    "age": "0-5",
+    "town": "Brattleboro, VT",
+    "description": "Enriching music and movement for toddlers and preschoolers (ages 0–5) and caregivers, on the Brattleboro Common (weather permitting). Verified Jul 2026."
+  }
+]
