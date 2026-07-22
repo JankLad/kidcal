@@ -40,5 +40,13 @@
     "url": "https://sapcc-vt.org/events/?ical=1",
     "town": "Springfield, VT",
     "scope": "venue"
+  },
+  {
+    "name": "Rockingham Free Public Library",
+    "type": "mec",
+    "url": "https://rockinghamlibrary.org",
+    "default_location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
+    "town": "Bellows Falls, VT",
+    "scope": "venue"
   }
 ]
