@@ -1,0 +1,11 @@
+# Local Tier-B browser pass — never commit session or downloaded media
+.browser_profile/
+data/flyer_media/
+data/flyer_candidates.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Local secrets
+config.json
