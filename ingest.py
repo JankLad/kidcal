@@ -28,7 +28,13 @@ STRONG_INCLUDE = [
     "sing and dance", "puppet", "lego", "steam", "kids", "kid ", "kid'",
     "children", "childrens", "children's", "tot ", "tots", "family storytime",
     "read to a dog", "read with a dog", "birth to", "ages 2", "ages 3", "ages 4",
-    "ages 5", "under 6", "0-5", "under 5", "wiggle", "reptiles", "build a rama",
+    "ages 5", "age 4", "age 5", "under 6", "0-5", "under 5",
+    # Grade/eligibility-based inclusion: Sylvie (DOB 2022-05-30, age 4) is
+    # entering KINDERGARTEN, so K/age-5-gated programs count. See memory
+    # project-sylvie-eligibility.
+    "kindergarten", "entering kindergarten", "pre-k", "prek", "pre-kindergarten",
+    "must be 5", "must be five",
+    "wiggle", "reptiles", "build a rama",
     "dino", "folktale", "folk tale", "little hands", "jamboree", "gingerbread",
     "diorama", "family night", "mess-tival", "messtival", "pokewalk",
     "poke walk", "tie dye", "tie-dye", "puppet", "fairy", "gnome",
