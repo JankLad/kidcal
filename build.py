@@ -45,6 +45,14 @@ IN_RADIUS_TOWNS = {
 def in_radius_text(text: str) -> bool:
     t = text.lower()
     return any(town in t for town in IN_RADIUS_TOWNS)
+
+
+def rrule_until(rrule: str | None) -> str | None:
+    """YYYYMMDD of a recurring event's UNTIL, if any (for the past-date cutoff)."""
+    if not rrule:
+        return None
+    m = re.search(r"UNTIL=(\d{8})", rrule)
+    return m.group(1) if m else None
 STOP = {
     "the", "on", "a", "an", "at", "with", "and", "for", "of", "to", "in",
     "library", "memorial", "free", "public", "brooks", "keene", "rockingham",
@@ -151,9 +159,14 @@ def main() -> None:
         for ev in events:
             if not ev.get("start_date") or not ev.get("dtstart_line"):
                 continue
-            if ev["start_date"] < today:  # drop events already in the past
-                n_past += 1
-                continue
+            # Drop only if no occurrence remains. A recurring event whose UNTIL
+            # is still in the future is ongoing (e.g. a multi-week camp that
+            # started before today), so keep it.
+            if ev["start_date"] < today:
+                until = rrule_until(ev.get("rrule"))
+                if not until or until < today:
+                    n_past += 1
+                    continue
             ok, _ = ingest.keep_event(ev.get("summary", ""), ev.get("description", ""))
             if not ok:
                 n_age += 1
