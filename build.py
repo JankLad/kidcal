@@ -130,6 +130,12 @@ def main() -> None:
     for src in sources:
         name = src["name"]
         scope = src.get("scope", "venue")
+        # Flyer-first / social-only sources (e.g. facebook_flyer) are handled by
+        # the LOCAL logged-in pass (flyer.py), never the cloud build — Facebook
+        # blocks datacenter IPs and there is no parseable feed. Skip them here.
+        if src.get("pass") == "local":
+            print(f"  - {name}: skipped (local pass only: {src.get('type','?')})")
+            continue
         try:
             if src.get("type") == "mec":
                 events = mec.fetch_events(src["url"], src.get("default_location", ""))
