@@ -48,5 +48,29 @@
     "default_location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
     "town": "Bellows Falls, VT",
     "scope": "venue"
+  },
+  {
+    "name": "Rockingham Recreation",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/p/Rockingham-Recreation-100032044196464/",
+    "default_location": "Rockingham Recreation Center, 10 Playground Rd, Bellows Falls, VT 05101",
+    "town": "Bellows Falls, VT",
+    "scope": "venue",
+    "pass": "local",
+    "status": "quarantined",
+    "notes": "Flyer-first org: publishes camps/programs ONLY as Facebook photo posts (flyers) + captions + comment threads; no website events page, no .ics, no MEC REST. See docs/FLYER_SOURCING.md. Archetype for this source class.",
+    "discovered_via": "user-flagged buried source (summer-camp flyer fbid=1659037688507688 / 1659037711841019)"
+  },
+  {
+    "name": "Charlestown Recreation Department",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/p/Charlestown-Recreation-Department-100063465460148/",
+    "default_location": "Charlestown, NH 03603",
+    "town": "Charlestown, NH",
+    "scope": "venue",
+    "pass": "local",
+    "status": "quarantined",
+    "notes": "Flyer-first org (bare facebook.com/p page, no events feed). Found by applying the flyer-sourcing strategy to other in-radius rec departments. See docs/FLYER_SOURCING.md.",
+    "discovered_via": "flyer-sourcing strategy re-search (2026-07-28)"
   }
 ]
