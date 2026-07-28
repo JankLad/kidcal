@@ -18,6 +18,7 @@ from pathlib import Path
 
 import ingest
 import mec
+import myrec
 from generate_ics import (
     CAL_NAME, PRODID, TZID, VTIMEZONE, build_vevent, escape_text, fold,
 )
@@ -139,6 +140,8 @@ def main() -> None:
         try:
             if src.get("type") == "mec":
                 events = mec.fetch_events(src["url"], src.get("default_location", ""))
+            elif src.get("type") == "myrec":
+                events = myrec.fetch_events(src["url"], src.get("default_location", ""))
             else:
                 events = ingest.parse_ics(ingest.fetch(src["url"]))
         except Exception as e:  # noqa: BLE001 - report and continue
