@@ -72,5 +72,17 @@
     "status": "quarantined",
     "notes": "Flyer-first org (bare facebook.com/p page, no events feed). Found by applying the flyer-sourcing strategy to other in-radius rec departments. See docs/FLYER_SOURCING.md.",
     "discovered_via": "flyer-sourcing strategy re-search (2026-07-28)"
+  },
+  {
+    "name": "Ludlow VT Parks & Recreation",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/317296577249/",
+    "default_location": "Ludlow Community Center, 37 Main St, Ludlow, VT 05149",
+    "town": "Ludlow, VT",
+    "scope": "venue",
+    "pass": "local",
+    "status": "quarantined",
+    "notes": "Candidate flyer-first via a Facebook GROUP (gated harder than a Page). BUT a website (ludlowvtparksandrec.com) + Vermont Journal coverage exist — VERIFY the website for a feed/events page BEFORE committing to the flyer pass; prefer the structured route if one exists. See docs/FLYER_SOURCING.md.",
+    "discovered_via": "flyer-sourcing strategy re-search (2026-07-28)"
   }
 ]
