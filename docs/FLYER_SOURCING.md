@@ -63,17 +63,35 @@ mid-size towns sit on four recreation platforms, each a reusable adapter that
 keeps those towns OUT of the fragile flyer pass. Prefer building these over
 flyer-scraping wherever a town has one:
 
-| Platform | URL shape | Towns seen | Machine-readable data (probed 2026-07-28) |
-|---|---|---|---|
-| **MyRec** | `<org>.myrec.com` | Windsor VT, Walpole/Grafton (MA) | **No .ics** (`program_ical.aspx` 404s). Schedule is labeled free-text (`Dates:/Days:/Time:/Ages:/Where:/Fee:`) in each `program_details.aspx?ProgramID=` page. **✅ ADAPTER BUILT: `myrec.py`, `type:myrec`.** Medium-confidence (human-typed). |
-| **RecDesk** | `<org>.recdesk.com` | Chester VT | FullCalendar 3.9 → clean JSON at `POST /Community/Calendar/GetCalendarItems` `{facilityId,startDate,endDate,...}` → `{Events:[...]}`. **BUT** returns empty without a valid per-org `facilityId`, and kid *programs* live in the Program-registration system (`/Community/Program`), not the master calendar. **⏸ DEFERRED** — endpoint confirmed; needs the correct facilityId or Program-page parsing + a real non-empty Event sample before shipping (don't write the parser blind). |
-| **SportsEngine / SportNgin** | `<org>.sportngin.com` | Springfield VT | Event calendar at `/event/show_month_list/<id>`; check for JSON-LD / a list feed. Not yet built. |
-| **VSI WebTrac** | `<org>.myvscloud.com/webtrac` | Brattleboro | Registration portal (WebTrac); seasonal brochures posted on the town gov blog. Not yet built. |
+**Two tiers by extractability (probed 2026-07-28):**
 
-Rule of thumb: **detect the platform first; only fall back to the flyer pass
-when there is genuinely no feed and no scrapeable program page.** And **never
-ship a platform parser written blind** — capture one real non-empty sample of
-the platform's payload first (playbook: validate a feed before trusting it).
+**Tier A — clean server-to-server (belongs in the cloud job):** plain GET pages
+/ open feeds, no session needed.
+
+| Platform | URL shape | Towns | Status |
+|---|---|---|---|
+| **MyRec** | `<org>.myrec.com` | Windsor VT, Walpole/Grafton (MA) | **✅ ADAPTER BUILT: `myrec.py`, `type:myrec`.** No .ics (`program_ical.aspx` 404s); schedule is labeled free-text (`Dates:/Days:/Time:/Ages:/Where:/Fee:`) in each `program_details.aspx?ProgramID=` page — plain GET, parseable. Medium-confidence (human-typed). |
+
+**Tier B — browser-session required (a LOCAL Playwright pass, same as the FB
+flyers — NOT the cloud job).** These are JS/CSRF/AJAX-hardened: a plain
+server-side POST returns only the page shell or an empty payload.
+
+| Platform | URL shape | Towns | Why blocked (confirmed) |
+|---|---|---|---|
+| **RecDesk** | `<org>.recdesk.com` | Chester VT | Calendar JSON (`POST /Community/Calendar/GetCalendarItems`, FullCalendar 3.9) is open but returns **empty without a valid per-org `facilityId`**; kid *programs* live in `/Community/Program`, whose `POST /Community/Program/FilterPrograms` is **anti-forgery/CSRF-gated** (returns the page shell without a browser session). Programs sit behind Season/Category filters. |
+| **SportsEngine / SportNgin** | `<org>.sportngin.com` (or custom domain) | Springfield VT | The public "calendar" node (`/event/show_month_list/<id>`) is a **CMS content page** (hours-of-operation text blocks, no dated events in HTML); actual events load via a **CSRF/AJAX** widget. Not server-scrapeable. |
+| **VSI WebTrac** | `<org>.myvscloud.com/webtrac` | Brattleboro | Registration portal (WebTrac); seasonal brochures posted on the town gov blog. Not yet probed in depth. |
+
+**Rules of thumb:**
+1. **Detect the platform first;** fall back to the flyer pass only when there's
+   no feed and no scrapeable page.
+2. **Never ship a platform parser written blind** — capture one real non-empty
+   sample of the payload first (playbook: validate a feed before trusting it).
+   Both Tier-B parsers were *not* shipped precisely because a clean sample
+   couldn't be obtained server-to-server.
+3. **Tier B = the same Playwright/browser-session pass as the FB flyers.** One
+   local logged-in-browser investment unlocks Facebook flyers + RecDesk +
+   SportNgin together — build it once, point it at all three.
 
 ---
 
