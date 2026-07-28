@@ -74,13 +74,26 @@ flyer-scraping wherever a town has one:
 
 **Tier B — browser-session required (a LOCAL Playwright pass, same as the FB
 flyers — NOT the cloud job).** These are JS/CSRF/AJAX-hardened: a plain
-server-side POST returns only the page shell or an empty payload.
+server-side POST returns only the page shell or an empty payload. **✅ The pass
+is built: `browser_pass.py`** (Playwright + Chromium, local, residential IP).
 
-| Platform | URL shape | Towns | Why blocked (confirmed) |
+| Platform | URL shape | Towns | Status in `browser_pass.py` |
 |---|---|---|---|
-| **RecDesk** | `<org>.recdesk.com` | Chester VT | Calendar JSON (`POST /Community/Calendar/GetCalendarItems`, FullCalendar 3.9) is open but returns **empty without a valid per-org `facilityId`**; kid *programs* live in `/Community/Program`, whose `POST /Community/Program/FilterPrograms` is **anti-forgery/CSRF-gated** (returns the page shell without a browser session). Programs sit behind Season/Category filters. |
-| **SportsEngine / SportNgin** | `<org>.sportngin.com` (or custom domain) | Springfield VT | The public "calendar" node (`/event/show_month_list/<id>`) is a **CMS content page** (hours-of-operation text blocks, no dated events in HTML); actual events load via a **CSRF/AJAX** widget. Not server-scrapeable. |
-| **VSI WebTrac** | `<org>.myvscloud.com/webtrac` | Brattleboro | Registration portal (WebTrac); seasonal brochures posted on the town gov blog. Not yet probed in depth. |
+| **facebook_flyer** | `facebook.com/…` | Rockingham Rec (BF), Charlestown NH, Ludlow VT | **★ the high-value in-radius target.** Handler harvests flyer images + FB's auto **ALT text** (usually transcribes the flyer's words — no separate OCR) + captions → `data/flyer_inbox/*.txt` for `flyer.py`. Needs a one-time `--login`. |
+| **RecDesk** | `<org>.recdesk.com` | *(none in-radius — see note)* | **Handler built & PROVEN** (extracts Program Detail pages: type, Age Min/Max, schedule/times — incl. age-2–5 swim lessons). Server-to-server was blocked (`FilterPrograms` is CSRF-gated; calendar JSON needs a per-org `facilityId`); the browser renders it cleanly. **Note:** `chester.recdesk.com` is Chester **CT**, out of radius — an earlier sweep mis-tagged it as Chester VT (which actually uses chestervt.gov). No confirmed in-radius RecDesk town yet; handler kept as a reusable capability. |
+| **SportsEngine / SportNgin** | `<org>.sportngin.com` (or custom domain) | Springfield VT | Low value in-radius: the "calendar" node renders **no events** even in-browser; Springfield's programs are CMS pages + registration forms, all **school-age sport camps** (wrestling/football/basketball/soccer). Not built — revisit only if a town posts preschool programming here. |
+| **VSI WebTrac** | `<org>.myvscloud.com/webtrac` | Brattleboro | Registration portal (WebTrac). Not yet built. |
+
+**Running the browser pass (local only):**
+```
+pip install playwright && python -m playwright install chromium   # one-time
+python browser_pass.py --login                 # one-time: log into Facebook (headed)
+python browser_pass.py                          # harvest all pass:local FB flyer sources
+python browser_pass.py --recdesk https://<org>.recdesk.com   # test the RecDesk handler
+```
+The FB session lives in `.browser_profile/` and downloaded flyers in
+`data/flyer_media/` — both **gitignored** (never pushed). Output flyer text goes
+to `data/flyer_inbox/`, which `flyer.py` turns into quarantined candidates.
 
 **Rules of thumb:**
 1. **Detect the platform first;** fall back to the flyer pass only when there's
