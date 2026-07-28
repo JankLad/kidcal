@@ -50,11 +50,28 @@ Tag a source `type: facebook_flyer` (registry) when **all** hold:
 
 **Who this catches locally:** municipal **Recreation Departments** and small
 community/parent groups. Confirmed instances in radius:
-- **Rockingham Recreation** (Bellows Falls, VT) — archetype.
+- **Rockingham Recreation** (Bellows Falls, VT) — archetype (bare FB Page).
 - **Charlestown Recreation Department** (Charlestown, NH) — bare
   `facebook.com/p/…` Page, no feed; found by applying this strategy.
-- Candidates to check next: Springfield (VT) Rec, Walpole (NH) Rec (has a town
-  `.us` site *and* an FB page — check both), church/library "story time" flyers.
+- **Ludlow VT Parks & Recreation** — candidate via a FB **Group** (harder-gated
+  than a Page); a website exists, so verify the structured route first.
+
+**Sweep result (2026-07-28) — most rec depts are NOT flyer-first; they run on
+structured platforms.** Re-searching the radius showed true flyer-first is a
+*small* set (smallest-budget depts + community groups). The higher-ROI finding:
+mid-size towns sit on four recreation platforms, each a reusable adapter that
+keeps those towns OUT of the fragile flyer pass. Prefer building these over
+flyer-scraping wherever a town has one:
+
+| Platform | URL shape | Towns seen | Feed? |
+|---|---|---|---|
+| **SportsEngine / SportNgin** | `<org>.sportngin.com` | Springfield VT | event pages, check JSON-LD |
+| **MyRec** | `<org>.myrec.com` | Windsor VT, Walpole (MA), Grafton (MA) | has feeds (plan §3.6) |
+| **RecDesk** | `<org>.recdesk.com` | Chester VT | FlexCalendar export — probe for iCal |
+| **VSI WebTrac** | `<org>.myvscloud.com/webtrac` | Brattleboro | registration portal; brochures on gov blog |
+
+Rule of thumb: **detect the platform first; only fall back to the flyer pass
+when there is genuinely no feed and no scrapeable program page.**
 
 ---
 
