@@ -63,15 +63,17 @@ mid-size towns sit on four recreation platforms, each a reusable adapter that
 keeps those towns OUT of the fragile flyer pass. Prefer building these over
 flyer-scraping wherever a town has one:
 
-| Platform | URL shape | Towns seen | Feed? |
+| Platform | URL shape | Towns seen | Machine-readable data (probed 2026-07-28) |
 |---|---|---|---|
-| **SportsEngine / SportNgin** | `<org>.sportngin.com` | Springfield VT | event pages, check JSON-LD |
-| **MyRec** | `<org>.myrec.com` | Windsor VT, Walpole (MA), Grafton (MA) | has feeds (plan §3.6) |
-| **RecDesk** | `<org>.recdesk.com` | Chester VT | FlexCalendar export — probe for iCal |
-| **VSI WebTrac** | `<org>.myvscloud.com/webtrac` | Brattleboro | registration portal; brochures on gov blog |
+| **MyRec** | `<org>.myrec.com` | Windsor VT, Walpole/Grafton (MA) | **No .ics** (`program_ical.aspx` 404s). Schedule is labeled free-text (`Dates:/Days:/Time:/Ages:/Where:/Fee:`) in each `program_details.aspx?ProgramID=` page. **✅ ADAPTER BUILT: `myrec.py`, `type:myrec`.** Medium-confidence (human-typed). |
+| **RecDesk** | `<org>.recdesk.com` | Chester VT | FullCalendar 3.9 → clean JSON at `POST /Community/Calendar/GetCalendarItems` `{facilityId,startDate,endDate,...}` → `{Events:[...]}`. **BUT** returns empty without a valid per-org `facilityId`, and kid *programs* live in the Program-registration system (`/Community/Program`), not the master calendar. **⏸ DEFERRED** — endpoint confirmed; needs the correct facilityId or Program-page parsing + a real non-empty Event sample before shipping (don't write the parser blind). |
+| **SportsEngine / SportNgin** | `<org>.sportngin.com` | Springfield VT | Event calendar at `/event/show_month_list/<id>`; check for JSON-LD / a list feed. Not yet built. |
+| **VSI WebTrac** | `<org>.myvscloud.com/webtrac` | Brattleboro | Registration portal (WebTrac); seasonal brochures posted on the town gov blog. Not yet built. |
 
 Rule of thumb: **detect the platform first; only fall back to the flyer pass
-when there is genuinely no feed and no scrapeable program page.**
+when there is genuinely no feed and no scrapeable program page.** And **never
+ship a platform parser written blind** — capture one real non-empty sample of
+the platform's payload first (playbook: validate a feed before trusting it).
 
 ---
 
