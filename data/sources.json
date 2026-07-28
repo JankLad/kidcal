@@ -50,6 +50,15 @@
     "scope": "venue"
   },
   {
+    "name": "Windsor Recreation",
+    "type": "myrec",
+    "url": "https://windsorvt.myrec.com",
+    "default_location": "Windsor Recreation Center, Windsor, VT 05089",
+    "town": "Windsor, VT",
+    "scope": "venue",
+    "notes": "MyRec.com platform. Adapter (myrec.py) parses labeled fields (Dates/Days/Time/Ages) from each program detail page — no .ics/iCal exists. Medium-confidence (human-typed text); age filter + past-date cutoff still apply."
+  },
+  {
     "name": "Rockingham Recreation",
     "type": "facebook_flyer",
     "url": "https://www.facebook.com/p/Rockingham-Recreation-100032044196464/",
