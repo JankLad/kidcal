@@ -89,6 +89,13 @@ def build_vevent(ev: dict, dtstamp: str) -> list[str]:
     lines.append(f"DTEND;TZID={TZID}:{fmt_local(end)}")
     if ev.get("rrule"):
         lines.append(f"RRULE:{ev['rrule']}")
+    # One-off cancellations of a recurring program (e.g. a closure week). Each
+    # entry is a YYYY-MM-DD that keeps the series but drops that occurrence.
+    if ev.get("exdates"):
+        stamps = [
+            f"{d.replace('-', '')}T{fmt_local(start)[9:]}" for d in ev["exdates"]
+        ]
+        lines.append(f"EXDATE;TZID={TZID}:" + ",".join(stamps))
     lines.append("SUMMARY:" + escape_text(ev["title"]))
     if ev.get("location"):
         lines.append("LOCATION:" + escape_text(ev["location"]))
