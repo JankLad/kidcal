@@ -25,10 +25,20 @@ is a ToS gray area — keep it personal, local, and low-volume.
 
 Requires (local only):  pip install playwright  &&  python -m playwright install chromium
 
+Browser: defaults to real installed Google Chrome (`--browser chrome`), which
+looks less automated to Facebook than the bundled Chromium build and carries
+Chrome's own version/UA. Falls back to bundled Chromium automatically if Chrome
+isn't installed. Use `--browser chromium` to force the bundled build, or
+`--browser msedge` for Edge. NOTE: this always uses KidCal's OWN profile
+directory (.browser_profile), never your day-to-day Chrome profile — Chrome
+refuses to attach to a profile that's already open, and we don't touch your
+personal cookies/history.
+
 Usage:
   python browser_pass.py --login                 # one-time: log into Facebook
   python browser_pass.py                          # harvest all pass:local FB flyer sources
   python browser_pass.py --source "Rockingham Recreation"
+  python browser_pass.py --browser chromium       # force the bundled build
   python browser_pass.py --recdesk https://<org>.recdesk.com   # test the recdesk handler
 """
 
@@ -43,6 +53,18 @@ SOURCES = ROOT / "data" / "sources.json"
 INBOX = ROOT / "data" / "flyer_inbox"
 MEDIA = ROOT / "data" / "flyer_media"
 PROFILE = ROOT / ".browser_profile"          # persisted FB session (gitignored)
+
+
+def profile_dir(browser: str) -> Path:
+    """One profile per browser build.
+
+    A Chrome-created profile and a Chromium-created profile are not
+    interchangeable — pointing Chrome 151 at a profile written by the bundled
+    Chromium makes it exit immediately. Keeping them separate means switching
+    browsers costs one re-login instead of a confusing crash.
+    """
+    return PROFILE if browser == "chromium" else PROFILE.with_name(
+        f".browser_profile_{browser}")
 
 FB_HOME = "https://www.facebook.com/"
 
@@ -175,13 +197,37 @@ def main() -> None:
     ap.add_argument("--source", help="only this source name")
     ap.add_argument("--recdesk", help="test the recdesk handler against a base URL")
     ap.add_argument("--headed", action="store_true", help="show the browser")
+    ap.add_argument("--browser", default="chrome",
+                    choices=["chrome", "chromium", "msedge"],
+                    help="which browser to drive (default: real Chrome)")
     args = ap.parse_args()
 
-    PROFILE.mkdir(exist_ok=True)
+    prof = profile_dir(args.browser)
+    prof.mkdir(exist_ok=True)
     with sync_playwright() as p:
-        context = p.chromium.launch_persistent_context(
-            str(PROFILE), headless=not (args.login or args.headed),
-            viewport={"width": 1280, "height": 1600})
+        # "channel" drives a real installed browser; omitting it uses the
+        # bundled Chromium. Real Chrome is the default because it presents a
+        # normal Chrome build to Facebook rather than an automation build.
+        launch = {
+            "headless": not (args.login or args.headed),
+            "viewport": {"width": 1280, "height": 1600},
+        }
+        if args.browser != "chromium":
+            launch["channel"] = args.browser
+        print(f"  browser: {args.browser}  profile: {prof.name}")
+        try:
+            context = p.chromium.launch_persistent_context(str(prof), **launch)
+        except Exception as e:  # noqa: BLE001 - not installed / profile mismatch
+            if args.browser == "chromium":
+                raise
+            print(f"  ! {args.browser} failed to launch ({type(e).__name__}); "
+                  f"falling back to bundled Chromium.")
+            print(f"    (if {args.browser} is running, its profile may be locked — "
+                  f"this uses KidCal's own profile, not your personal one)")
+            launch.pop("channel", None)
+            fallback = profile_dir("chromium")
+            fallback.mkdir(exist_ok=True)
+            context = p.chromium.launch_persistent_context(str(fallback), **launch)
         try:
             if args.recdesk:
                 for pr in recdesk_programs(context, args.recdesk):
