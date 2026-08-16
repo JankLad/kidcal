@@ -27,36 +27,39 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ce4c5e628bd02bdd@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260721T103000
 DTEND;TZID=America/New_York:20260721T111500
-RRULE:FREQ=WEEKLY;BYDAY=TU
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260815T000000Z
 SUMMARY:Preschool Storytime — Rockingham Free Public Library
 LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
  s\, VT 05101
 URL:https://rockinghamlibrary.org/storytime/
 CATEGORIES:storytime\,preschool
 DESCRIPTION:Interactive read/sing/play preschool storytime. Drop-in friend
- ly. (Seed data — verify current schedule with the library.)\nSource: Roc
- kingham Free Public Library
+ ly. SUMMER SERIES ENDED Aug 15 2026 — the library's storytime page says 
+ the series has wrapped and to check back for the next one. Re-verify befor
+ e re-enabling (802-463-4270).\nSource: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:61c34a4a86c4866d@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260724T103000
 DTEND;TZID=America/New_York:20260724T120000
-RRULE:FREQ=WEEKLY;BYDAY=FR
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260815T000000Z
 SUMMARY:Friday Playgroup — Rockingham Free Public Library
 LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
  s\, VT 05101
 URL:https://rockinghamlibrary.org/youth-dept/
 CATEGORIES:playgroup\,0-6
-DESCRIPTION:Drop-in playgroup for young children and caregivers. (Seed dat
- a — verify with the library.)\nSource: Rockingham Free Public Library
+DESCRIPTION:Drop-in morning of play\, stories\, and friends for toddlers\,
+  preschoolers\, and their grown-ups. SUMMER SERIES ENDED Aug 15 2026 (Jun 
+ 29-Aug 15 weekly program). Re-verify the fall schedule before re-enabling 
+ (802-463-4270).\nSource: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:09955615106be319@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T130000
 RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260815T000000Z
@@ -71,7 +74,7 @@ DESCRIPTION:Drop in and get creative with LEGO Club — build\, design\, a
 END:VEVENT
 BEGIN:VEVENT
 UID:d6d71801cf4c0e24@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260720T120000
 DTEND;TZID=America/New_York:20260720T133000
 RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260815T000000Z
@@ -85,21 +88,23 @@ DESCRIPTION:Board games and card games for kids. Summer schedule (through
 END:VEVENT
 BEGIN:VEVENT
 UID:d428c2b43cbbf796@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260721T093000
 DTEND;TZID=America/New_York:20260721T110000
 RRULE:FREQ=WEEKLY;BYDAY=TU
+EXDATE;TZID=America/New_York:20260825T093000
 SUMMARY:Prouty Playgroup — Winston Prouty Center
 LOCATION:Thomas Hall\, 209 Austine Dr\, Brattleboro\, VT 05301
 URL:https://winstonprouty.org/prouty-play-group/
 CATEGORIES:playgroup\,0-5
 DESCRIPTION:Free weekly playgroup for families with children through age 5
- \; facilitators join at 10:00\, snack and story at 10:45. No registration.
-  (Seed data — verify.)\nSource: Winston Prouty Center
+ . Facilitators join at 10:00\, snack and story at 10:45. No registration -
+  just stop in. VERIFIED Aug 16 2026 against winstonprouty.org. NOTE: cance
+ lled Tue Aug 25 2026 (campus construction).\nSource: Winston Prouty Center
 END:VEVENT
 BEGIN:VEVENT
 UID:bf6b21a99d6a9e20@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260722T103000
 DTEND;TZID=America/New_York:20260722T110000
 RRULE:FREQ=WEEKLY;BYDAY=WE
@@ -112,7 +117,7 @@ DESCRIPTION:30 minutes of stories\, songs\, and fun for kids 5 & under and
 END:VEVENT
 BEGIN:VEVENT
 UID:e7dc13bf110a2262@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260723T103000
 DTEND;TZID=America/New_York:20260723T113000
 RRULE:FREQ=WEEKLY;BYDAY=TH
@@ -126,152 +131,8 @@ DESCRIPTION:Enriching music and movement for toddlers and preschoolers (ag
   Verified Jul 2026.\nSource: Brooks Memorial Library
 END:VEVENT
 BEGIN:VEVENT
-UID:30ed4b7977ceff72@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260722T143000Z
-DTEND:20260722T153000Z
-SUMMARY:Ashuelot Park Storytime
-LOCATION:Off-Site
-URL:https://keenenh.libcal.com/event/16523611
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:Join librarians Scout and Parker for some archeological finds\
- , fun stories\, songs and activities. \n\nBring blankets or chairs\, whate
- ver makes your story time more comfortable!\n\nRegistration is greatly app
- reciated and encouraged in order to receive email updates for any weather 
- related changes. \n\nFor children 0 - 6 and their caregivers.\nSource: Kee
- ne Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:73894f57172e9621@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260723T193000Z
-DTEND:20260723T203000Z
-SUMMARY:Kids STEAM: Leaf Clay Dish
-LOCATION:Kay Fox Room
-URL:https://keenenh.libcal.com/event/16810072
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:Play around with petrification by creating an air-dry clay lea
- f molded dish. You can bring any leaf you want\, but we will have plenty o
- f leaves available!\n\nFor ages 5 - 12 and their caregivers. \n\nRegistrat
- ion is required.\n\nPlease not that participants later than 15 minutes may
-  have their spots given to those on the waitlist.\nSource: Keene Public Li
- brary
-END:VEVENT
-BEGIN:VEVENT
-UID:faa001d4ed2a7ff2@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260725T150000Z
-DTEND:20260725T170000Z
-SUMMARY:Lindsay Acela & her Puppet Pals
-LOCATION:Heberton Hall
-URL:https://keenenh.libcal.com/event/16635300
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:Lindsay is back with her larger-than-life Puppet Pals in this 
- funny\, fast-paced\, and highly interactive variety show that will delight
-  our youngest friends and the young at heart! You never know who you might
-  meet. Perhaps a goofy moose\, a heroic tiger\, or a lovable bear. Oh my! 
- Maybe a dancing robot or flamingo\, a spunky chicken\, a stubborn goat\, a
-  shy dragon\, or a singing dinosaur! Come find out who's making an appeara
- nce this time!\n\nLindsay has been performing full-time since 2011\, prese
- nting to several thousand children each year. Through animated storytellin
- g and thoughtful messaging\, she hopes to model social-emotional learning 
- and creative play. She believes shared joy and laughter strengthens commun
- ities of all kinds!\n\nThis program is free and is a great fit for ages 3-
- 8 and families. Registration is Appreciated.\n\nFor more information conta
- ct Amy Kraemer akraemer@keenenh.gov\n\nHope to see you there!\nSource: Kee
- ne Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:164ffaa43a6add94@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260727T200000Z
-DTEND:20260727T210000Z
-SUMMARY:Library Build a Rama
-LOCATION:Youth Department
-URL:https://keenenh.libcal.com/event/17103884
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
- a huge variety of bricks to encourage your imagination to go wild. Our Bui
- ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:fae5af67f4f99a1a@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260729T143000Z
-DTEND:20260729T153000Z
-SUMMARY:Ashuelot Park Storytime
-LOCATION:Off-Site
-URL:https://keenenh.libcal.com/event/16523612
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:Join librarians Scout and Parker for some fun stories\, songs 
- and activities. \n\nThis is the last story time for our summer session\, s
- o you can believe we will make it extra special!\n\nBring blankets or chai
- rs\, whatever makes your story time more comfortable!\n\nRegistration is g
- reatly appreciated and encouraged in order to receive email updates for an
- y weather related changes. \n\nFor children 0 - 6 and their caregivers.\nS
- ource: Keene Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:a2ad7f8716b0b033@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260803T200000Z
-DTEND:20260803T210000Z
-SUMMARY:Library Build a Rama
-LOCATION:Youth Department
-URL:https://keenenh.libcal.com/event/17103885
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
- a huge variety of bricks to encourage your imagination to go wild. Our Bui
- ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:371e1c131b15c6e7@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260808T150000Z
-DTEND:20260808T170000Z
-SUMMARY:Summer Reading Celebration
-LOCATION:Heberton Hall
-URL:https://keenenh.libcal.com/event/16681854
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:You don't want to miss this big grand finale celebration of al
- l your summer reading and find out who wins the raffle prizes.  We are hos
- tng Jungle Jim a super high energy\,  jaw-dropping grand finale performanc
- e you won't soon forget. \n\nThis program is free and intended for childre
- n ages 3 - 18 and their caregivers.  \n\nRegistration is Required.\nSource
- : Keene Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:d5d268c8337591d0@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260810T200000Z
-DTEND:20260810T210000Z
-SUMMARY:Library Build a Rama
-LOCATION:Youth Department
-URL:https://keenenh.libcal.com/event/17103886
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have 
- a huge variety of bricks to encourage your imagination to go wild. Our Bui
- ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:245bbdbeadbd22b8@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART:20260814T203000Z
-DTEND:20260814T213000Z
-SUMMARY:Kids Comic Club
-LOCATION:Kay Fox Room
-URL:https://keenenh.libcal.com/event/16865804
-CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
- gether\, discuss great graphic novels\, and watch interviews and tutorials
-  from our favorite artists. All skill levels are welcome\, and materials w
- ill be provided! Meetings will be held on the second Friday of each month.
- \n\nRegistration is appreciated. Questions or Concerns call the library 60
- 3.352.0157.\nSource: Keene Public Library
-END:VEVENT
-BEGIN:VEVENT
 UID:4b377ae48f71ac74@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260817T200000Z
 DTEND:20260817T210000Z
 SUMMARY:Library Build a Rama
@@ -284,7 +145,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:e415be0e693b1a53@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260824T200000Z
 DTEND:20260824T210000Z
 SUMMARY:Library Build a Rama
@@ -297,7 +158,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:15a2fe747843d87f@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260831T200000Z
 DTEND:20260831T210000Z
 SUMMARY:Library Build a Rama
@@ -310,7 +171,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:489a411a30e0562a@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260907T200000Z
 DTEND:20260907T210000Z
 SUMMARY:Library Build a Rama
@@ -322,8 +183,28 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:0444d97093c6bba0@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART:20260910T220000Z
+DTEND:20260910T233000Z
+SUMMARY:So you want to start a family?  What to know about family law bef
+ ore getting married or having children.
+LOCATION:Masiello Classroom
+URL:https://keenenh.libcal.com/event/17185766
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Raising your children is a constitutional right.  Marriage is 
+ a contract.  Come find out the terms before you sign\, with local family l
+ aw attorneys  Sofia Cunha-Vasconcelos and Lindsey Bramble. The program wil
+ l address key points regarding marriage and having children in New Hampshi
+ re for a majority of relationships\, recognizing that there are many diffe
+ rent kinds of relationships and the laws in other states may differ.\n\nIn
+ formation in this seminar is legal education\, not legal advice.  Attendan
+ ce does not constitute the creation of an attorney client relationship.”
+ \nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:2d85e3e38bf52f3c@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260914T200000Z
 DTEND:20260914T210000Z
 SUMMARY:Library Build a Rama
@@ -335,8 +216,26 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:b29e993289586969@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART:20260919T213000Z
+DTEND:20260920T003000Z
+SUMMARY:International Observe the Moon Night
+LOCATION:Off-Site
+URL:https://keenenh.libcal.com/event/17259934
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Join Keene Public Librarians and our friends from the Keene Am
+ ateur Astronomers to take a look at the moon through a number of different
+  types of telescopes.  Learn about the Keene Public Library's Library of T
+ hings and how to check out our telescope. This is an all ages family frien
+ dly event. Come curious and learn something amazing about our moon!\n\nPle
+ ase register if you want to be advised of changes to the program due to we
+ ather.\n\nWe will meet in the Ashuelot Park parking lot at 5:30.\nSource: 
+ Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:68b4b26552f034d9@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260921T200000Z
 DTEND:20260921T210000Z
 SUMMARY:Library Build a Rama
@@ -349,7 +248,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:4f88c06e38ae7451@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260928T200000Z
 DTEND:20260928T210000Z
 SUMMARY:Library Build a Rama
@@ -362,7 +261,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:00bb456007fe61d4@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20260930T143000Z
 DTEND:20260930T151500Z
 SUMMARY:Preschool Storytime
@@ -381,7 +280,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:fd01b1066298d02a@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261001T143000Z
 DTEND:20261001T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -398,7 +297,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:c10d0a69ed061561@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261005T200000Z
 DTEND:20261005T210000Z
 SUMMARY:Library Build a Rama
@@ -411,7 +310,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:09bdfd35099222e7@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261007T143000Z
 DTEND:20261007T151500Z
 SUMMARY:Music preschool Storytime with Kim
@@ -430,7 +329,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:ca01684b2b5aa361@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261008T143000Z
 DTEND:20261008T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -447,7 +346,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:650831c756ed9f54@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261012T200000Z
 DTEND:20261012T210000Z
 SUMMARY:Library Build a Rama
@@ -460,7 +359,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:482aaedc6cb53c94@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261014T143000Z
 DTEND:20261014T151500Z
 SUMMARY:@Stonewall Farm preschool Storytime
@@ -479,7 +378,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:b3a0ba736c0bcbea@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261015T143000Z
 DTEND:20261015T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -496,7 +395,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:addf799736432f86@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261019T200000Z
 DTEND:20261019T210000Z
 SUMMARY:Library Build a Rama
@@ -509,7 +408,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:678769777270d632@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261021T143000Z
 DTEND:20261021T151500Z
 SUMMARY:Preschool Storytime
@@ -528,7 +427,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:41d5dec39da2eb14@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261022T143000Z
 DTEND:20261022T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -545,7 +444,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:ae0d7e619d5f796a@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261026T200000Z
 DTEND:20261026T210000Z
 SUMMARY:Library Build a Rama
@@ -558,7 +457,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:0a95dca4a52dd16a@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261028T143000Z
 DTEND:20261028T151500Z
 SUMMARY:Preschool Storytime
@@ -577,7 +476,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:41fd2a6a8979e63b@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261029T143000Z
 DTEND:20261029T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -594,7 +493,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:569da0da22298c10@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261102T210000Z
 DTEND:20261102T220000Z
 SUMMARY:Library Build a Rama
@@ -607,7 +506,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:e54339a0f56de56f@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261104T153000Z
 DTEND:20261104T161500Z
 SUMMARY:Music Preschool Storytime with Kim
@@ -626,7 +525,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:e459fb91a8ba4adf@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261105T153000Z
 DTEND:20261105T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -643,7 +542,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:ff917578dd6e3a66@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261109T210000Z
 DTEND:20261109T220000Z
 SUMMARY:Library Build a Rama
@@ -656,7 +555,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:441069195ee56d2c@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261112T153000Z
 DTEND:20261112T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -673,7 +572,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:dcaed9120b7c9b43@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261116T210000Z
 DTEND:20261116T220000Z
 SUMMARY:Library Build a Rama
@@ -686,7 +585,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:1158868489650c44@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261118T153000Z
 DTEND:20261118T161500Z
 SUMMARY:Preschool Storytime
@@ -705,7 +604,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:939f214f30cbe07a@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261123T210000Z
 DTEND:20261123T220000Z
 SUMMARY:Library Build a Rama
@@ -718,7 +617,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:bc8a3518303154ec@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261130T210000Z
 DTEND:20261130T220000Z
 SUMMARY:Library Build a Rama
@@ -731,7 +630,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:12cc3fcb122d6b99@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261207T210000Z
 DTEND:20261207T220000Z
 SUMMARY:Library Build a Rama
@@ -744,7 +643,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:38828a9c3501cab0@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261209T153000Z
 DTEND:20261209T161500Z
 SUMMARY:Holiday Storytime with Kim Wallach
@@ -758,7 +657,7 @@ DESCRIPTION:Come celebrate the season with Kim Wallach.  Kim will share st
 END:VEVENT
 BEGIN:VEVENT
 UID:6a895cf082248a7b@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261214T210000Z
 DTEND:20261214T220000Z
 SUMMARY:Library Build a Rama
@@ -771,7 +670,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:cb5578fd3ea9ae1e@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261221T210000Z
 DTEND:20261221T220000Z
 SUMMARY:Library Build a Rama
@@ -784,7 +683,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:537c4160a72da8dd@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART:20261228T210000Z
 DTEND:20261228T220000Z
 SUMMARY:Library Build a Rama
@@ -796,160 +695,72 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
-UID:3992996458ac3a41@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260723T130000
-DTEND;TZID=America/New_York:20260723T170000
-SUMMARY:LEGO-Palooza Summer Session
+UID:6f697dbf5dc2a728@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260903T150000
+DTEND;TZID=America/New_York:20260903T170000
+SUMMARY:LEGO-Palooza
 LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
  ttleboro\, VT\, 05301\, United States
-URL:https://brookslibraryvt.org/event/lego-palooza-summer-session-3/2026-0
- 7-23/
+URL:https://brookslibraryvt.org/event/lego-palooza-5/2026-09-03/
 CATEGORIES:kids\,Brooks Memorial Library
-DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
- y Thursday from June 25th through August 6th\, 1:00 pm to 5:00 pm. \nCome 
- build something fun with the library’s LEGOs and get a chance to see the
- m on display. FREE! \n  \nLEGO-palooza happens from 3:00 to 5:00 pm on th
- e first Thursday of the month with occasional special sessions during scho
- ol breaks and the summer. \nFor more information\, call 802-254-5290 ext. 
- 1210\nSource: Brooks Memorial Library
+DESCRIPTION:Join us on the first Thursday of every month after school from
+  3-5pm to play with LEGOs! \nWe provide the LEGOs. You build. Do not bring
+  your own LEGOs. \nChildren cannot keep LEGOs\, but if there is enough roo
+ m\, we will display them in the window. \nFree and open to the public!\nSo
+ urce: Brooks Memorial Library
 END:VEVENT
 BEGIN:VEVENT
-UID:546d54c38cadd847@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260728T103000
-DTEND;TZID=America/New_York:20260728T110000
-SUMMARY:AT RETREAT FARM- Stories in the Sun
-LOCATION:Retreat Farm\, 45 Farmhouse Sq.\, Brattleboro\, VT\, 05301-4801\,
+UID:98a934ae7cf7a7aa@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260816T170000
+DTEND;TZID=America/New_York:20260816T180000
+SUMMARY:Grafton Cornet Band concert on the Grafton Library lawn
+LOCATION:Grafton Public Library\, 204 Main Street\, Grafton\, VT\, 05146\,
   United States
-URL:https://brookslibraryvt.org/event/retreat-farm-storytime-in-the-sun-2/
- 2026-07-28/
-CATEGORIES:kids\,Brooks Memorial Library
-DESCRIPTION:Join Brooks Memorial Library at Retreat Farm for storytime as 
- part of our Summer Reading Program! \nTuesdays at 10:30am\, June 23rd thro
- ugh July 29th.  This even is held under a under a marquee tent at Retreat
-  Farm\, rain or shine. \nCome for the stories\, stay for the goats! Free a
- nd open to all ages. Bring your own blanket or chair.\nSource: Brooks Memo
- rial Library
-END:VEVENT
-BEGIN:VEVENT
-UID:eed33c802d1fccd7@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260730T130000
-DTEND;TZID=America/New_York:20260730T170000
-SUMMARY:LEGO-Palooza Summer Session
-LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
- ttleboro\, VT\, 05301\, United States
-URL:https://brookslibraryvt.org/event/lego-palooza-summer-session-3/2026-0
- 7-30/
-CATEGORIES:kids\,Brooks Memorial Library
-DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
- y Thursday from June 25th through August 6th\, 1:00 pm to 5:00 pm. \nCome 
- build something fun with the library’s LEGOs and get a chance to see the
- m on display. FREE! \n  \nLEGO-palooza happens from 3:00 to 5:00 pm on th
- e first Thursday of the month with occasional special sessions during scho
- ol breaks and the summer. \nFor more information\, call 802-254-5290 ext. 
- 1210\nSource: Brooks Memorial Library
-END:VEVENT
-BEGIN:VEVENT
-UID:fecc532c8574594b@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260806T130000
-DTEND;TZID=America/New_York:20260806T170000
-SUMMARY:LEGO-Palooza Summer Session
-LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
- ttleboro\, VT\, 05301\, United States
-URL:https://brookslibraryvt.org/event/lego-palooza-summer-session-3/2026-0
- 8-06/
-CATEGORIES:kids\,Brooks Memorial Library
-DESCRIPTION:Join us for these SPECIAL SUMMER SESSIONS of LEGO-Palooza ever
- y Thursday from June 25th through August 6th\, 1:00 pm to 5:00 pm. \nCome 
- build something fun with the library’s LEGOs and get a chance to see the
- m on display. FREE! \n  \nLEGO-palooza happens from 3:00 to 5:00 pm on th
- e first Thursday of the month with occasional special sessions during scho
- ol breaks and the summer. \nFor more information\, call 802-254-5290 ext. 
- 1210\nSource: Brooks Memorial Library
-END:VEVENT
-BEGIN:VEVENT
-UID:c8f52f528c78b4e0@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260722T160000
-DTEND;TZID=America/New_York:20260722T170000
-SUMMARY:Summer Reading Program - Dirt Cups with the Brattleboro Food Coop
-URL:https://putneylibrary.org/event/summer-reading-program-dirt-cups-with-
- the-brattleboro-food-coop/
-CATEGORIES:kids\,Putney Public Library
-DESCRIPTION:Let’s learn about soil health by eating some dirt! Well\, di
- rt pudding cups\, actually. Each young participant will create their own b
- owl of healthy soil using homemade chocolate whipped cream\, crushed graha
- ms\, and all kinds of other delicious ingredients!  Gluten-free\, vegan an
- d dairy-free options will be available\; if your family needs any other di
- etary accommodations please let the library know by Friday\, July 17th.\nS
- ource: Putney Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:84364801353b7d51@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260729T160000
-DTEND;TZID=America/New_York:20260729T170000
-SUMMARY:Summer Reading Program - Author Visit\, Book giveaway & Ice Cream 
- Social
-URL:https://putneylibrary.org/event/summer-reading-program-clif-storytelle
- r-book-giveaway-ice-cream-social/
-CATEGORIES:kids\,Putney Public Library
-DESCRIPTION:Meet Steve Swinburne\, acclaimed  Vermont children’s book au
- thor and nature writer who has written over 40 books including Big Truck S
- uper Wash. Steve will share stories and songs. Pick two free books to take
-  home!\nCelebrate the end of Summer Reading with an ice cream social!\nSou
- rce: Putney Public Library
-END:VEVENT
-BEGIN:VEVENT
-UID:bc53bd6d0d0e6a9b@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260722T100000
-DTEND;TZID=America/New_York:20260722T110000
-SUMMARY:Story Hour at Whiting Library!
-LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
-  States
-URL:https://vermontjournal.com/event/story-hour-at-whiting-library/2026-07
- -22/
+URL:https://vermontjournal.com/event/grafton-cornet-band-concert-on-the-gr
+ afton-library-lawn-2/
 CATEGORIES:kids\,Vermont Journal & Shopper
-DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but 
- all children of all ages are encouraged to join in the fun. Enjoy stories\
- , music\, crafts\, and new book previews from Whiting Library. The storyti
- me will be adapted each week to fit the kids’ abilities in the room. Sto
- ry Hour is approximately 30-60 minutes long\, depending on the kids’ att
- ention span and interest each week.\nSource: Vermont Journal & Shopper
+DESCRIPTION:GRAFTON\, Vt. – The Grafton Cornet Band invites all to its f
+ ree Foliage Concert on the Grafton Library lawn\, 204 Main Street. It’s 
+ a traditional community-band concert with familiar and upbeat music for th
+ e whole family in beautiful Grafton. Bring chairs or a blanket for comfort
+  and maybe a picnic. For rain\, the band plays in the historic Grafton Com
+ munity Church with great acoustics. \nThe band keeps its original 1867 nam
+ e even though all wind instruments are now included. Glen D’Eon directs.
+  \nThere’s a lot to do in Grafton on a summer Sunday\, including shoppin
+ g\, galleries\, museums\, hiking\, and good eating. Visit www.graftonband.
+ org for more information.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
-UID:0250261d294bd258@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260724T150000
-DTEND;TZID=America/New_York:20260724T180000
-SUMMARY:Level Up Your Games: Games Group for School Aged Kids
-LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
-  States
-URL:https://vermontjournal.com/event/level-up-your-games-games-group-for-s
- chool-aged-kids/2026-07-24/
+UID:3470d06ac58a10ef@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260818T080000
+DTEND;TZID=America/New_York:20260818T170000
+SUMMARY:Summer Infant and Toddler Playgroup
+LOCATION:Fletcher Memorial Library\, 88 Main Street\, Ludlow\, VT\, 05149
+URL:https://vermontjournal.com/event/summer-infant-and-toddler-playgroup/2
+ 026-08-18/
 CATEGORIES:kids\,Vermont Journal & Shopper
-DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
- ames to choose from\, including classic board\, new tabletop\, fan-favorit
- e card games\, and more. \nGames are an essential component of the library
- . Information presented in new formats that encourage critical thinking an
- d problem-solving\, and games that encourage social interaction among peer
- s are just a few of the reasons to consider joining the Whiting Library Ga
- me Group.\nSource: Vermont Journal & Shopper
+DESCRIPTION:LUDLOW\, Vt. – The summer infant and toddler playgroup at th
+ e Fletcher Memorial Library\, 88 Main Street\, is held on Tuesday mornings
+ \, from 10:30 a.m. – 12 p.m. This playgroup is best suited for children 
+ ages 5 and younger\, and is a great opportunity for kids and families to m
+ eet and enjoy interactive time together. Whether it’s playing with cars\
+ , cooking up a meal in the play kitchen\, or sharing a story\, there are p
+ lenty of activities available to choose from.\nSource: Vermont Journal & S
+ hopper
 END:VEVENT
 BEGIN:VEVENT
-UID:bbb7f99182d7175c@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260728T100000
-DTEND;TZID=America/New_York:20260728T113000
+UID:07ca682392e7de5f@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260818T100000
+DTEND;TZID=America/New_York:20260818T113000
 SUMMARY:Playgroup for Wee Littles (0-5) and Caregivers
 LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
   States
 URL:https://vermontjournal.com/event/playgroup-for-wee-littles-0-5-caregiv
- ers/2026-07-28/
+ ers/2026-08-18/
 CATEGORIES:kids\,Vermont Journal & Shopper
 DESCRIPTION:CHESTER\, Vt. – Whiting Library is home to a weekly playgrou
  p for the Wee Littles (0-5 years old) and their caregivers on Tuesdays\, f
@@ -966,15 +777,15 @@ DESCRIPTION:CHESTER\, Vt. – Whiting Library is home to a weekly playgrou
  nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
-UID:3c455842feaa9617@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260729T100000
-DTEND;TZID=America/New_York:20260729T110000
+UID:9c65053e002a0473@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T110000
 SUMMARY:Story Hour at Whiting Library!
 LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
   States
-URL:https://vermontjournal.com/event/story-hour-at-whiting-library/2026-07
- -29/
+URL:https://vermontjournal.com/event/story-hour-at-whiting-library/2026-08
+ -19/
 CATEGORIES:kids\,Vermont Journal & Shopper
 DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but 
  all children of all ages are encouraged to join in the fun. Enjoy stories\
@@ -984,15 +795,34 @@ DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but
  ention span and interest each week.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
-UID:37c677968ff48815@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260731T150000
-DTEND;TZID=America/New_York:20260731T180000
+UID:0659561197e1ea71@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260821T080000
+DTEND;TZID=America/New_York:20260821T170000
+SUMMARY:Summer Infant and Toddler Playgroup
+LOCATION:Fletcher Memorial Library\, 88 Main Street\, Ludlow\, VT\, 05149
+URL:https://vermontjournal.com/event/summer-infant-and-toddler-playgroup/2
+ 026-08-21/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:LUDLOW\, Vt. – The summer infant and toddler playgroup at th
+ e Fletcher Memorial Library\, 88 Main Street\, is held on Tuesday mornings
+ \, from 10:30 a.m. – 12 p.m. This playgroup is best suited for children 
+ ages 5 and younger\, and is a great opportunity for kids and families to m
+ eet and enjoy interactive time together. Whether it’s playing with cars\
+ , cooking up a meal in the play kitchen\, or sharing a story\, there are p
+ lenty of activities available to choose from.\nSource: Vermont Journal & S
+ hopper
+END:VEVENT
+BEGIN:VEVENT
+UID:6e48ad1c88749b57@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260821T150000
+DTEND;TZID=America/New_York:20260821T180000
 SUMMARY:Level Up Your Games: Games Group for School Aged Kids
 LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
   States
 URL:https://vermontjournal.com/event/level-up-your-games-games-group-for-s
- chool-aged-kids/2026-07-31/
+ chool-aged-kids/2026-08-21/
 CATEGORIES:kids\,Vermont Journal & Shopper
 DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
  ames to choose from\, including classic board\, new tabletop\, fan-favorit
@@ -1003,220 +833,65 @@ DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
  me Group.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
-UID:fa94d2fc36b532b6@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260723T103000
-DTEND;TZID=America/New_York:20260723T140000
-SUMMARY:Adventure Together
-URL:https://sapcc-vt.org/event/adventure-together/2026-07-23/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:A Fun Summer Program For Families to Explore New Places Togeth
- er! \nAdventures await every Thursday starting at 10:30am from July 9-Augu
- st 13\, 2026. This is a FREE program for families with young children. \nS
- APCC removes barriers so families can safely explore new experiences\, mak
- e meaningful connections\, and build the village that supports them along 
- the way. \n————————————————– \nSchedule 
- for July\nJuly 9th – Trip to The Friendly Farm in Dublin NH. \nJuly 16th
-  – Trip to Wonderfeet Kids Museum in Rutland VT. \nJuly 23rd – Trip to
-  the Grafton Nature Museum \nJuly 30th – Walk at the Perkinsville Power 
- Dam in Perkinsville VT. \nSchedule for August\nAugust 6th -Walk at Distant
-  Hill in Walpole NH. \nAugust 13th – Trip to Plymouth State Park in Ludl
- ow VT. \n—————————————————— \nThis yea
- r we will take 4 field trips and visit 2 nature walk locations. SAPCC prov
- ides admission costs\, $20 gas cards for families in need each travel week
- \, and lunch for everyone! Please note the weeks that the group is walking
- \, lunch and gas cards are not provided. \nRegistration will be open until
-  a week before each adventure to allow us to send a head count to the visi
- ting location. Please note that you will need to research the locations pr
- ior to registration to ensure they meet the accessibility needs of your fa
- mily. \nRegistration is required and space is limited so sign up now to ge
- t on the contact list for each week’s opportunity! \nQuestions? kayla.ba
- pp@sapcc-vt.org or 802-886-5242\nSource: Springfield Area Parent Child Cen
- ter
+UID:63bc6c879ec2ee21@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260821T190000
+DTEND;TZID=America/New_York:20260821T210000
+SUMMARY:The Family Vacation & Classic Clowntown Cinema Double Feature
+LOCATION:New England Youth Theater\, 100 Flat Street\, Brattleboro\, 05301
+URL:https://vermontjournal.com/event/the-family-vacation-classic-clowntown
+ -cinema-double-feature/2026-08-21/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:Tickets by donation at the door!\nFriday\, Aug 21 at 7 PM\nSat
+ urday\, Aug 22 at 2 PM & 7 PM \nThe Duchess of Navarre decides it’s time
+  that the family take a trip to the seaside\; everyone else is doing it\, 
+ why shouldn’t they? Unfortunately\, the tides take a turn for the worst\
+ , and they have to battle not only sunburns\, sand\, and squid\, but also
+ …each other. \nSome of the classic comedy of the 1930s revived for this 
+ show and this show only! Marx Brothers\, Charlie Chaplin\, Buster Keaton a
+ nd more\, the clowns of Clowntown take on the greats!\nSource: Vermont Jou
+ rnal & Shopper
 END:VEVENT
 BEGIN:VEVENT
-UID:ab8a10839772900d@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260727T100000
-DTEND;TZID=America/New_York:20260727T120000
-SUMMARY:Monday Morning Playgroup
-URL:https://sapcc-vt.org/event/monday-morning-playgroup/2026-07-27/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
- ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
- . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
- re information.\nSource: Springfield Area Parent Child Center
+UID:df50163e422ba7ca@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260822T110000
+DTEND;TZID=America/New_York:20260822T170000
+SUMMARY:Best of Vermont Summer Festival
+LOCATION:Okemo Field\, Route 103 (& Bixby Road)\, Ludlow
+URL:https://vermontjournal.com/event/best-of-vermont-summer-festival/2026-
+ 08-22/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:LUDLOW\, Vt. – Experience everything you love about summer i
+ n Vermont at the Best of Vermont Summer Festival\, presented by Mary W. Da
+ vis Realtor & Associates. Enjoy live music\, craft beverage producers\, ch
+ eese and maple makers\, specialty foods\, artisan products\, fine art\, an
+ d a fun kids zone. The festival welcomes locals\, new residents\, second-h
+ ome owners\, and visitors alike.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
-UID:14b40e5822bafaab@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260729T100000
-DTEND;TZID=America/New_York:20260729T113000
-SUMMARY:Wednesday Morning Playgroup
-LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
- tates
-URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-07-29/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
- n to ages 0 – 6 and their siblings of any age. No need to register\, jus
- t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
-  Springfield Area Parent Child Center
-END:VEVENT
-BEGIN:VEVENT
-UID:304fba5a19eb7f4c@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260730T103000
-DTEND;TZID=America/New_York:20260730T140000
-SUMMARY:Adventure Together
-URL:https://sapcc-vt.org/event/adventure-together/2026-07-30/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:A Fun Summer Program For Families to Explore New Places Togeth
- er! \nAdventures await every Thursday starting at 10:30am from July 9-Augu
- st 13\, 2026. This is a FREE program for families with young children. \nS
- APCC removes barriers so families can safely explore new experiences\, mak
- e meaningful connections\, and build the village that supports them along 
- the way. \n————————————————– \nSchedule 
- for July\nJuly 9th – Trip to The Friendly Farm in Dublin NH. \nJuly 16th
-  – Trip to Wonderfeet Kids Museum in Rutland VT. \nJuly 23rd – Trip to
-  the Grafton Nature Museum \nJuly 30th – Walk at the Perkinsville Power 
- Dam in Perkinsville VT. \nSchedule for August\nAugust 6th -Walk at Distant
-  Hill in Walpole NH. \nAugust 13th – Trip to Plymouth State Park in Ludl
- ow VT. \n—————————————————— \nThis yea
- r we will take 4 field trips and visit 2 nature walk locations. SAPCC prov
- ides admission costs\, $20 gas cards for families in need each travel week
- \, and lunch for everyone! Please note the weeks that the group is walking
- \, lunch and gas cards are not provided. \nRegistration will be open until
-  a week before each adventure to allow us to send a head count to the visi
- ting location. Please note that you will need to research the locations pr
- ior to registration to ensure they meet the accessibility needs of your fa
- mily. \nRegistration is required and space is limited so sign up now to ge
- t on the contact list for each week’s opportunity! \nQuestions? kayla.ba
- pp@sapcc-vt.org or 802-886-5242\nSource: Springfield Area Parent Child Cen
- ter
-END:VEVENT
-BEGIN:VEVENT
-UID:baa963f140498340@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260803T100000
-DTEND;TZID=America/New_York:20260803T120000
-SUMMARY:Monday Morning Playgroup
-URL:https://sapcc-vt.org/event/monday-morning-playgroup/2026-08-03/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
- ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
- . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
- re information.\nSource: Springfield Area Parent Child Center
-END:VEVENT
-BEGIN:VEVENT
-UID:d342cf32bca5537e@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260805T100000
-DTEND;TZID=America/New_York:20260805T113000
-SUMMARY:Wednesday Morning Playgroup
-LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
- tates
-URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-08-05/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
- n to ages 0 – 6 and their siblings of any age. No need to register\, jus
- t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
-  Springfield Area Parent Child Center
-END:VEVENT
-BEGIN:VEVENT
-UID:1c9cf9918e465acf@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260806T103000
-DTEND;TZID=America/New_York:20260806T140000
-SUMMARY:Adventure Together
-URL:https://sapcc-vt.org/event/adventure-together/2026-08-06/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:A Fun Summer Program For Families to Explore New Places Togeth
- er! \nAdventures await every Thursday starting at 10:30am from July 9-Augu
- st 13\, 2026. This is a FREE program for families with young children. \nS
- APCC removes barriers so families can safely explore new experiences\, mak
- e meaningful connections\, and build the village that supports them along 
- the way. \n————————————————– \nSchedule 
- for July\nJuly 9th – Trip to The Friendly Farm in Dublin NH. \nJuly 16th
-  – Trip to Wonderfeet Kids Museum in Rutland VT. \nJuly 23rd – Trip to
-  the Grafton Nature Museum \nJuly 30th – Walk at the Perkinsville Power 
- Dam in Perkinsville VT. \nSchedule for August\nAugust 6th -Walk at Distant
-  Hill in Walpole NH. \nAugust 13th – Trip to Plymouth State Park in Ludl
- ow VT. \n—————————————————— \nThis yea
- r we will take 4 field trips and visit 2 nature walk locations. SAPCC prov
- ides admission costs\, $20 gas cards for families in need each travel week
- \, and lunch for everyone! Please note the weeks that the group is walking
- \, lunch and gas cards are not provided. \nRegistration will be open until
-  a week before each adventure to allow us to send a head count to the visi
- ting location. Please note that you will need to research the locations pr
- ior to registration to ensure they meet the accessibility needs of your fa
- mily. \nRegistration is required and space is limited so sign up now to ge
- t on the contact list for each week’s opportunity! \nQuestions? kayla.ba
- pp@sapcc-vt.org or 802-886-5242\nSource: Springfield Area Parent Child Cen
- ter
-END:VEVENT
-BEGIN:VEVENT
-UID:bc76435816b87c00@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260810T100000
-DTEND;TZID=America/New_York:20260810T120000
-SUMMARY:Monday Morning Playgroup
-URL:https://sapcc-vt.org/event/monday-morning-playgroup/2026-08-10/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
- ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
- . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
- re information.\nSource: Springfield Area Parent Child Center
-END:VEVENT
-BEGIN:VEVENT
-UID:0430796fa6ef11ec@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260812T100000
-DTEND;TZID=America/New_York:20260812T113000
-SUMMARY:Wednesday Morning Playgroup
-LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
- tates
-URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-08-12/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
- n to ages 0 – 6 and their siblings of any age. No need to register\, jus
- t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
-  Springfield Area Parent Child Center
-END:VEVENT
-BEGIN:VEVENT
-UID:50b923c952935681@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260813T103000
-DTEND;TZID=America/New_York:20260813T140000
-SUMMARY:Adventure Together
-URL:https://sapcc-vt.org/event/adventure-together/2026-08-13/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:A Fun Summer Program For Families to Explore New Places Togeth
- er! \nAdventures await every Thursday starting at 10:30am from July 9-Augu
- st 13\, 2026. This is a FREE program for families with young children. \nS
- APCC removes barriers so families can safely explore new experiences\, mak
- e meaningful connections\, and build the village that supports them along 
- the way. \n————————————————– \nSchedule 
- for July\nJuly 9th – Trip to The Friendly Farm in Dublin NH. \nJuly 16th
-  – Trip to Wonderfeet Kids Museum in Rutland VT. \nJuly 23rd – Trip to
-  the Grafton Nature Museum \nJuly 30th – Walk at the Perkinsville Power 
- Dam in Perkinsville VT. \nSchedule for August\nAugust 6th -Walk at Distant
-  Hill in Walpole NH. \nAugust 13th – Trip to Plymouth State Park in Ludl
- ow VT. \n—————————————————— \nThis yea
- r we will take 4 field trips and visit 2 nature walk locations. SAPCC prov
- ides admission costs\, $20 gas cards for families in need each travel week
- \, and lunch for everyone! Please note the weeks that the group is walking
- \, lunch and gas cards are not provided. \nRegistration will be open until
-  a week before each adventure to allow us to send a head count to the visi
- ting location. Please note that you will need to research the locations pr
- ior to registration to ensure they meet the accessibility needs of your fa
- mily. \nRegistration is required and space is limited so sign up now to ge
- t on the contact list for each week’s opportunity! \nQuestions? kayla.ba
- pp@sapcc-vt.org or 802-886-5242\nSource: Springfield Area Parent Child Cen
- ter
+UID:93e4f4106c180e64@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260822T140000
+DTEND;TZID=America/New_York:20260822T160000
+SUMMARY:The Family Vacation & Classic Clowntown Cinema Double Feature
+LOCATION:New England Youth Theater\, 100 Flat Street\, Brattleboro\, 05301
+URL:https://vermontjournal.com/event/the-family-vacation-classic-clowntown
+ -cinema-double-feature/2026-08-22/1/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:Tickets by donation at the door!\nFriday\, Aug 21 at 7 PM\nSat
+ urday\, Aug 22 at 2 PM & 7 PM \nThe Duchess of Navarre decides it’s time
+  that the family take a trip to the seaside\; everyone else is doing it\, 
+ why shouldn’t they? Unfortunately\, the tides take a turn for the worst\
+ , and they have to battle not only sunburns\, sand\, and squid\, but also
+ …each other. \nSome of the classic comedy of the 1930s revived for this 
+ show and this show only! Marx Brothers\, Charlie Chaplin\, Buster Keaton a
+ nd more\, the clowns of Clowntown take on the greats!\nSource: Vermont Jou
+ rnal & Shopper
 END:VEVENT
 BEGIN:VEVENT
 UID:f04d0779753a5fb9@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260824T100000
 DTEND;TZID=America/New_York:20260824T120000
 SUMMARY:Monday Morning Playgroup
@@ -1229,7 +904,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:c58d6d54a53b3743@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260826T100000
 DTEND;TZID=America/New_York:20260826T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -1244,7 +919,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:d55c370e0f0ed8ad@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260831T100000
 DTEND;TZID=America/New_York:20260831T120000
 SUMMARY:Monday Morning Playgroup
@@ -1256,8 +931,32 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
  re information.\nSource: Springfield Area Parent Child Center
 END:VEVENT
 BEGIN:VEVENT
+UID:8cef16409f9b1b72@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260901T100000
+DTEND;TZID=America/New_York:20260901T113000
+SUMMARY:Nature Play
+URL:https://sapcc-vt.org/event/nature-play/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Nature Play at The Commons\nJoin the Springfield Area Parent C
+ hild Center (SAPCC) for a fun-filled morning of outdoor exploration and se
+ nsory play at The Commons located in Springfield\, VT on Tuesday\, Sept
+ ember 1\, from 10:00–11:30 AM. \nChildren and their caregivers will enjo
+ y hands-on\, nature-inspired activities including creating and decorating 
+ mud cakes in the mud kitchen\, exploring sensory-based nature art\, engagi
+ ng in imaginative outdoor play\, and building miniature worlds using natur
+ al materials. \nWe’ll wrap up our morning with a story and a healthy sna
+ ck. All materials will be provided—just bring your curiosity and dress f
+ or outdoor play that might get a little messy! \nWhen: Tuesday\, Septembe
+ r 1\nTime: 10:00–11:30 AM\nWhere: The Commons in Springfield\, VT \nTh
+ is free program is open to families with young children. We hope you’ll 
+ join us for a morning of creativity\, connection\, and outdoor fun! \n  \
+ nQuestions? krista.wilson@sapcc-vt.org or 802-886-5242\nSource: Springfiel
+ d Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
 UID:7b1b849f78c63a5e@kidcal
-DTSTAMP:20260722T184253Z
+DTSTAMP:20260816T113534Z
 DTSTART;TZID=America/New_York:20260902T100000
 DTEND;TZID=America/New_York:20260902T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -1271,18 +970,130 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
   Springfield Area Parent Child Center
 END:VEVENT
 BEGIN:VEVENT
-UID:3866810704f10f46@kidcal
-DTSTAMP:20260722T184253Z
-DTSTART;TZID=America/New_York:20260728T160000
-DTEND;TZID=America/New_York:20260728T173000
-SUMMARY:Mess-tival
-LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
- s\, VT 05101
-URL:https://rockinghamlibrary.org/events/mess-tival/
-CATEGORIES:kids\,Rockingham Free Public Library
-DESCRIPTION:Get ready for Mess-tival\, a wildly messy afternoon of oobleck
- \, slime\, experiments\, are\, and hands-on fun!  We’ll end the chaos w
- ith an explosive volcano finale\, so dress for mess!\nSource: Rockingham F
- ree Public Library
+UID:124ec226b00fa927@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260909T100000
+DTEND;TZID=America/New_York:20260909T113000
+SUMMARY:Wednesday Morning Playgroup
+LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
+ tates
+URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-09-09/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
+ n to ages 0 – 6 and their siblings of any age. No need to register\, jus
+ t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
+  Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8b3dc15c8082bff4@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260914T100000
+DTEND;TZID=America/New_York:20260914T120000
+SUMMARY:Monday Morning Playgroup
+URL:https://sapcc-vt.org/event/monday-morning-playgroup-2/2026-09-14/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
+ ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
+ . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
+ re information.\nSource: Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2857c6ea394029c1@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260916T100000
+DTEND;TZID=America/New_York:20260916T113000
+SUMMARY:Wednesday Morning Playgroup
+LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
+ tates
+URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-09-16/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
+ n to ages 0 – 6 and their siblings of any age. No need to register\, jus
+ t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
+  Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4134e5519d7ae02e@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260921T100000
+DTEND;TZID=America/New_York:20260921T120000
+SUMMARY:Monday Morning Playgroup
+URL:https://sapcc-vt.org/event/monday-morning-playgroup-2/2026-09-21/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
+ ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
+ . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
+ re information.\nSource: Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7bc85e092b99c4bb@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260923T100000
+DTEND;TZID=America/New_York:20260923T113000
+SUMMARY:Wednesday Morning Playgroup
+LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
+ tates
+URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-09-23/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
+ n to ages 0 – 6 and their siblings of any age. No need to register\, jus
+ t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
+  Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:77d1620ff0fc04b2@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260928T100000
+DTEND;TZID=America/New_York:20260928T120000
+SUMMARY:Monday Morning Playgroup
+URL:https://sapcc-vt.org/event/monday-morning-playgroup-2/2026-09-28/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
+ ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
+ . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
+ re information.\nSource: Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e6dcf7c585a7ef@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20260930T100000
+DTEND;TZID=America/New_York:20260930T113000
+SUMMARY:Wednesday Morning Playgroup
+LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
+ tates
+URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-09-30/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
+ n to ages 0 – 6 and their siblings of any age. No need to register\, jus
+ t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
+  Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9369f052ebfe48a4@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20261005T100000
+DTEND;TZID=America/New_York:20261005T120000
+SUMMARY:Monday Morning Playgroup
+URL:https://sapcc-vt.org/event/monday-morning-playgroup-2/2026-10-05/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
+ ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
+ . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
+ re information.\nSource: Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4dd9ce2c9d10e891@kidcal
+DTSTAMP:20260816T113534Z
+DTSTART;TZID=America/New_York:20261007T100000
+DTEND;TZID=America/New_York:20261007T113000
+SUMMARY:Wednesday Morning Playgroup
+LOCATION:Windsor Public Library\, 43 State St\, Windsor\, 05089\, United S
+ tates
+URL:https://sapcc-vt.org/event/friday-morning-playgroup-2-3-2/2026-10-07/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
+ n to ages 0 – 6 and their siblings of any age. No need to register\, jus
+ t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
+  Springfield Area Parent Child Center
 END:VEVENT
 END:VCALENDAR
