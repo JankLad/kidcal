@@ -4,26 +4,26 @@
     "location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
     "start_local": "2026-07-21T10:30",
     "duration_min": 45,
-    "rrule": "FREQ=WEEKLY;BYDAY=TU",
+    "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20260815T000000Z",
     "url": "https://rockinghamlibrary.org/storytime/",
     "source": "Rockingham Free Public Library",
     "category": "storytime",
     "age": "preschool",
     "town": "Bellows Falls, VT",
-    "description": "Interactive read/sing/play preschool storytime. Drop-in friendly. (Seed data — verify current schedule with the library.)"
+    "description": "Interactive read/sing/play preschool storytime. Drop-in friendly. SUMMER SERIES ENDED Aug 15 2026 — the library's storytime page says the series has wrapped and to check back for the next one. Re-verify before re-enabling (802-463-4270)."
   },
   {
     "title": "Friday Playgroup — Rockingham Free Public Library",
     "location": "Rockingham Free Public Library, 65 Westminster St, Bellows Falls, VT 05101",
     "start_local": "2026-07-24T10:30",
     "duration_min": 90,
-    "rrule": "FREQ=WEEKLY;BYDAY=FR",
+    "rrule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20260815T000000Z",
     "url": "https://rockinghamlibrary.org/youth-dept/",
     "source": "Rockingham Free Public Library",
     "category": "playgroup",
     "age": "0-6",
     "town": "Bellows Falls, VT",
-    "description": "Drop-in playgroup for young children and caregivers. (Seed data — verify with the library.)"
+    "description": "Drop-in morning of play, stories, and friends for toddlers, preschoolers, and their grown-ups. SUMMER SERIES ENDED Aug 15 2026 (Jun 29-Aug 15 weekly program). Re-verify the fall schedule before re-enabling (802-463-4270)."
   },
   {
     "title": "LEGO Club — Rockingham Free Public Library",
@@ -57,12 +57,13 @@
     "start_local": "2026-07-21T09:30",
     "duration_min": 90,
     "rrule": "FREQ=WEEKLY;BYDAY=TU",
+    "exdates": ["2026-08-25"],
     "url": "https://winstonprouty.org/prouty-play-group/",
     "source": "Winston Prouty Center",
     "category": "playgroup",
     "age": "0-5",
     "town": "Brattleboro, VT",
-    "description": "Free weekly playgroup for families with children through age 5; facilitators join at 10:00, snack and story at 10:45. No registration. (Seed data — verify.)"
+    "description": "Free weekly playgroup for families with children through age 5. Facilitators join at 10:00, snack and story at 10:45. No registration - just stop in. VERIFIED Aug 16 2026 against winstonprouty.org. NOTE: cancelled Tue Aug 25 2026 (campus construction)."
   },
   {
     "title": "Rhyme Time — Brooks Memorial Library",
