@@ -261,10 +261,24 @@ is a human-review queue; promoting an event still means copying it into
 and low-volume access keeps this unobtrusive. Facebook automated access is a ToS
 gray area — keep it personal, local, and low-volume.
 
+**Browser: real Chrome by default (2026-08-16).** `browser_pass.py --browser`
+takes `chrome` (default), `chromium` (Playwright's bundled build), or `msedge`.
+Real Chrome presents a normal Chrome version/UA to Facebook rather than an
+automation build. If the chosen browser can't launch, it falls back to bundled
+Chromium automatically — the pass never dies over a browser choice.
+
+⚠ **Each browser gets its OWN profile dir** (`.browser_profile_chrome` vs
+`.browser_profile`). Chrome 151 exits immediately if pointed at a profile
+written by a different Chromium build, which looks like a mysterious
+`TargetClosedError`. Consequence: **switching `--browser` costs one re-login.**
+None of these touch your personal Chrome profile — KidCal keeps its own, so your
+day-to-day cookies/history are untouched and an open Chrome window doesn't block
+the pass.
+
 **One-time setup Dan must do himself** (it needs real credentials):
 ```
 cd C:\Users\User\KidCal
-python browser_pass.py --login        # headed browser; log in, press Enter
+python browser_pass.py --login        # headed real Chrome; log in, press Enter
 ```
 Until that runs, the harvest step fails **loudly** in `data/flyer_run.log` with
 the fix command — silent failure is exactly how the stale-calendar bug hid for
