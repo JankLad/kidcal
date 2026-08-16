@@ -137,11 +137,27 @@ def fb_login(context, profile: Path) -> None:
         "      enabled and the profile persists, so it's a one-time step, or\n"
         "    * let Chrome offer to save the password for next time.\n"
     )
+    print(
+        "  Expect a two-factor prompt: this is a brand-new browser profile, so\n"
+        "  Facebook treats it as a new device. Finish 2FA in the window, and\n"
+        "  choose 'Trust this device' / 'Remember browser' if offered — that is\n"
+        "  what stops the weekly task from re-prompting.\n"
+        "  Ignore the '--no-sandbox / unsupported command-line flag' banner;\n"
+        "  it is a normal automation flag and is not the problem.\n"
+    )
     try:
-        input("When you can see your Facebook feed, press Enter here... ")
+        input("When you can see your Facebook FEED (past any 2FA), press Enter... ")
     except EOFError:
-        print("(no console input available; waiting 3 minutes)")
-        page.wait_for_timeout(180000)
+        print("(no console input available; waiting 5 minutes)")
+        page.wait_for_timeout(300000)
+
+    # Distinguish "never logged in" from "stuck mid-2FA" — they need different fixes.
+    url = page.url
+    if "two_step_verification" in url or "checkpoint" in url:
+        print("\n! Still on Facebook's two-factor / checkpoint step — session NOT saved.")
+        print("  Finish the 2FA prompt in the browser window, THEN press Enter.")
+        print("  Re-run:  python browser_pass.py --login")
+        return
     if page.query_selector("input[name='email']") is not None:
         print("\n! Still showing a login form — the session was NOT saved.")
         print("  Re-run:  python browser_pass.py --login")
@@ -266,6 +282,8 @@ def main() -> None:
                          "Requires Chrome to be fully closed.")
     ap.add_argument("--list-profiles", action="store_true",
                     help="show your Chrome profiles and exit")
+    ap.add_argument("--check", action="store_true",
+                    help="report whether the saved Facebook session is valid")
     args = ap.parse_args()
 
     if args.list_profiles:
@@ -372,6 +390,21 @@ def main() -> None:
                 return
             if args.login:
                 fb_login(context, target)
+                return
+            if args.check:
+                page = context.new_page()
+                page.goto(FB_HOME, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(2500)
+                url, ok = page.url, _logged_in(page)
+                if ok:
+                    print("Facebook session: VALID — the weekly pass can run.")
+                elif "two_step_verification" in url or "checkpoint" in url:
+                    print("Facebook session: STUCK at 2FA/checkpoint.")
+                    print("  Run:  python browser_pass.py --login")
+                else:
+                    print("Facebook session: NOT logged in.")
+                    print("  Run:  python browser_pass.py --login")
+                page.close()
                 return
             sources = json.loads(SOURCES.read_text(encoding="utf-8"))
             fb = [s for s in sources
