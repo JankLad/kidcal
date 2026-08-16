@@ -47,7 +47,10 @@ TIME_RE = r"\b\d{1,2}(?::\d{2})?\s*(?:a\.?m\.?|p\.?m\.?|AM|PM)\b"
 AGE_RE = (r"\bages?\s*\d{1,2}\s*[-–to]{1,3}\s*\d{1,2}\b|\bgrades?\s*[kK0-9]"
           r"|\bunder\s*\d{1,2}\b|\bentering\s+grade")
 COST_RE = r"\$\s?\d{1,3}(?:\.\d{2})?|\bfree\b"
-REG_RE = r"(?:register|registration|sign[\s-]?up|rsvp|enroll)[^\n.]{0,80}"
+# Capture a leading "no "/"pre-" so a flyer saying "No registration required"
+# isn't reported as "registration required" — the negation is load-bearing.
+REG_RE = (r"(?:\b(?:no|pre)[\s-]+)?"
+          r"(?:register|registration|sign[\s-]?up|rsvp|enroll)[^\n.!]{0,80}")
 URL_RE = r"https?://\S+|\b[\w.-]+\.(?:org|com|net|gov|us)(?:/\S*)?"
 
 
