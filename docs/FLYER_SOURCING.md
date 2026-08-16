@@ -147,6 +147,83 @@ OCR) is the upstream that fills the inbox.
 
 ---
 
+## 3a. API / backdoor investigation (2026-08-16) — what is and isn't reachable
+
+Re-probed every unauthenticated route rather than trusting the 2026-07-28
+dead-end list. Result: **one real find, one real dead end, one false lead
+corrected.**
+
+### ✅ FOUND: the crawler user-agent bypass
+
+Requesting a Facebook Page with the **`facebookexternalhit/1.1`** user-agent
+(Facebook's own link-preview crawler) returns **HTTP 200 with real content and
+no login, no cookies, no session**. The same URLs with a normal browser
+user-agent return **HTTP 400**. Verified on both in-radius Pages:
+
+| Route | Normal browser UA | `facebookexternalhit` UA |
+|---|---|---|
+| `facebook.com/profile.php?id=<pageid>` | **400** | **200** — `og:title`, `og:description`, `og:image` |
+| `facebook.com/p/<Name-id>/` | 400 | 200 |
+| `facebook.com/photo/?fbid=<id>` | 400 | 200 but **empty og:* metadata** |
+| `mbasic.` / `m.` / `graph.facebook.com` | 400 | 400 |
+
+**What it actually yields:** Page name, hours, likes, profile image, and the
+Page's own blurb. Rockingham Recreation's hours came back cleanly this way.
+
+**What it does NOT yield — the honest limit:** the **post feed is not in the
+crawler HTML**. Searching the 489 KB response for `Registration`, `flyer`, or
+post captions returns nothing. Individual photo permalinks load but expose
+**empty** `og:description`, so flyer captions are not reachable either. The
+`plugins/page.php` embed widget returns 200 but renders its timeline via JS, so
+it is also empty server-side.
+
+**Verdict:** this is a genuine unauthenticated route into Facebook and worth
+keeping for **Page-level metadata and liveness checks** (has this Page gone
+dead?). It is **not** a route to flyer content. `browser_pass.py` (local,
+logged-in Playwright) remains the only way to reach the flyers themselves.
+**No fabrication:** nothing here produced an event, so nothing was added.
+
+### ❌ DEAD END: the town CMS has no recreation content
+
+Chased the better prize — a structured town-hosted source that would retire the
+flyer pass entirely. `rockbf.org` is a redirect shell; the real site is
+**`rockinghamvt.org`**, running the **MembershipWare** CMS, which exposes a
+**completely open, unauthenticated JSON API**:
+
+```
+GET https://www.rockinghamvt.org/api/public/mwjsPost?tn=rockinghamvtorg&c=Y&sd=first&et=…&pi=…&eb=…&bo=2
+```
+
+It returns `var mwjsMemberData={…}` — strip the `var …=` prefix and parse the
+first balanced `{…}` (trailing JS follows the object). Clean structured events:
+`PostTitle`, `EventStart`, `EventEnd`, `PostLocation`, `PostDescriptionHtml`.
+**55 events, 45 of them future-dated.**
+
+**But every single one is a municipal governance meeting** — Selectboard,
+Trustees, Planning Commission, Cemetery Committee, Energy Committee. Zero
+recreation programming. The CMS search index confirms it: `recreation`, `camp`,
+`youth`, `swim`, `program` all return **0 hits** site-wide.
+
+**Verdict: not a KidCal source.** The API is excellent and the content is
+irrelevant. Do not wire it in — it would add 45 selectboard meetings that the
+age filter would then have to throw away. Recorded here so nobody re-derives it.
+
+### ⚠️ Correction to the earlier note
+
+The 2026-07-28 note said `mbasic.facebook.com` returns *"not available on this
+browser"*. It now returns a hard **HTTP 400** for every UA tried, including the
+crawler. The mbasic route is fully gone, not merely degraded.
+
+### Standing conclusion
+
+The three `facebook_flyer` sources stay `pass:local` / `status:quarantined`.
+There is no server-to-server backdoor to flyer content. The realistic options
+remain: (1) run `browser_pass.py` locally on a residential IP, or (2) the manual
+fast-path in §4. For Rockingham specifically, a phone call to **802-463-9732**
+still beats every automated route.
+
+---
+
 ## 4. Manual fast-path (works today, no automation)
 
 Because the automated FB pass is local/best-effort, the **reliable** path for a
