@@ -2,6 +2,10 @@
 .browser_profile/
 data/flyer_media/
 data/flyer_candidates.json
+data/flyer_inbox/*.txt
+data/flyer_state.json
+data/flyer_review.md
+data/flyer_run.log
 
 # Python
 __pycache__/
@@ -9,3 +13,4 @@ __pycache__/
 
 # Local secrets
 config.json
+data/seed_watch_state.json
