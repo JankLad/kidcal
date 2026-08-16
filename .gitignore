@@ -1,5 +1,6 @@
 # Local Tier-B browser pass — never commit session or downloaded media
 .browser_profile/
+.browser_profile_*/
 data/flyer_media/
 data/flyer_candidates.json
 data/flyer_inbox/*.txt
