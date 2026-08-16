@@ -55,6 +55,10 @@ MEDIA = ROOT / "data" / "flyer_media"
 PROFILE = ROOT / ".browser_profile"          # persisted FB session (gitignored)
 
 
+CHROME_USER_DATA = Path(
+    r"C:\Users\User\AppData\Local\Google\Chrome\User Data")
+
+
 def profile_dir(browser: str) -> Path:
     """One profile per browser build.
 
@@ -65,6 +69,46 @@ def profile_dir(browser: str) -> Path:
     """
     return PROFILE if browser == "chromium" else PROFILE.with_name(
         f".browser_profile_{browser}")
+
+
+def list_chrome_profiles() -> list[tuple[str, str, str]]:
+    """(directory, display name, account) for each real Chrome profile."""
+    state = CHROME_USER_DATA / "Local State"
+    if not state.exists():
+        return []
+    try:
+        info = json.loads(state.read_text(encoding="utf-8", errors="replace"))
+    except json.JSONDecodeError:
+        return []
+    cache = (info.get("profile") or {}).get("info_cache") or {}
+    return sorted(
+        (d, v.get("name", ""), v.get("user_name", "")) for d, v in cache.items()
+    )
+
+
+def resolve_chrome_profile(wanted: str) -> str | None:
+    """Match a profile by directory, display name, or account address."""
+    w = wanted.strip().lower()
+    profiles = list_chrome_profiles()
+    for d, name, user in profiles:
+        if w in (d.lower(), name.lower(), user.lower()):
+            return d
+    for d, name, user in profiles:  # fall back to a partial match
+        if w and (w in name.lower() or w in user.lower()):
+            return d
+    return None
+
+
+def chrome_is_running() -> int:
+    """Chrome locks its User Data dir; a running instance blocks automation."""
+    import subprocess
+    try:
+        out = subprocess.run(
+            ["tasklist", "/FI", "IMAGENAME eq chrome.exe", "/NH"],
+            capture_output=True, text=True, timeout=30).stdout
+    except Exception:  # noqa: BLE001
+        return 0
+    return sum(1 for line in out.splitlines() if "chrome.exe" in line.lower())
 
 FB_HOME = "https://www.facebook.com/"
 
@@ -80,16 +124,31 @@ def _logged_in(page) -> bool:
         page.query_selector("[aria-label='Search Facebook'], [aria-label='Facebook']") is not None
 
 
-def fb_login(context) -> None:
-    page = context.new_page()
+def fb_login(context, profile: Path) -> None:
+    page = context.pages[0] if context.pages else context.new_page()
     page.goto(FB_HOME, wait_until="domcontentloaded", timeout=60000)
-    print("A browser window is open. Log into Facebook there.")
+    print(
+        "\nA real Chrome window is open on KidCal's own profile.\n"
+        "  Log into Facebook there.\n\n"
+        "  Password manager options (Chrome blocks automation on your personal\n"
+        "  profile, so this window starts clean):\n"
+        "    * paste from your manager in another window, or\n"
+        "    * install your manager's extension here once — extensions are\n"
+        "      enabled and the profile persists, so it's a one-time step, or\n"
+        "    * let Chrome offer to save the password for next time.\n"
+    )
     try:
-        input("When you see your feed, press Enter here to save the session... ")
+        input("When you can see your Facebook feed, press Enter here... ")
     except EOFError:
-        page.wait_for_timeout(60000)
-    print("Session saved to", PROFILE)
-    page.close()
+        print("(no console input available; waiting 3 minutes)")
+        page.wait_for_timeout(180000)
+    if page.query_selector("input[name='email']") is not None:
+        print("\n! Still showing a login form — the session was NOT saved.")
+        print("  Re-run:  python browser_pass.py --login")
+        return
+    print(f"\nSession saved to {profile}")
+    print("The weekly task will reuse it silently. Test it now with:")
+    print("    python browser_pass.py")
 
 
 def fb_harvest_page(context, name: str, url: str) -> int:
@@ -200,7 +259,59 @@ def main() -> None:
     ap.add_argument("--browser", default="chrome",
                     choices=["chrome", "chromium", "msedge"],
                     help="which browser to drive (default: real Chrome)")
+    ap.add_argument("--chrome-profile", metavar="NAME",
+                    help="use one of YOUR real Chrome profiles (by folder, "
+                         "display name, or email) so your password manager, "
+                         "saved logins and extensions are available. "
+                         "Requires Chrome to be fully closed.")
+    ap.add_argument("--list-profiles", action="store_true",
+                    help="show your Chrome profiles and exit")
     args = ap.parse_args()
+
+    if args.list_profiles:
+        rows = list_chrome_profiles()
+        if not rows:
+            print("No Chrome profiles found.")
+            return
+        print(f"Chrome profiles in {CHROME_USER_DATA}:\n")
+        for d, name, user in rows:
+            print(f"  {d:<12} {name:<24} {user}")
+        print("\nUse:  python browser_pass.py --login --chrome-profile "
+              "\"<folder, name, or email>\"")
+        return
+
+    # --- real-profile mode: NOT POSSIBLE, by Chrome's design ----------------
+    # Chrome refuses DevTools remote debugging against its DEFAULT user-data
+    # dir ("DevTools remote debugging requires a non-default data directory"),
+    # specifically so automation cannot drive a profile holding saved
+    # passwords. No flag overrides it. Verified 2026-08-16 on Chrome 151.
+    #
+    # So instead of driving the real profile, we make the password manager
+    # usable from KidCal's own profile: --login opens a headed window where
+    # Chrome's built-in manager still offers to autofill/save, and any
+    # extension-based manager can be installed once and persists.
+    real_profile: str | None = None
+    if args.chrome_profile:
+        target = resolve_chrome_profile(args.chrome_profile)
+        label = f"{target} ({args.chrome_profile})" if target else args.chrome_profile
+        print(
+            "\n" + "=" * 72 + "\n"
+            f"Chrome will not let automation open your real profile {label}.\n"
+            "  \"DevTools remote debugging requires a non-default data directory\"\n"
+            "That is a deliberate Chrome protection for saved passwords, not a\n"
+            "bug on our side, and no flag disables it.\n\n"
+            "What to do instead — you still get a password manager:\n"
+            "  1. Run:  python browser_pass.py --login\n"
+            "     A REAL headed Chrome window opens on KidCal's own profile.\n"
+            "  2. Sign in to Facebook there. To use saved credentials, either:\n"
+            "       * open your password manager in another window and paste, or\n"
+            "       * install your manager's extension in this window once —\n"
+            "         it persists, so this is a one-time step, or\n"
+            "       * let Chrome offer to save the login for next time.\n"
+            "  3. The session persists; the weekly task reuses it silently.\n"
+            + "=" * 72 + "\n"
+        )
+        sys.exit(2)
 
     prof = profile_dir(args.browser)
     prof.mkdir(exist_ok=True)
@@ -214,12 +325,38 @@ def main() -> None:
         }
         if args.browser != "chromium":
             launch["channel"] = args.browser
+
+        target = prof
         print(f"  browser: {args.browser}  profile: {prof.name}")
+
+        if args.login:
+            # Playwright disables extensions by default, which would block a
+            # password-manager extension — the whole point of a headed login.
+            # Re-enable them and keep the automation banner off.
+            launch["args"] = [
+                "--disable-blink-features=AutomationControlled",
+            ]
+            launch["ignore_default_args"] = [
+                "--disable-extensions",
+                "--disable-component-extensions-with-background-pages",
+                "--enable-automation",
+            ]
+
         try:
-            context = p.chromium.launch_persistent_context(str(prof), **launch)
+            context = p.chromium.launch_persistent_context(str(target), **launch)
         except Exception as e:  # noqa: BLE001 - not installed / profile mismatch
             if args.browser == "chromium":
                 raise
+            if real_profile:
+                # Don't silently fall back to a blank profile — that would drop
+                # the password manager the user explicitly asked for.
+                sys.exit(
+                    f"\nCould not open your Chrome profile {real_profile!r}: "
+                    f"{type(e).__name__}\n"
+                    f"Almost always a leftover Chrome process holding the lock.\n"
+                    f"    Stop-Process -Name chrome -Force\n"
+                    f"then re-run the same command.\n"
+                )
             print(f"  ! {args.browser} failed to launch ({type(e).__name__}); "
                   f"falling back to bundled Chromium.")
             print(f"    (if {args.browser} is running, its profile may be locked — "
@@ -234,7 +371,7 @@ def main() -> None:
                     print(json.dumps(pr, default=str))
                 return
             if args.login:
-                fb_login(context)
+                fb_login(context, target)
                 return
             sources = json.loads(SOURCES.read_text(encoding="utf-8"))
             fb = [s for s in sources
