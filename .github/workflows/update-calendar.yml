@@ -21,11 +21,18 @@ jobs:
       - name: Build calendar from live sources
         run: python build.py
 
+      - name: Mirror calendar to repo root
+        # The published subscribe URL is the ROOT kidevents.ics (already in
+        # people's calendar apps). build.py writes public/kidevents.ics, so
+        # copy it up — otherwise the root copy silently goes stale while the
+        # daily run "succeeds". Both paths must ship the same bytes.
+        run: cp public/kidevents.ics kidevents.ics
+
       - name: Commit updated calendar if changed
         run: |
           git config user.name "kidcal-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/kidevents.ics
+          git add public/kidevents.ics kidevents.ics
           if git diff --staged --quiet; then
             echo "No calendar changes."
           else
