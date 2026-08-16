@@ -275,6 +275,33 @@ None of these touch your personal Chrome profile — KidCal keeps its own, so yo
 day-to-day cookies/history are untouched and an open Chrome window doesn't block
 the pass.
 
+### 🔴 Chrome will NOT open your personal profile — settled, don't retry
+
+Asked for: drive the real **`Profile 2` / rdanielroth@gmail.com** profile so the
+password manager is available. **Chrome blocks this by design.** Tested
+2026-08-16 on Chrome 151 with every Chrome window closed:
+
+```
+[err] DevTools remote debugging requires a non-default data directory.
+      Specify this using --user-data-dir.
+```
+
+Chrome refuses to expose the DevTools automation protocol against its **default
+User Data directory** — exactly so automation cannot drive a profile holding
+saved passwords. **No flag overrides it**, and this is not the profile-lock
+problem (it reproduces with Chrome fully closed, `tasklist` showing zero
+`chrome.exe`). `--chrome-profile` therefore prints the explanation and exits 2
+rather than pretending.
+
+**What `--login` does instead**, which satisfies the underlying need: opens a
+**real, headed Chrome** window on KidCal's own profile with
+`--disable-extensions` and `--enable-automation` **removed**, so
+`navigator.webdriver` is `false` and **password-manager extensions work**. Three
+routes to credentials: paste from your manager in another window; install the
+manager's extension once (the profile persists, so it's one-time); or let Chrome
+save the password. Verified: real Chrome launches, extensions enabled, Facebook
+loads.
+
 **One-time setup Dan must do himself** (it needs real credentials):
 ```
 cd C:\Users\User\KidCal
