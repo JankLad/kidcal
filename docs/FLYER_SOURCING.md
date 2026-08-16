@@ -224,6 +224,67 @@ still beats every automated route.
 
 ---
 
+## 3b. The STANDING pass — scheduled, automatic (2026-08-16)
+
+§3 describes the harvest *method*; this is the part that makes it **recurring
+and unattended**. Previously every piece existed but nothing ever ran them, so
+flyers only arrived when someone remembered to look. That gap is now closed.
+
+**`flyer_run.py`** is the driver, installed as a **Windows Scheduled Task**
+("KidCal Flyer Pass", **Mondays 9:05am**, via `install_flyer_task.ps1`). It
+chains:
+
+```
+browser_pass.py   harvest FB flyers (Playwright, logged-in, residential IP)
+   -> data/flyer_inbox/*.txt
+flyer.py          parse -> data/flyer_candidates.json  (quarantined)
+watch_seeds.py    expiry + source-page schedule watch
+   -> data/flyer_review.md   ONLY the new items, for a 30-second read
+```
+
+**Why a Scheduled Task and not GitHub Actions:** Facebook blocks datacenter
+IPs. The cloud build skips every `pass:local` source by design, so the recurring
+flyer job *must* run on Dan's machine from a residential IP. This is the one
+part of KidCal that cannot be moved to the cloud.
+
+**State + quiet runs.** `data/flyer_state.json` fingerprints each candidate
+(source + title + dates + times), so an unchanged flyer is reported **once** and
+stays silent afterwards. Only genuinely new flyers reach `flyer_review.md`.
+Candidates with `confidence: none` (no date, time, or age found) are dropped as
+noise.
+
+**Quarantine is NOT relaxed.** Nothing here auto-publishes. `flyer_review.md`
+is a human-review queue; promoting an event still means copying it into
+`data/seed_events.json` with a verified date. This is the §3 step-4 rule, kept.
+
+**Weekly, not daily,** on purpose: flyer-first orgs post a few times a month,
+and low-volume access keeps this unobtrusive. Facebook automated access is a ToS
+gray area — keep it personal, local, and low-volume.
+
+**One-time setup Dan must do himself** (it needs real credentials):
+```
+cd C:\Users\User\KidCal
+python browser_pass.py --login        # headed browser; log in, press Enter
+```
+Until that runs, the harvest step fails **loudly** in `data/flyer_run.log` with
+the fix command — silent failure is exactly how the stale-calendar bug hid for
+25 days.
+
+### `watch_seeds.py` — the staleness alarm
+
+Runs in the same pass. Two checks:
+
+1. **Expiry watch** — any seed whose `RRULE UNTIL` has passed. Caught all four
+   Rockingham summer programs that ended 2026-08-15.
+2. **Schedule watch** — fingerprints the weekday/time lines on each seed's
+   source page. When Rockingham posts its **fall** storytime, the page text
+   changes and the next run reports it with the lines it found.
+
+It **reports, never edits.** Seeds are the verified backbone, and a scraped
+schedule line is not verification.
+
+---
+
 ## 4. Manual fast-path (works today, no automation)
 
 Because the automated FB pass is local/best-effort, the **reliable** path for a
