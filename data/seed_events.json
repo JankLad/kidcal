@@ -90,5 +90,113 @@
     "age": "0-5",
     "town": "Brattleboro, VT",
     "description": "Enriching music and movement for toddlers and preschoolers (ages 0–5) and caregivers, on the Brattleboro Common (weather permitting). Verified Jul 2026."
+  },
+  {
+    "title": "Youth Field Hockey Sign-Ups — Rockingham Recreation (Terrier Pups)",
+    "location": "Bellows Falls Union High School (BFUHS), Bellows Falls, VT 05101",
+    "start_local": "2026-08-20T18:00",
+    "duration_min": 60,
+    "url": "https://www.facebook.com/p/Rockingham-Recreation-100032044196464/",
+    "source": "Rockingham Recreation",
+    "category": "sports",
+    "age": "grades K-6",
+    "town": "Bellows Falls, VT",
+    "description": "In-person sign-ups for youth field hockey (Terrier Pups), grades K-6th, Thursday Aug 20 2026, 6-7pm at BFUHS. Sylvie (entering kindergarten) is eligible. Source: Rockingham Recreation Facebook flyer image, read Aug 18 2026. Verify no schedule change with Rockingham Rec Dept before relying on it."
+  },
+  {
+    "title": "Rockingham Youth Soccer — Registration Deadline (Grades Pre-K-6)",
+    "location": "Rockingham Recreation Dept, 110 Playground Rd, Bellows Falls, VT 05101",
+    "start_local": "2026-08-31T09:00",
+    "duration_min": 30,
+    "url": "https://www.facebook.com/p/Rockingham-Recreation-100032044196464/",
+    "source": "Rockingham Recreation",
+    "category": "sports",
+    "age": "grades pre-K to 6",
+    "town": "Bellows Falls, VT",
+    "description": "Fall youth soccer, Boys & Girls grades Pre-K-6th; cost $40. SIGN UP BY AUGUST 31, 2026 at Rockingham Rec Dept (110 Playground Rd). Sylvie (entering kindergarten) is eligible. Source: Rockingham Recreation Facebook flyer image, read Aug 18 2026."
+  },
+  {
+    "title": "Vernon Food Truck Fridays — Governor Hunt House",
+    "location": "Governor Hunt House Community Center, 322 Governor Hunt Rd, Vernon, VT 05354",
+    "start_local": "2026-08-21T16:30",
+    "duration_min": 180,
+    "url": "https://governorhunt.org",
+    "source": "Life in Brattleboro Vermont (group)",
+    "category": "family",
+    "age": "all ages",
+    "town": "Vernon, VT",
+    "description": "Family food-truck night, 4:30-7:30pm, rain or shine (indoor seating). DJ'd music; historic-marker dedication 5:00pm; bingo 6:00pm. Aug 21 lineup: Bumble's Birria, Fries of Providence, J&B Curbside Catering, Mama T's, The Lemon Wheel, Vernon Creamie. Source: Governor Hunt House flyer via Life in Brattleboro FB group, read Aug 18 2026."
+  },
+  {
+    "title": "Vernon Food Truck Fridays — Governor Hunt House",
+    "location": "Governor Hunt House Community Center, 322 Governor Hunt Rd, Vernon, VT 05354",
+    "start_local": "2026-09-18T16:30",
+    "duration_min": 180,
+    "url": "https://governorhunt.org",
+    "source": "Life in Brattleboro Vermont (group)",
+    "category": "family",
+    "age": "all ages",
+    "town": "Vernon, VT",
+    "description": "Family food-truck night, 4:30-7:30pm, rain or shine (indoor seating). Monthly series (May-Oct). Source: Governor Hunt House flyer via Life in Brattleboro FB group, read Aug 18 2026. Verify the Sep lineup closer to the date."
+  },
+  {
+    "title": "Vernon Food Truck Fridays — Governor Hunt House",
+    "location": "Governor Hunt House Community Center, 322 Governor Hunt Rd, Vernon, VT 05354",
+    "start_local": "2026-10-09T16:30",
+    "duration_min": 180,
+    "url": "https://governorhunt.org",
+    "source": "Life in Brattleboro Vermont (group)",
+    "category": "family",
+    "age": "all ages",
+    "town": "Vernon, VT",
+    "description": "Family food-truck night, 4:30-7:30pm, rain or shine (indoor seating). Final date of the 2026 series. Source: Governor Hunt House flyer via Life in Brattleboro FB group, read Aug 18 2026. Verify closer to the date."
+  },
+  {
+    "title": "Summertime Story Time — Wilder Memorial Library",
+    "location": "Wilder Memorial Library, 24 Lawrence Hill Rd, Weston, VT 05161",
+    "start_local": "2026-08-20T10:30",
+    "duration_min": 45,
+    "url": "https://www.facebook.com/groups/londonderryvtforum/",
+    "source": "Londonderry Vermont Community Forum (group)",
+    "category": "storytime",
+    "age": "0-5",
+    "town": "Weston, VT",
+    "description": "Summertime story time, best for ages 0-5; kids from all towns welcome. Thursday Aug 20 2026, 10:30am. Sylvie (age 4) fits. Likely the final week of the summer series - verify the fall schedule with Wilder Memorial Library before assuming it repeats. Source: flyer via Londonderry VT Community Forum FB group, read Aug 18 2026."
+  },
+  {
+    "title": "Dog Costume Contest — Weston Town Fair",
+    "location": "The Weston Playhouse, 703 Main St, Weston, VT 05161",
+    "start_local": "2026-09-12T12:00",
+    "duration_min": 90,
+    "url": "https://www.facebook.com/groups/londonderryvtforum/",
+    "source": "Londonderry Vermont Community Forum (group)",
+    "category": "family",
+    "age": "all ages",
+    "town": "Weston, VT",
+    "description": "Free-to-enter dog costume contest (Best Overall / Funniest / Best VT Costume) at the Weston Town Fair, sponsored by Coho Inn & Motor Lodge. Saturday Sept 12 2026, 12:00pm at the Weston Playhouse. Family-friendly. Source: flyer via Londonderry VT Community Forum FB group, read Aug 18 2026."
+  },
+  {
+    "title": "Grafton Food & Antique Tractor/Car/Truck Festival + Mac & Cheese Cookoff",
+    "location": "Grafton Ponds & Outdoor Center, 783 Townshend Rd, Grafton, VT 05146",
+    "start_local": "2026-09-05T11:00",
+    "duration_min": 240,
+    "url": "https://www.facebook.com/groups/49565028478/",
+    "source": "Saxtons River (group)",
+    "category": "family",
+    "age": "all ages",
+    "town": "Grafton, VT",
+    "description": "Grafton Historical Society annual food & antique tractor/car/truck show with a mac & cheese cookoff. Saturday Sept 5 2026, 11am-3pm at Grafton Ponds & Outdoor Center. Kid-friendly (tractors/cars). To enter the cookoff (space limited): grafhist@vermontel.net / 802-843-2584. Source: flyer via Saxtons River FB group, read Aug 18 2026."
+  },
+  {
+    "title": "Chili Fest — Saxtons River",
+    "location": "24 Main Street Community Building, Saxtons River, VT 05154",
+    "start_local": "2026-09-26T11:00",
+    "duration_min": 180,
+    "url": "https://www.facebook.com/groups/49565028478/",
+    "source": "Saxtons River (group)",
+    "category": "family",
+    "age": "all ages",
+    "town": "Saxtons River, VT",
+    "description": "Community Chili Fest fundraiser for the 24 Main Street Community Building, Saxtons River (~6 mi). Saturday Sept 26 2026. SAVE-THE-DATE flyer — start time not yet published (11am is a placeholder); VERIFY the time before relying on it. Source: flyer via Saxtons River FB group, read Aug 18 2026."
   }
 ]
