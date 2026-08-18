@@ -38,6 +38,16 @@ STRONG_INCLUDE = [
     "dino", "folktale", "folk tale", "little hands", "jamboree", "gingerbread",
     "diorama", "family night", "mess-tival", "messtival", "pokewalk",
     "poke walk", "tie dye", "tie-dye", "puppet", "fairy", "gnome",
+    # Broad-community additions (Dan's choice 2026-08-18): farm days, festivals,
+    # fairs, and live music are family-friendly here, so they belong in the
+    # STRONG tier — kept even when a blurb also carries an adult word (e.g. a
+    # harvest festival that is also a "fundraiser").
+    "farmers market", "farmers' market", "farm stand", "farmstand",
+    "harvest festival", "fall festival", "hayride", "hay ride", "corn maze",
+    "orchard", "u-pick", "u pick", "pick your own", "cider", "petting zoo",
+    "pony ride", "craft fair", "street fair", "town fair", "county fair",
+    "fall fair", "festival", "concert", "music series", "live music",
+    "earth sky time",
 ]
 INCLUDE = [
     "family", "all ages", "all-ages", "movies for kids", "movie for kids",
@@ -57,6 +67,11 @@ SOFT_EXCLUDE = [
     "selectboard", "legislator", "heat transfer", "feldenkrais", "tai chi",
     "no-sew", "weaver", "weaving", "sourdough", "botanical", "yoga",
     "cooking club", "cook with me: ", "after school opportunities",
+    # Clearly senior-only / recovery / civic — not family events even under the
+    # broad-community scope (Dan 2026-08-18). Remove any line to let it back in.
+    "aarp", "bone builder", "senior meal", "senior luncheon", "senior card",
+    "canasta", "aa meeting", "al-anon", "recovery community", "recovery dinner",
+    "grief", "sweatin' to the oldies", "widow", "caregiver support",
 ]
 
 
@@ -75,7 +90,12 @@ def keep_event(summary: str, description: str = "") -> tuple[bool, str]:
         return True, "desc-strong"
     if any(k in full for k in INCLUDE):
         return True, "family"
-    return False, "ambiguous"
+    # Broad-community scope (Dan's choice 2026-08-18): keep anything NOT caught
+    # by HARD_EXCLUDE / SOFT_EXCLUDE — concerts, markets, festivals, farm days,
+    # etc. — trading more noise for wider coverage. The SOFT_EXCLUDE list is what
+    # now carries the "clearly adult/civic-admin" cut. To revert to kid-only,
+    # change this back to `return False, "ambiguous"`.
+    return True, "broad-community"
 
 
 # --- Fetch + parse ----------------------------------------------------------
