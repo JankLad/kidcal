@@ -16,6 +16,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+import gnat
 import ingest
 import mec
 import myrec
@@ -30,8 +31,9 @@ OUT = ROOT / "public" / "kidevents.ics"
 
 BYDAY = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
 
-# Towns within ~30 mi of Bellows Falls (plan §2). Used to gate REGIONAL
-# aggregator sources whose events can range far outside the radius.
+# Towns within ~40 mi of Bellows Falls (radius widened per Dan 2026-08-18, from
+# the original ~30 mi). Used to gate REGIONAL aggregator sources (GNAT, Vermont
+# Journal) whose events can range far outside the radius.
 IN_RADIUS_TOWNS = {
     "bellows falls", "rockingham", "saxtons river", "westminster", "athens",
     "grafton", "putney", "dummerston", "brattleboro", "newfane", "townshend",
@@ -39,6 +41,15 @@ IN_RADIUS_TOWNS = {
     "weston", "londonderry", "andover", "windsor", "perkinsville", "walpole",
     "charlestown", "alstead", "langdon", "acworth", "marlow", "surry", "gilsum",
     "westmoreland", "keene", "swanzey", "hinsdale", "claremont",
+    # ~40 mi ring: Northshire/Manchester cluster (unlocks Earth Sky Time via the
+    # GNAT feed) + outer VT/NH towns.
+    "manchester", "manchester center", "arlington", "east arlington", "dorset",
+    "sunderland", "bennington", "north bennington", "shaftsbury", "winhall",
+    "bondville", "stratton", "peru", "landgrove", "windham", "wardsboro",
+    "rupert", "pawlet", "danby", "mount holly", "wallingford", "brownsville",
+    "reading", "west windsor", "hartland", "unity", "lempster", "goshen",
+    "washington", "stoddard", "nelson", "sullivan", "roxbury", "chesterfield",
+    "winchester", "richmond", "cornish", "plainfield", "newport", "croydon",
 }
 
 
@@ -150,6 +161,8 @@ def main() -> None:
                 events = mec.fetch_events(src["url"], src.get("default_location", ""))
             elif src.get("type") == "myrec":
                 events = myrec.fetch_events(src["url"], src.get("default_location", ""))
+            elif src.get("type") == "tockify":
+                events = gnat.fetch_events(src["url"], src.get("default_location", ""))
             else:
                 events = ingest.parse_ics(ingest.fetch(src["url"]))
         except Exception as e:  # noqa: BLE001 - report and continue
