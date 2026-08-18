@@ -93,5 +93,201 @@
     "status": "quarantined",
     "notes": "Candidate flyer-first via a Facebook GROUP (gated harder than a Page). BUT a website (ludlowvtparksandrec.com) + Vermont Journal coverage exist — VERIFY the website for a feed/events page BEFORE committing to the flyer pass; prefer the structured route if one exists. See docs/FLYER_SOURCING.md.",
     "discovered_via": "flyer-sourcing strategy re-search (2026-07-28)"
+  },
+  {
+    "name": "Keene NH Kids Programs, Activities & Events (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/590336965446187/",
+    "town": "Keene, NH",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group, request-to-join. Dedicated kids-events group. APPROVED 2026-08-18: harvest returned 6 flyers but NOISY (salon/business ads, a job post, an out-of-radius basketball league, a past Murphy Day). The human review gate filters it. Keep enabled — real kids events will surface here over time.",
+    "discovered_via": "gated-group sweep 2026-08-18"
+  },
+  {
+    "name": "Growing Up In Bellows Falls! (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/62836106639/",
+    "town": "Bellows Falls, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group, request-to-join. Hyper-local (0 mi) community board. APPROVED 2026-08-18: member, but this scroll was all nostalgia/memorial posts (no events). Keep enabled — local kid events surface here.",
+    "discovered_via": "gated-group sweep 2026-08-18"
+  },
+  {
+    "name": "Happenings in and Around Springfield Vermont (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/Happeningsinandaroundspringfieldvermont/",
+    "town": "Springfield, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group, request-to-join. What's-on / events focus for in-radius Springfield area. APPROVED 2026-08-18: member; first harvest surfaced a Springfield Town Library art exhibit (Russell Porter, through Oct 13). Keep enabled.",
+    "discovered_via": "gated-group sweep 2026-08-18"
+  },
+  {
+    "name": "Springfield, VT Community Support (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/3783691845006296/",
+    "town": "Springfield, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group (~10 mi). General community board. APPROVED 2026-08-18 (re-probe returned 6 flyers) — but all noise this scroll (Medicare enrollment, for-sale sign, missing-person poster, past yard sale, business cards). No kids events yet; keep enabled.",
+    "discovered_via": "gated-group sweep 2026-08-18"
+  },
+  {
+    "name": "Alstead/Acworth/Charlestown/Langdon/Walpole (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/1261535577193567/",
+    "town": "Charlestown, NH",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group, request-to-join. Covers several in-radius NH towns incl. Charlestown. APPROVED 2026-08-18: member; first harvest was noise (a gym meme). Keep enabled — town-cluster board, events surface over time.",
+    "discovered_via": "gated-group sweep 2026-08-18"
+  },
+  {
+    "name": "Brattleboro, Vermont (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/Brattleboro/",
+    "town": "Brattleboro, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group (~20 mi), large Brattleboro community board. ACCESSIBLE: re-probe 2026-08-18 returned 7 flyers + 22 captions (the earlier 0 was a render miss on the big feed, not a membership block). Keep enabled.",
+    "discovered_via": "gated-group sweep 2026-08-18"
+  },
+  {
+    "name": "Life in Brattleboro Vermont (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/Life.in.Brattleboro.Vermont/",
+    "town": "Brattleboro, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group, request-to-join. Second Brattleboro community board (~20 mi). APPROVED 2026-08-18: member; first harvest surfaced Vernon Food Truck Fridays (promoted) + a cryptid convention. Best-yielding group so far. Keep enabled.",
+    "discovered_via": "gated-group sweep 2026-08-18"
+  },
+  {
+    "name": "Londonderry Vermont Community Forum (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/londonderryvtforum/",
+    "town": "Londonderry, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group. THE main Londonderry community forum (~25 mi; mountain-towns hub covering Weston/Peru/Winhall/Jamaica/Landgrove). ACCESSIBLE with the current cookie 2026-08-18 (Dani's account is a member): first harvest surfaced Wilder Memorial Library Summertime Story Time + Weston Town Fair Dog Costume Contest (both promoted) + a community lunch. Strong source. Keep enabled.",
+    "discovered_via": "Londonderry-area request (Dani Granaroli) 2026-08-18"
+  },
+  {
+    "name": "Neighbors Londonderry Vermont (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/627512031146910/",
+    "town": "Londonderry, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group (~25 mi). Londonderry neighbors board. ACCESSIBLE with the current cookie 2026-08-18 (member); first harvest had captions but no flyers. Keep enabled.",
+    "discovered_via": "Londonderry-area request (Dani Granaroli) 2026-08-18"
+  },
+  {
+    "name": "Londonderry news! Community page (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/204156831662114/",
+    "town": "Londonderry, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Gated FB group (~25 mi). Londonderry news/community page. ACCESSIBLE with the current cookie 2026-08-18 (member); first harvest was an Imperial Gymnastics enrollment ad (no local venue/date - not promoted). Keep enabled.",
+    "discovered_via": "Londonderry-area request (Dani Granaroli) 2026-08-18"
+  },
+  {
+    "name": "Weston, VT Community Hub (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/429728660989688/",
+    "town": "Weston, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "probe",
+    "notes": "Gated FB group (~28 mi). Weston VT community board (Weston Playhouse / Town Fair town). CONFIRMED closed: 2026-08-18 probe returned 0 posts — REQUEST TO JOIN. Auto-sources once approved (verify it's the Vermont Weston).",
+    "discovered_via": "mountain-towns sweep 2026-08-18"
+  },
+  {
+    "name": "Newfane, Vermont (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/3196240770439317/",
+    "town": "Newfane, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "probe",
+    "notes": "Gated FB group (~22 mi). Newfane VT community group. CONFIRMED closed: 2026-08-18 probe returned 0 posts — REQUEST TO JOIN. Auto-sources once approved. Complements the Moore Free Library (Newfane) ICS source.",
+    "discovered_via": "mountain-towns sweep 2026-08-18"
+  },
+  {
+    "name": "Saxtons River (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/49565028478/",
+    "town": "Saxtons River, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Public FB group (~6 mi — very in-radius). Saxtons River VT community board. ACCESSIBLE 2026-08-18 (3 flyers): surfaced Chili Fest (Sept 26, promoted) + the Grafton Food/Antique Festival (Sept 5, promoted). No join needed. Keep enabled.",
+    "discovered_via": "mountain-towns sweep 2026-08-18"
+  },
+  {
+    "name": "Saxtons River Recreation Area (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/162944763830110/",
+    "town": "Saxtons River, VT",
+    "scope": "venue",
+    "pass": "local",
+    "status": "active",
+    "notes": "FB group (~6 mi). Saxtons River recreation area — kid/rec programming. ACCESSIBLE 2026-08-18 (20 captions, no flyers this scroll): new playground OPEN (3 slides + climbing wall), inaugural pickleball. No join needed. Keep enabled.",
+    "discovered_via": "mountain-towns sweep 2026-08-18"
+  },
+  {
+    "name": "Growing Up In Saxtons River (group)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/groups/241081342583067/",
+    "town": "Saxtons River, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "FB group (~6 mi). Saxtons River community/history board. ACCESSIBLE 2026-08-18 (3 flyers, skews nostalgia/thank-you posts as expected). No join needed. Keep enabled.",
+    "discovered_via": "mountain-towns sweep 2026-08-18"
+  },
+  {
+    "name": "Jamaica, Vermont 05343 (page)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/JamaicaVermont05343/",
+    "town": "Jamaica, VT",
+    "scope": "community",
+    "pass": "local",
+    "status": "active",
+    "notes": "Public FB PAGE (~20 mi; no join needed). Jamaica VT town info/news page. ACCESSIBLE 2026-08-18 (6 flyers; mostly Jamaica Town Hall adult concerts, e.g. Helen Gillet 9/4). Keep enabled.",
+    "discovered_via": "mountain-towns sweep 2026-08-18"
+  },
+  {
+    "name": "Neighborhood Connections VT (page)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/neighborhoodconnectionsvt/",
+    "town": "Londonderry, VT",
+    "scope": "regional",
+    "pass": "local",
+    "status": "active",
+    "notes": "Public FB PAGE (no join needed) for the Londonderry-area nonprofit serving all 9 mountain towns (Londonderry/Weston/Andover/Windham/Winhall/Jamaica/Landgrove/Peru/Bondville). ACCESSIBLE 2026-08-18 (7 flyers — strong regional signal; surfaced a Chester Public Safety EMS BBQ family event, though that one was past). Website ncvermont.org/news.html has events but NO ICS feed found (manual check). Regional lead: the GNAT community calendar (tockify.com/gnatevents) covers these towns — find its ICS subscribe URL to add as a structured `ics` source (the guessed /api/feeds/ics/gnatevents 404'd).",
+    "discovered_via": "mountain-towns sweep 2026-08-18 (Neighborhood Connections request)"
+  },
+  {
+    "name": "GNAT-TV Regional Calendar (mountain towns)",
+    "type": "tockify",
+    "url": "https://tockify.com/gnatevents",
+    "town": "Northshire / mountain towns, VT",
+    "scope": "regional",
+    "notes": "GNAT-TV (Greater Northshire Access TV) community calendar via the Tockify JSON API (adapter gnat.py). NO working ICS — /api/feeds/ics/<slug|calid> all 404 (calid 62d9bf3c0b3b13562efb42b0); the /api/ngevent JSON endpoint works. Northshire-heavy (Manchester/Arlington/Dorset ~40 mi = OUT of radius), so scope=regional gates to in-radius towns and the age filter drops adult programming. In-radius gem: Weekly Story Time in Londonderry. NOT pass:local — this is a cloud/structured source built by build.py.",
+    "discovered_via": "mountain-towns sweep 2026-08-18 (Neighborhood Connections -> GNAT lead)"
   }
 ]
