@@ -282,6 +282,50 @@
     "discovered_via": "mountain-towns sweep 2026-08-18 (Neighborhood Connections request)"
   },
   {
+    "name": "Bellows Falls Opera House (page)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/BFOperaHouse/",
+    "town": "Bellows Falls, VT",
+    "scope": "venue",
+    "pass": "local",
+    "status": "active",
+    "notes": "Public FB PAGE (0 mi). Music/film venue — weekend concerts & shows. Website calendar is JS-rendered (no clean ICS), so harvest the FB page. ACTIVE 2026-08-18 (7 flyers): promoted Dark Sarcasm/Pink Floyd tribute (Sept 12); also runs family movie nights (Ponyo/Minions/animation showcase) worth catching when dates firm up.",
+    "discovered_via": "music-venue sweep 2026-08-18"
+  },
+  {
+    "name": "The Stone Church (page)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/stonechurchvt/",
+    "town": "Brattleboro, VT",
+    "scope": "venue",
+    "pass": "local",
+    "status": "active",
+    "notes": "Public FB PAGE (~22 mi). Live-music venue (former church) — indie/alt shows. Squarespace ?format=ical returns HTML not ICS, so harvest the FB page. ACTIVE 2026-08-18 (11 flyers): mostly 21+/weeknight concerts with fuzzy 'JUST ANNOUNCED' dates — none promoted yet; source wired for clearer future shows.",
+    "discovered_via": "music-venue sweep 2026-08-18"
+  },
+  {
+    "name": "Epsilon Spires (page)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/EpsilonSpires/",
+    "town": "Brattleboro, VT",
+    "scope": "venue",
+    "pass": "local",
+    "status": "active",
+    "notes": "Public FB PAGE (~22 mi). Live music, films & events venue (Estey pipe organ). ACTIVE 2026-08-18: promoted The Thief of Bagdad (Aug 28, All-Ages silent film + organ). Mostly arthouse/avant-garde adult film — the all-ages silent-film-with-live-score nights are the family picks.",
+    "discovered_via": "music-venue sweep 2026-08-18"
+  },
+  {
+    "name": "Next Stage Arts (page)",
+    "type": "facebook_flyer",
+    "url": "https://www.facebook.com/nextstagearts/",
+    "town": "Putney, VT",
+    "scope": "venue",
+    "pass": "local",
+    "status": "active",
+    "notes": "Public FB PAGE (~15 mi). Performing-arts venue — concerts/family shows. Site's iCal subscribe is JS-gated; harvest the FB page (also in the Vermont Journal feed). ACTIVE 2026-08-18 (7 flyers): promoted Homegrown Festival (Aug 30, gates 3pm/music 4pm, incl. NECCA circus arts). Rich weekend-music source.",
+    "discovered_via": "music-venue sweep 2026-08-18"
+  },
+  {
     "name": "GNAT-TV Regional Calendar (mountain towns)",
     "type": "tockify",
     "url": "https://tockify.com/gnatevents",
