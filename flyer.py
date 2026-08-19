@@ -132,12 +132,26 @@ def main() -> None:
                 elif k.strip() == "url":
                     url = v.strip()
             text = rest
-        cand = parse_flyer_text(text, source, loc, url)
-        cand["_inbox_file"] = f.name
-        candidates.append(cand)
-        print(f"  {f.name}: {source} -> confidence={cand['confidence']} "
-              f"(dates={len(cand['dates_raw'])}, times={len(cand['times_raw'])}, "
-              f"ages={len(cand['age_raw'])})")
+
+        # ONE CANDIDATE PER FLYER (not per source): a flyer usually carries its
+        # own date/time, so parsing each flyer block on its own gives the RIGHT
+        # date — vs. one merged candidate per source, which mashed every flyer's
+        # dates together and guessed wrong. Each "[flyer N] ..." line is a block
+        # (up to the next [flyer]/[caption]/[comment] marker). Caption/comment
+        # blocks are context, not their own events (too noisy), so they're kept
+        # only as a fallback candidate when a source has no flyers at all.
+        blocks = re.split(r"(?m)^(?=\[(?:flyer|caption|comment) \d+\])", text)
+        flyer_blocks = [b for b in blocks if b.lstrip().startswith("[flyer")]
+        chosen = flyer_blocks or ([text] if text.strip() else [])
+        n = 0
+        for i, block in enumerate(chosen, 1):
+            cand = parse_flyer_text(block, source, loc, url)
+            cand["_inbox_file"] = f.name
+            cand["_flyer"] = i if flyer_blocks else None
+            candidates.append(cand)
+            n += 1
+        print(f"  {f.name}: {source} -> {n} candidate(s) from "
+              f"{len(flyer_blocks)} flyer block(s)")
 
     OUT.write_text(json.dumps(
         {"generated": datetime.now().isoformat(timespec="minutes"),
