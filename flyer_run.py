@@ -42,6 +42,7 @@ STATE = ROOT / "data" / "flyer_state.json"
 CANDIDATES = ROOT / "data" / "flyer_candidates.json"
 REVIEW = ROOT / "data" / "flyer_review.md"
 LOG = ROOT / "data" / "flyer_run.log"
+COOKIES = ROOT / "fb_cookies.txt"     # transferred session → login-free harvest
 
 PY = sys.executable
 
@@ -55,23 +56,30 @@ def log(msg: str) -> None:
         fh.write(line + "\n")
 
 
-def run_step(script: str, args: list[str] | None = None) -> bool:
-    """Run a pipeline step, capturing failure without killing the whole pass."""
+def step_rc(script: str, args: list[str] | None = None) -> int:
+    """Run a pipeline step; return its exit code (-1 on timeout). Logs output.
+
+    Kept alongside run_step() because some steps (the cookie doctor) use their
+    exit code as a diagnosis — 0=fine, 4=needs a human — not just pass/fail."""
     cmd = [PY, str(ROOT / script)] + (args or [])
     try:
         proc = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True,
                               timeout=1800)
     except subprocess.TimeoutExpired:
         log(f"  ! {script} timed out (30 min)")
-        return False
+        return -1
     for line in (proc.stdout or "").splitlines():
         log(f"    {line}")
     if proc.returncode != 0:
         log(f"  ! {script} exited {proc.returncode}")
         for line in (proc.stderr or "").splitlines()[-8:]:
             log(f"    stderr: {line}")
-        return False
-    return True
+    return proc.returncode
+
+
+def run_step(script: str, args: list[str] | None = None) -> bool:
+    """Run a pipeline step, capturing failure without killing the whole pass."""
+    return step_rc(script, args) == 0
 
 
 def fingerprint(cand: dict) -> str:
@@ -145,11 +153,31 @@ def main() -> None:
     log("=== flyer pass start ===")
 
     if not args.no_harvest:
-        if not run_step("browser_pass.py"):
-            # A failed harvest is usually an expired FB session. Say so loudly:
-            # silent failure is exactly how the stale-calendar bug hid for weeks.
-            log("  ! harvest failed — Facebook session may have expired.")
-            log("    Fix:  python browser_pass.py --login")
+        # Prefer the cookie-transfer path (login-free, nothing to spin) whenever
+        # fb_cookies.txt is present; fall back to the persistent-profile login
+        # only if no cookie has been exported. See docs/FLYER_SOURCING.md §3c.
+        harvest_args = ["--cookies"] if COOKIES.exists() else []
+        if not run_step("browser_pass.py", harvest_args):
+            # Silent failure is exactly how the stale-calendar bug hid for weeks.
+            if not COOKIES.exists():
+                log("  ! harvest failed and there's no fb_cookies.txt — export "
+                    "c_user + xs once, or run  python browser_pass.py --login.")
+            else:
+                # A failed cookie harvest is usually the FB session; let the
+                # doctor diagnose it. It renews a still-valid session in place,
+                # so a retry then succeeds; a truly-expired one returns 4 and
+                # needs a human.
+                log("  ! harvest failed — running the cookie doctor to diagnose.")
+                rc = step_rc("refresh_fb_cookie.py", ["--quiet"])
+                if rc == 0:
+                    log("    cookie renewed; retrying harvest once.")
+                    run_step("browser_pass.py", harvest_args)
+                elif rc == 4:
+                    log("    ! Facebook session EXPIRED — re-export c_user + xs "
+                        "into fb_cookies.txt (see data/fb_cookie_health.json).")
+                else:
+                    log("    harvest failed but the cookie still authenticates — "
+                        "likely a transient network/Facebook hiccup; next run retries.")
 
     if not run_step("flyer.py"):
         log("=== flyer pass end (parse failed) ===")
@@ -192,6 +220,13 @@ def main() -> None:
             log(f"     - [{c.get('confidence')}] {c.get('title','')[:70]}")
     else:
         log(f"no new candidates ({len(cands)} known, all seen before)")
+
+    # OPT-OUT pipeline (Dan 2026-08-18): --draft auto-approves real events (the
+    # junk-gate opts out ads/past/mis-dated), then promote publishes them — harvest
+    # to calendar with no manual step. Edit data/flyer_approved.json only to override
+    # the gate (approve:false to hide, approve:true to rescue). See promote.py.
+    if run_step("promote.py", ["--draft"]):
+        run_step("promote.py")
 
     log("=== flyer pass end ===")
 
