@@ -27,7 +27,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ce4c5e628bd02bdd@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260721T103000
 DTEND;TZID=America/New_York:20260721T111500
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260815T000000Z
@@ -43,7 +43,7 @@ DESCRIPTION:Interactive read/sing/play preschool storytime. Drop-in friend
 END:VEVENT
 BEGIN:VEVENT
 UID:61c34a4a86c4866d@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260724T103000
 DTEND;TZID=America/New_York:20260724T120000
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260815T000000Z
@@ -59,7 +59,7 @@ DESCRIPTION:Drop-in morning of play\, stories\, and friends for toddlers\,
 END:VEVENT
 BEGIN:VEVENT
 UID:09955615106be319@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T130000
 RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260815T000000Z
@@ -74,7 +74,7 @@ DESCRIPTION:Drop in and get creative with LEGO Club — build\, design\, a
 END:VEVENT
 BEGIN:VEVENT
 UID:d6d71801cf4c0e24@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260720T120000
 DTEND;TZID=America/New_York:20260720T133000
 RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260815T000000Z
@@ -88,7 +88,7 @@ DESCRIPTION:Board games and card games for kids. Summer schedule (through
 END:VEVENT
 BEGIN:VEVENT
 UID:d428c2b43cbbf796@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260721T093000
 DTEND;TZID=America/New_York:20260721T110000
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -104,7 +104,7 @@ DESCRIPTION:Free weekly playgroup for families with children through age 5
 END:VEVENT
 BEGIN:VEVENT
 UID:bf6b21a99d6a9e20@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260722T103000
 DTEND;TZID=America/New_York:20260722T110000
 RRULE:FREQ=WEEKLY;BYDAY=WE
@@ -117,7 +117,7 @@ DESCRIPTION:30 minutes of stories\, songs\, and fun for kids 5 & under and
 END:VEVENT
 BEGIN:VEVENT
 UID:e7dc13bf110a2262@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260723T103000
 DTEND;TZID=America/New_York:20260723T113000
 RRULE:FREQ=WEEKLY;BYDAY=TH
@@ -131,8 +131,401 @@ DESCRIPTION:Enriching music and movement for toddlers and preschoolers (ag
   Verified Jul 2026.\nSource: Brooks Memorial Library
 END:VEVENT
 BEGIN:VEVENT
+UID:25ec937f6b34bfd6@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T180000
+DTEND;TZID=America/New_York:20260820T190000
+SUMMARY:Youth Field Hockey Sign-Ups — Rockingham Recreation (Terrier Pup
+ s)
+LOCATION:Bellows Falls Union High School (BFUHS)\, Bellows Falls\, VT 05101
+URL:https://www.facebook.com/p/Rockingham-Recreation-100032044196464/
+CATEGORIES:sports\,grades K-6
+DESCRIPTION:In-person sign-ups for youth field hockey (Terrier Pups)\, gra
+ des K-6th\, Thursday Aug 20 2026\, 6-7pm at BFUHS. Sylvie (entering kinder
+ garten) is eligible. Source: Rockingham Recreation Facebook flyer image\, 
+ read Aug 18 2026. Verify no schedule change with Rockingham Rec Dept befor
+ e relying on it.\nSource: Rockingham Recreation
+END:VEVENT
+BEGIN:VEVENT
+UID:a8bbe919a8642fd8@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260831T090000
+DTEND;TZID=America/New_York:20260831T093000
+SUMMARY:Rockingham Youth Soccer — Registration Deadline (Grades Pre-K-6)
+LOCATION:Rockingham Recreation Dept\, 110 Playground Rd\, Bellows Falls\, 
+ VT 05101
+URL:https://www.facebook.com/p/Rockingham-Recreation-100032044196464/
+CATEGORIES:sports\,grades pre-K to 6
+DESCRIPTION:Fall youth soccer\, Boys & Girls grades Pre-K-6th\; cost $40. 
+ SIGN UP BY AUGUST 31\, 2026 at Rockingham Rec Dept (110 Playground Rd). Sy
+ lvie (entering kindergarten) is eligible. Source: Rockingham Recreation Fa
+ cebook flyer image\, read Aug 18 2026.\nSource: Rockingham Recreation
+END:VEVENT
+BEGIN:VEVENT
+UID:8d50c8288f7d6bdd@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T163000
+DTEND;TZID=America/New_York:20260821T193000
+SUMMARY:Vernon Food Truck Fridays — Governor Hunt House
+LOCATION:Governor Hunt House Community Center\, 322 Governor Hunt Rd\, Ver
+ non\, VT 05354
+URL:https://governorhunt.org
+CATEGORIES:family\,all ages
+DESCRIPTION:Family food-truck night\, 4:30-7:30pm\, rain or shine (indoor 
+ seating). DJ'd music\; historic-marker dedication 5:00pm\; bingo 6:00pm. A
+ ug 21 lineup: Bumble's Birria\, Fries of Providence\, J&B Curbside Caterin
+ g\, Mama T's\, The Lemon Wheel\, Vernon Creamie. Source: Governor Hunt Hou
+ se flyer via Life in Brattleboro FB group\, read Aug 18 2026.\nSource: Lif
+ e in Brattleboro Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:b1801a46e880282c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260918T163000
+DTEND;TZID=America/New_York:20260918T193000
+SUMMARY:Vernon Food Truck Fridays — Governor Hunt House
+LOCATION:Governor Hunt House Community Center\, 322 Governor Hunt Rd\, Ver
+ non\, VT 05354
+URL:https://governorhunt.org
+CATEGORIES:family\,all ages
+DESCRIPTION:Family food-truck night\, 4:30-7:30pm\, rain or shine (indoor 
+ seating). Monthly series (May-Oct). Source: Governor Hunt House flyer via 
+ Life in Brattleboro FB group\, read Aug 18 2026. Verify the Sep lineup clo
+ ser to the date.\nSource: Life in Brattleboro Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:b1fd89dd0367439b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261009T163000
+DTEND;TZID=America/New_York:20261009T193000
+SUMMARY:Vernon Food Truck Fridays — Governor Hunt House
+LOCATION:Governor Hunt House Community Center\, 322 Governor Hunt Rd\, Ver
+ non\, VT 05354
+URL:https://governorhunt.org
+CATEGORIES:family\,all ages
+DESCRIPTION:Family food-truck night\, 4:30-7:30pm\, rain or shine (indoor 
+ seating). Final date of the 2026 series. Source: Governor Hunt House flyer
+  via Life in Brattleboro FB group\, read Aug 18 2026. Verify closer to the
+  date.\nSource: Life in Brattleboro Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:bba0cd5472c574a8@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T103000
+DTEND;TZID=America/New_York:20260820T111500
+SUMMARY:Summertime Story Time — Wilder Memorial Library
+LOCATION:Wilder Memorial Library\, 24 Lawrence Hill Rd\, Weston\, VT 05161
+URL:https://www.facebook.com/groups/londonderryvtforum/
+CATEGORIES:storytime\,0-5
+DESCRIPTION:Summertime story time\, best for ages 0-5\; kids from all town
+ s welcome. Thursday Aug 20 2026\, 10:30am. Sylvie (age 4) fits. Likely the
+  final week of the summer series - verify the fall schedule with Wilder Me
+ morial Library before assuming it repeats. Source: flyer via Londonderry V
+ T Community Forum FB group\, read Aug 18 2026.\nSource: Londonderry Vermon
+ t Community Forum (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:a471d66b78d218e8@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260912T120000
+DTEND;TZID=America/New_York:20260912T133000
+SUMMARY:Dog Costume Contest — Weston Town Fair
+LOCATION:The Weston Playhouse\, 703 Main St\, Weston\, VT 05161
+URL:https://www.facebook.com/groups/londonderryvtforum/
+CATEGORIES:family\,all ages
+DESCRIPTION:Free-to-enter dog costume contest (Best Overall / Funniest / B
+ est VT Costume) at the Weston Town Fair\, sponsored by Coho Inn & Motor Lo
+ dge. Saturday Sept 12 2026\, 12:00pm at the Weston Playhouse. Family-frien
+ dly. Source: flyer via Londonderry VT Community Forum FB group\, read Aug 
+ 18 2026.\nSource: Londonderry Vermont Community Forum (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:91527ab7c999be1b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260905T110000
+DTEND;TZID=America/New_York:20260905T150000
+SUMMARY:Grafton Food & Antique Tractor/Car/Truck Festival + Mac & Cheese C
+ ookoff
+LOCATION:Grafton Ponds & Outdoor Center\, 783 Townshend Rd\, Grafton\, VT 
+ 05146
+URL:https://www.facebook.com/groups/49565028478/
+CATEGORIES:family\,all ages
+DESCRIPTION:Grafton Historical Society annual food & antique tractor/car/t
+ ruck show with a mac & cheese cookoff. Saturday Sept 5 2026\, 11am-3pm at 
+ Grafton Ponds & Outdoor Center. Kid-friendly (tractors/cars). To enter the
+  cookoff (space limited): grafhist@vermontel.net / 802-843-2584. Source: f
+ lyer via Saxtons River FB group\, read Aug 18 2026.\nSource: Saxtons River
+  (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:2dd36dd463f0b45a@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260926T110000
+DTEND;TZID=America/New_York:20260926T140000
+SUMMARY:Chili Fest — Saxtons River
+LOCATION:24 Main Street Community Building\, Saxtons River\, VT 05154
+URL:https://www.facebook.com/groups/49565028478/
+CATEGORIES:family\,all ages
+DESCRIPTION:Community Chili Fest fundraiser for the 24 Main Street Communi
+ ty Building\, Saxtons River (~6 mi). Saturday Sept 26 2026. SAVE-THE-DATE 
+ flyer — start time not yet published (11am is a placeholder)\; VERIFY th
+ e time before relying on it. Source: flyer via Saxtons River FB group\, re
+ ad Aug 18 2026.\nSource: Saxtons River (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:0d81e13f050175ba@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260830T160000
+DTEND;TZID=America/New_York:20260830T190000
+SUMMARY:Homegrown Festival — Next Stage Arts
+LOCATION:Next Stage Arts\, 15 Kimball Hill\, Putney\, VT 05346
+URL:https://www.nextstagearts.org/
+CATEGORIES:festival\,all ages
+DESCRIPTION:Outdoor music festival: The Gaslight Tinkers\, NECCA (New Engl
+ and Center for Circus Arts)\, and Zara Bode's Little Big Band. Sunday Aug 
+ 30 2026 — gates 3pm\, performances 4pm. Family-friendly (circus arts). S
+ ource: Next Stage Arts FB page + nextstagearts.org\, read Aug 18 2026.\nSo
+ urce: Next Stage Arts (page)
+END:VEVENT
+BEGIN:VEVENT
+UID:8f305565240cd54b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260828T190000
+DTEND;TZID=America/New_York:20260828T213000
+SUMMARY:The Thief of Bagdad (1924) with Live Pipe Organ
+LOCATION:Epsilon Spires\, 190 Main St\, Brattleboro\, VT 05301
+URL:https://www.epsilonspires.org/
+CATEGORIES:film\,all ages
+DESCRIPTION:Douglas Fairbanks silent-film classic with a live Estey pipe-o
+ rgan score by Jeff Rapsis\; billed 'Appropriate for All-Ages.' Friday Aug 
+ 28 2026\, doors 7pm. First in the Maximalist Mythologies series. Source: E
+ psilon Spires FB page\, read Aug 18 2026.\nSource: Epsilon Spires (page)
+END:VEVENT
+BEGIN:VEVENT
+UID:633e4a79c38afc2b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260912T193000
+DTEND;TZID=America/New_York:20260912T220000
+SUMMARY:Dark Sarcasm — Pink Floyd Tribute
+LOCATION:Bellows Falls Opera House\, 7 Village Square\, Bellows Falls\, VT
+  05101
+URL:https://www.bellowsfallsoperahouse.com/
+CATEGORIES:music\,all ages
+DESCRIPTION:Pink Floyd tribute band 'Dark Sarcasm' at the Bellows Falls Op
+ era House (0 mi). Saturday Sept 12 2026 — doors 6:30pm\, show 7:30pm. So
+ urce: BFOH Facebook page\, read Aug 18 2026.\nSource: Bellows Falls Opera 
+ House (page)
+END:VEVENT
+BEGIN:VEVENT
+UID:6051bb86245a176d@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260829T120000
+DTEND;TZID=America/New_York:20260829T130000
+SUMMARY:Community Cookout — Burgers & Hot Dogs
+URL:https://www.facebook.com/groups/1261535577193567/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
+ /Langdon/Walpole (group)\, 2026-08-18.\nSource: Alstead/Acworth/Charlestow
+ n/Langdon/Walpole (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:bb4b64c0f6f207eb@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260818T193000
+DTEND;TZID=America/New_York:20260818T203000
+SUMMARY:Pond Hill Pro Rodeo — Vermont State Fair (Rutland)
+URL:https://www.facebook.com/groups/1261535577193567/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
+ /Langdon/Walpole (group)\, 2026-08-18.\nSource: Alstead/Acworth/Charlestow
+ n/Langdon/Walpole (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:f3e6b6405d147e08@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T190000
+DTEND;TZID=America/New_York:20260819T200000
+SUMMARY:Demolition Derby — Vermont State Fair (Rutland)
+URL:https://www.facebook.com/groups/1261535577193567/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
+ /Langdon/Walpole (group)\, 2026-08-18.\nSource: Alstead/Acworth/Charlestow
+ n/Langdon/Walpole (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e7292cab93ae63@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T180000
+DTEND;TZID=America/New_York:20260820T190000
+SUMMARY:Tractor Pull — Vermont State Fair (Rutland)
+URL:https://www.facebook.com/groups/1261535577193567/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
+ /Langdon/Walpole (group)\, 2026-08-18.\nSource: Alstead/Acworth/Charlestow
+ n/Langdon/Walpole (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:8a51dcefedd0b112@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T090000
+DTEND;TZID=America/New_York:20260821T100000
+SUMMARY:Summer Reading Program: 'Unearth a Story'
+URL:https://www.facebook.com/groups/Brattleboro/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
+ p)\, 2026-08-18.\nSource: Brattleboro\, Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:adf4ba6ff6823137@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T173000
+DTEND;TZID=America/New_York:20260819T183000
+SUMMARY:Live Jazz & Crepes with Zara Bode
+URL:https://www.facebook.com/groups/Brattleboro/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
+ p)\, 2026-08-18.\nSource: Brattleboro\, Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:f58bcaf60d3d862a@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260903T154500
+DTEND;TZID=America/New_York:20260903T164500
+SUMMARY:New England Youth Theatre: The Phantom of the Opera
+URL:https://www.facebook.com/groups/Brattleboro/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
+ p)\, 2026-08-18.\nSource: Brattleboro\, Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:0476baddaef6de34@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260823T190000
+DTEND;TZID=America/New_York:20260823T200000
+SUMMARY:Homage to Bob Dylan: Blood on the Tracks
+URL:https://www.facebook.com/groups/Happeningsinandaroundspringfieldvermon
+ t/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Happenings in and Around Sp
+ ringfield Vermont (group)\, 2026-08-18.\nSource: Happenings in and Around 
+ Springfield Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:036bb86569a9fd3b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260904T193000
+DTEND;TZID=America/New_York:20260904T203000
+SUMMARY:Helen Gillet (Live Jazz) — Jamaica Town Hall
+URL:https://www.facebook.com/JamaicaVermont05343/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Jamaica\, Vermont 05343 (pa
+ ge)\, 2026-08-18.\nSource: Jamaica\, Vermont 05343 (page)
+END:VEVENT
+BEGIN:VEVENT
+UID:8008016578110fae@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260904T090000
+DTEND;TZID=America/New_York:20260904T100000
+SUMMARY:NH Combo Hoops — Fall Basketball Development (Keene)
+URL:https://www.facebook.com/groups/590336965446187/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Keene NH Kids Programs\, Ac
+ tivities & Events (group)\, 2026-08-18.\nSource: Keene NH Kids Programs\, 
+ Activities & Events (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:8865db0445ac5690@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260911T090000
+DTEND;TZID=America/New_York:20260911T100000
+SUMMARY:The Romp — Fun for All Ages
+URL:https://www.facebook.com/groups/Life.in.Brattleboro.Vermont/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Life in Brattleboro Vermont
+  (group)\, 2026-08-18.\nSource: Life in Brattleboro Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:414c467a83572223@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260913T100000
+DTEND;TZID=America/New_York:20260913T110000
+SUMMARY:September Sunflower Festival
+URL:https://www.facebook.com/groups/Life.in.Brattleboro.Vermont/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Life in Brattleboro Vermont
+  (group)\, 2026-08-18.\nSource: Life in Brattleboro Vermont (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:205efb81ee50777f@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260827T090000
+DTEND;TZID=America/New_York:20260827T100000
+SUMMARY:Community Lunch — Second Congregational Church
+URL:https://www.facebook.com/groups/londonderryvtforum/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Londonderry Vermont Communi
+ ty Forum (group)\, 2026-08-18.\nSource: Londonderry Vermont Community Foru
+ m (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:989fb4ba105a7a98@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260908T090000
+DTEND;TZID=America/New_York:20260908T100000
+SUMMARY:Emerald City Ballet — Children's Classes
+URL:https://www.facebook.com/groups/londonderryvtforum/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Londonderry Vermont Communi
+ ty Forum (group)\, 2026-08-18.\nSource: Londonderry Vermont Community Foru
+ m (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:4c49c6cbda2c8da4@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260918T094500
+DTEND;TZID=America/New_York:20260918T104500
+SUMMARY:Main Street Arts: Family Art with Valerie Kosednar
+URL:https://www.facebook.com/groups/49565028478/
+CATEGORIES:family\,all ages
+DESCRIPTION:Promoted from a Facebook flyer via Saxtons River (group)\, 202
+ 6-08-18.\nSource: Saxtons River (group)
+END:VEVENT
+BEGIN:VEVENT
+UID:016b942b581d6aa5@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T170000
+SUMMARY:Newfane Heritage Festival
+LOCATION:Newfane Common\, VT Route 30\, Newfane\, VT 05345
+URL:https://www.facebook.com/NewfaneHeritageFestival/
+CATEGORIES:festival\,all ages
+DESCRIPTION:52-year family festival on the Newfane Common (~22 mi): juried
+  artists & craftspeople\, food\, a Super Raffle\, and live entertainment. 
+ Runs Indigenous Peoples' Day weekend (Sat+Sun). DATE ESTIMATE: 2026 dates 
+ were still pending as of Aug 2026\; 2025 was Oct 11-12\, so Oct 10-11 2026
+  is the likely weekend. VERIFY at facebook.com/NewfaneHeritageFestival bef
+ ore relying on it.\nSource: Newfane Heritage Festival
+END:VEVENT
+BEGIN:VEVENT
+UID:7fdd525de34ebccc@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261113T183000
+DTEND;TZID=America/New_York:20261113T203000
+SUMMARY:The Man From Beyond (1922) with Live Pipe Organ — Houdini Centen
+ nial
+LOCATION:Epsilon Spires\, 190 Main St\, Brattleboro\, VT 05301
+URL:https://www.epsilonspires.org/
+CATEGORIES:film\,all ages
+DESCRIPTION:Harry Houdini silent adventure (1922) with a live Estey pipe-o
+ rgan score by Jeff Rapsis\, honoring Houdini's centennial. Friday Nov 13 2
+ 026\, 6:30pm. Second all-ages screening in Epsilon Spires' silent-film ser
+ ies (after The Thief of Bagdad). Billed all-ages. Verified Aug 19 2026 aga
+ inst epsilonspires.org / silentfilmlivemusic.blogspot.com.\nSource: Epsilo
+ n Spires (page)
+END:VEVENT
+BEGIN:VEVENT
 UID:e415be0e693b1a53@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260824T200000Z
 DTEND:20260824T210000Z
 SUMMARY:Library Build a Rama
@@ -144,8 +537,32 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:40ce036ef62f9bb7@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260829T150000Z
+DTEND:20260829T160000Z
+SUMMARY:Author Brinda Charry introduces Hocus Pocus
+LOCATION:Heberton Hall
+URL:https://keenenh.libcal.com/event/16999230
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Local Author Brinda Charry will be talking about her latest no
+ vel Hocus Pocus (Scribner\, August 11th) about a young magician who travel
+ s across the world seeking fame and fortune\, all the while hiding a secre
+ t. Based on the renowned\, real-life Indian stage magicians performing in 
+ the United States in the 1800's. \n\nThe East Indian\, her first work of f
+ iction published in the United States was awarded the Society of American 
+ Historians Prize (formerly the James Fenimore Cooper Prize) for Historical
+  Fiction\, and was shortlisted and longlisted for several other awards and
+  recognitions. The East Indian is available in print and audio from the Ke
+ ene Public Library. Brinda is also a specialist in English literature and 
+ has published a number of books and articles in that field. She currently 
+ lives in Keene\, New Hampshire\, with her husband and dogs.\n\nToadstool b
+ ookshop will be on hand selling her books. \n\nFor more information contac
+ t Amy Kraemer akraemer@keenenh.gov\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:15a2fe747843d87f@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260831T200000Z
 DTEND:20260831T210000Z
 SUMMARY:Library Build a Rama
@@ -157,8 +574,64 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:ecc9ddf321425de7@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260902T190000Z
+DTEND:20260902T200000Z
+SUMMARY:KPL Trustees Fine Art Cttee
+LOCATION:Miller-Vincent Room
+URL:https://keenenh.libcal.com/event/16292144
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:2c479f9125485721@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260905T140000Z
+DTEND:20260905T150000Z
+SUMMARY:Canning demonstration with Celeste Longacre
+LOCATION:Heberton Hall\, Heberton Hall Kitchen
+URL:https://keenenh.libcal.com/event/17162560
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Come and join Celeste Longacre for a hands-on demonstration of
+  canning. We will take some onions\, tomatoes\, basil\, thyme\, garlic and
+  oregano and whip up a delightful mix that we will then preserve in order 
+ to save it for the future. I refer to these jars in my pantry as "summer i
+ n a jar." Everyone will get a jar to take home.\n\nSpace is limited and re
+ gistration is required.\n\nQuestions or more information. Please contact A
+ my Kraemer akraemer@keenenh.gov\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:628b7cd63e1c1fac@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Library Closed for the Holiday
+URL:https://keenenh.libcal.com/event/15484663
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:b45a33000c8c8706@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260907T150000Z
+DTEND:20260907T170000Z
+SUMMARY:Community Resources: Monadnock Peer Support
+LOCATION:Circulation Lobby
+URL:https://keenenh.libcal.com/event/16766978
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Get information and connect with services through Monadnock Pe
+ er Support for recovery services\, mental health and wellness.\n\nMPS is a
+  member-driven organization that establishes a culture in which our member
+ s and participants feel more empowered to get support from and give suppor
+ t to peers. We provide many free services including 30  support groups wee
+ kly\, meals\, field trips\, respite stays and more! Visit https://www.mona
+ dnockpsa.org/ for more information or chat with a member during tabling.\n
+ Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:489a411a30e0562a@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260907T200000Z
 DTEND:20260907T210000Z
 SUMMARY:Library Build a Rama
@@ -171,7 +644,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:0444d97093c6bba0@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260910T220000Z
 DTEND:20260910T233000Z
 SUMMARY:So you want to start a family?  What to know about family law bef
@@ -190,8 +663,85 @@ DESCRIPTION:Raising your children is a constitutional right.  Marriage is
  \nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:d1f504b7c5e8e673@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260911T180000Z
+DTEND:20260911T200000Z
+SUMMARY:Create your own Rubber Stamp
+LOCATION:Kingsbury Makerspace
+URL:https://keenenh.libcal.com/event/17237115
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:This workshop will introduce you to materials and processes ne
+ eded to create your own Ex Libris bookplate rubber stamp using the laser e
+ ngraver and the 3d printer. \n\nTo participate in this workshop you must c
+ omplete the online tutorial: Introduction to the Makerspace and the Epilog
+  Laser Engraver Certification Tutorial.  Both tutorials can be found here:
+  https://my.nicheacademy.com/makerspacetutorials\n\nPlease complete both o
+ f these tutorials by Tuesday September 1st. If you have trouble accessing 
+ the tutorials or have questions please call the makerspace directly (603 7
+ 57-0621) and leave a message. We will respond within 48 hours. If you do n
+ ot complete the tutorials by this date your reservation will be cancelled 
+ and opened to a person on the wait-list.\n\nFor more information contact A
+ my Kraemer akraemer@keenenh.gov\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:5ccb0350735dee68@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260911T203000Z
+DTEND:20260911T213000Z
+SUMMARY:Kids Comic Club
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/17442873
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
+ gether\, discuss great graphic novels\, and watch interviews and tutorials
+  from our favorite artists. All skill levels are welcome\, and materials w
+ ill be provided! Meetings will be held on the second Friday of each month.
+ \n\nRegistration is appreciated. Questions or Concerns call the library 60
+ 3.352.0157.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:ad2c72e9e739edd5@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260912T150000Z
+DTEND:20260912T163000Z
+SUMMARY:PokéParty: 30th Anniversary Pokémon Celebration
+LOCATION:Heberton Hall\, Heberton Hall Kitchen
+URL:https://keenenh.libcal.com/event/17249916
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Pokémon fans ages 8 - 18 are invited to come celebrate the 30
+ th anniversary of our favorite multi-media franchise\, from trading cards 
+ to the cartoon to the video games. Bring some cards to trade\, decks to ba
+ ttle\, and your creativity for some Pokémon-themed crafts! No cards? No p
+ roblem! We'll have library-made booster packs (for free!) while supplies l
+ asts\, as well as pre-made decks so everyone can try their hand at a battl
+ e. \n\nWe encourage you to wear your Pokémon best\, whether that's a Pika
+ chu onesie\, an awesome Charizard t-shirt\, or your Pokémon trainer outfi
+ t!\n\nRegistration is appreciated :)\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:69c1bbe0602884ab@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260914T140000Z
+DTEND:20260914T160000Z
+SUMMARY:Community Resources: Childcare Aware of NH
+LOCATION:Circulation Lobby
+URL:https://keenenh.libcal.com/event/17094631
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Every second Monday of the month Child Care Aware of New Hamps
+ hire will be in the circulation lobby to connect families with resources. 
+ Child Care Aware® of New Hampshire seeks to improve the quality and acces
+ sibility of child care for families and providers alike. \n\nThrough Child
+  Care Aware® of New Hampshire\, Southern New Hampshire Services provides 
+ Child Care Resource & Referral (CCR&R) services to educate and support fam
+ ilies\, providers and the community regarding child care needs. We help ad
+ minister and maintain a free and confidential referral database of child c
+ are providers to connect families in need with available and qualified chi
+ ld care.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:2d85e3e38bf52f3c@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260914T200000Z
 DTEND:20260914T210000Z
 SUMMARY:Library Build a Rama
@@ -204,7 +754,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:b29e993289586969@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260919T213000Z
 DTEND:20260920T003000Z
 SUMMARY:International Observe the Moon Night
@@ -222,7 +772,7 @@ DESCRIPTION:Join Keene Public Librarians and our friends from the Keene Am
 END:VEVENT
 BEGIN:VEVENT
 UID:68b4b26552f034d9@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260921T200000Z
 DTEND:20260921T210000Z
 SUMMARY:Library Build a Rama
@@ -234,8 +784,30 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:5f8de4eef51f5300@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260924T220000Z
+DTEND:20260924T230000Z
+SUMMARY:Walking the White Blazes: Exploring the Appalachian Trail
+LOCATION:Ruth Huntress Auditorium
+URL:https://keenenh.libcal.com/event/17178782
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Stretching over 2\,190 miles from Georgia to Maine\, the Appal
+ achian Trail is one of the world's most famous footpath journeys. Join us 
+ for an engaging presentation that traces the history\, landscapes\, and cu
+ lture of "the A.T."\n\nWe’ll explore the rich origins of the trail\, jou
+ rney through the 14 states it traverses\, and highlight the diverse flora 
+ and fauna—from mountain laurels to black bears—that hikers encounter a
+ long the way. You’ll also learn unique trail lingo like thru-hiking\, tr
+ ail magic\, and zero days. Whether you're an experienced backpacker\, a ca
+ sual day-hiker\, or an armchair traveler\, you'll leave with a deeper appr
+ eciation for this iconic American treasure.\n\nPresented by Jay Fee\, who 
+ hiked the Appalachian Trail in 2000\, and is now Library Systems Administr
+ ator for the Keene Public Library.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:4f88c06e38ae7451@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260928T200000Z
 DTEND:20260928T210000Z
 SUMMARY:Library Build a Rama
@@ -247,8 +819,32 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:98b03feb920b0ed1@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20260929T220000Z
+DTEND:20260929T230000Z
+SUMMARY:Digital Resource Spotlight: Peterson's Test and Career Prep
+LOCATION:Masiello Classroom
+URL:https://keenenh.libcal.com/event/17178647
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Did you know your library card gives you free access to powerf
+ ul online learning platforms\, skill-building tools\, and interactive data
+ bases? Each month\, join us for a step-by-step demonstration of one of our
+  featured digital resources. We’ll guide you through setting up an accou
+ nt\, navigating the platform\, and making the most of its features for per
+ sonal growth or career development. Bring your device to follow along\, or
+  just sit back and watch!\n\nThis Month: Peterson's Test and Career Prep p
+ repares you for upcoming standardized tests\, like the ACT\, SAT\, AP\, CL
+ EP\, etc.\, and your college experience. It also offers in-depth informati
+ on on undergraduate and graduate programs\, tuition and scholarship assist
+ ance\, and more. Studying for U.S. Citizenship or preparing for the Firefi
+ ghter exam? This digital resource has you covered. Plus\, it provides temp
+ lates for creating resumés and cover letters.\nSource: Keene Public Libra
+ ry
+END:VEVENT
+BEGIN:VEVENT
 UID:00bb456007fe61d4@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20260930T143000Z
 DTEND:20260930T151500Z
 SUMMARY:Preschool Storytime
@@ -267,7 +863,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:fd01b1066298d02a@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261001T143000Z
 DTEND:20261001T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -283,8 +879,26 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
   session in the series.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:a58c17ea76544f57@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261005T150000Z
+DTEND:20261005T170000Z
+SUMMARY:Community Resources: Monadnock Peer Support
+LOCATION:Circulation Lobby
+URL:https://keenenh.libcal.com/event/16766979
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Get information and connect with services through Monadnock Pe
+ er Support for recovery services\, mental health and wellness.\n\nMPS is a
+  member-driven organization that establishes a culture in which our member
+ s and participants feel more empowered to get support from and give suppor
+ t to peers. We provide many free services including 30  support groups wee
+ kly\, meals\, field trips\, respite stays and more! Visit https://www.mona
+ dnockpsa.org/ for more information or chat with a member during tabling.\n
+ Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:c10d0a69ed061561@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261005T200000Z
 DTEND:20261005T210000Z
 SUMMARY:Library Build a Rama
@@ -297,7 +911,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:09bdfd35099222e7@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261007T143000Z
 DTEND:20261007T151500Z
 SUMMARY:Music preschool Storytime with Kim
@@ -315,8 +929,19 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
  ember 18th.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:dfd5f47873eca65f@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261007T190000Z
+DTEND:20261007T200000Z
+SUMMARY:KPL Trustees Fine Art Cttee
+LOCATION:Miller-Vincent Room
+URL:https://keenenh.libcal.com/event/16292145
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:ca01684b2b5aa361@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261008T143000Z
 DTEND:20261008T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -332,8 +957,79 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
   session in the series.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:3c5b8613a0d5672f@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261009T203000Z
+DTEND:20261009T213000Z
+SUMMARY:Kids Comic Club
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/17442891
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
+ gether\, discuss great graphic novels\, and watch interviews and tutorials
+  from our favorite artists. All skill levels are welcome\, and materials w
+ ill be provided! Meetings will be held on the second Friday of each month.
+ \n\nRegistration is appreciated. Questions or Concerns call the library 60
+ 3.352.0157.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:f7314da25e20b92a@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261010T150000Z
+DTEND:20261010T163000Z
+SUMMARY:Mel Allen Author talk Listening to New England
+LOCATION:Heberton Hall
+URL:https://keenenh.libcal.com/event/16326529
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:We are very happy to host long-time writer and editor of Yanke
+ e magazine\, Mel Allen. "Listening to New England" is a 45-minute talk wit
+ h images from Mel's nearly half-centrury of reporting and writing about th
+ e unique people and places of New England for Yankee Magazine. This emotiv
+ e presentation will let you see and feel the region in a unique way.  He w
+ ill talk about Yankee's past and how it has survived for 90 years since it
+ s founding in 1935. There will be time for questions and answers after his
+  presentation.\n\nToadstool Bookshop will be on hand selling Mel's newest 
+ book Here in New England: Unforgettable people\, places and memories that 
+ connect us all. Mel will be happy to sign your copy. \n\nYou can listen to
+  NPR's "Here and Now" interview with Mel about Here in New England.\n\nThe
+  Keene Public Library has a nearly complete archive of Yankee Magazine for
+  people to look through.  Just ask at the reference desk.\n\nFor more info
+ rmation\, please contact Amy Kraemer: akraemer@keenenh.gov\nSource: Keene 
+ Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:f5e392db75af6266@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Library Closed for the Holiday
+URL:https://keenenh.libcal.com/event/15484664
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:6da2f0b8c0d7d54d@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261012T140000Z
+DTEND:20261012T160000Z
+SUMMARY:Community Resources: Childcare Aware of NH
+LOCATION:Circulation Lobby
+URL:https://keenenh.libcal.com/event/17094632
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Every second Monday of the month Child Care Aware of New Hamps
+ hire will be in the circulation lobby to connect families with resources. 
+ Child Care Aware® of New Hampshire seeks to improve the quality and acces
+ sibility of child care for families and providers alike. \n\nThrough Child
+  Care Aware® of New Hampshire\, Southern New Hampshire Services provides 
+ Child Care Resource & Referral (CCR&R) services to educate and support fam
+ ilies\, providers and the community regarding child care needs. We help ad
+ minister and maintain a free and confidential referral database of child c
+ are providers to connect families in need with available and qualified chi
+ ld care.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:650831c756ed9f54@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261012T200000Z
 DTEND:20261012T210000Z
 SUMMARY:Library Build a Rama
@@ -346,7 +1042,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:482aaedc6cb53c94@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261014T143000Z
 DTEND:20261014T151500Z
 SUMMARY:@Stonewall Farm preschool Storytime
@@ -365,7 +1061,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:b3a0ba736c0bcbea@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261015T143000Z
 DTEND:20261015T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -382,7 +1078,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:addf799736432f86@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261019T200000Z
 DTEND:20261019T210000Z
 SUMMARY:Library Build a Rama
@@ -395,7 +1091,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:678769777270d632@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261021T143000Z
 DTEND:20261021T151500Z
 SUMMARY:Preschool Storytime
@@ -414,7 +1110,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:41d5dec39da2eb14@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261022T143000Z
 DTEND:20261022T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -431,7 +1127,7 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
 END:VEVENT
 BEGIN:VEVENT
 UID:ae0d7e619d5f796a@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261026T200000Z
 DTEND:20261026T210000Z
 SUMMARY:Library Build a Rama
@@ -444,7 +1140,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:0a95dca4a52dd16a@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261028T143000Z
 DTEND:20261028T151500Z
 SUMMARY:Preschool Storytime
@@ -463,7 +1159,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:41fd2a6a8979e63b@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261029T143000Z
 DTEND:20261029T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -479,8 +1175,26 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
   session in the series.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:3a65c3d7d0d761be@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261102T160000Z
+DTEND:20261102T180000Z
+SUMMARY:Community Resources: Monadnock Peer Support
+LOCATION:Circulation Lobby
+URL:https://keenenh.libcal.com/event/16766980
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Get information and connect with services through Monadnock Pe
+ er Support for recovery services\, mental health and wellness.\n\nMPS is a
+  member-driven organization that establishes a culture in which our member
+ s and participants feel more empowered to get support from and give suppor
+ t to peers. We provide many free services including 30  support groups wee
+ kly\, meals\, field trips\, respite stays and more! Visit https://www.mona
+ dnockpsa.org/ for more information or chat with a member during tabling.\n
+ Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:569da0da22298c10@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261102T210000Z
 DTEND:20261102T220000Z
 SUMMARY:Library Build a Rama
@@ -493,7 +1207,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:e54339a0f56de56f@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261104T153000Z
 DTEND:20261104T161500Z
 SUMMARY:Music Preschool Storytime with Kim
@@ -511,8 +1225,19 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
  ember 18th.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:09c194f924ec987b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261104T200000Z
+DTEND:20261104T210000Z
+SUMMARY:KPL Trustees Fine Art Cttee
+LOCATION:Miller-Vincent Room
+URL:https://keenenh.libcal.com/event/16292146
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:e459fb91a8ba4adf@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261105T153000Z
 DTEND:20261105T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -528,8 +1253,28 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
   session in the series.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:9f8b91c7d2a7c5d9@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261109T150000Z
+DTEND:20261109T170000Z
+SUMMARY:Community Resources: Childcare Aware of NH
+LOCATION:Circulation Lobby
+URL:https://keenenh.libcal.com/event/17094633
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Every second Monday of the month Child Care Aware of New Hamps
+ hire will be in the circulation lobby to connect families with resources. 
+ Child Care Aware® of New Hampshire seeks to improve the quality and acces
+ sibility of child care for families and providers alike. \n\nThrough Child
+  Care Aware® of New Hampshire\, Southern New Hampshire Services provides 
+ Child Care Resource & Referral (CCR&R) services to educate and support fam
+ ilies\, providers and the community regarding child care needs. We help ad
+ minister and maintain a free and confidential referral database of child c
+ are providers to connect families in need with available and qualified chi
+ ld care.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:ff917578dd6e3a66@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261109T210000Z
 DTEND:20261109T220000Z
 SUMMARY:Library Build a Rama
@@ -541,8 +1286,18 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:224e77cee4283a87@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Library Closed for the Holiday
+URL:https://keenenh.libcal.com/event/15484665
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:441069195ee56d2c@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261112T153000Z
 DTEND:20261112T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -558,8 +1313,24 @@ DESCRIPTION:We'll share books\, rhymes\, music\, fun fingerplays\, puppets
   session in the series.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:05fa01ce8fb9e48c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261113T213000Z
+DTEND:20261113T223000Z
+SUMMARY:Kids Comic Club
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/17443349
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
+ gether\, discuss great graphic novels\, and watch interviews and tutorials
+  from our favorite artists. All skill levels are welcome\, and materials w
+ ill be provided! Meetings will be held on the second Friday of each month.
+ \n\nRegistration is appreciated. Questions or Concerns call the library 60
+ 3.352.0157.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:dcaed9120b7c9b43@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261116T210000Z
 DTEND:20261116T220000Z
 SUMMARY:Library Build a Rama
@@ -572,7 +1343,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:1158868489650c44@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261118T153000Z
 DTEND:20261118T161500Z
 SUMMARY:Preschool Storytime
@@ -591,7 +1362,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:939f214f30cbe07a@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261123T210000Z
 DTEND:20261123T220000Z
 SUMMARY:Library Build a Rama
@@ -603,8 +1374,28 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:3753b75d04409165@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261125T213000Z
+DTEND:20261126T010000Z
+SUMMARY:Library Closes at 4:30 pm
+URL:https://keenenh.libcal.com/event/15795553
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e0ec6c019202f71c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Keene Public Library closed for the Holiday
+URL:https://keenenh.libcal.com/event/15484671
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:bc8a3518303154ec@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261130T210000Z
 DTEND:20261130T220000Z
 SUMMARY:Library Build a Rama
@@ -616,8 +1407,39 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:335a4b44d52560d1@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261202T170000Z
+DTEND:20261202T220000Z
+SUMMARY:American Red Cross Blood Drive
+LOCATION:Heberton Hall
+URL:https://keenenh.libcal.com/event/17124292
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Join KPL and the Red Cross for a summer blood drive! Consider 
+ donating blood to help others in need. Please call 1-800-RED CROSS (1-800-
+ 733-2767) or visit RedCrossBlood.org and enter: KEENE to schedule an appoi
+ ntment. Maximize your blood donation and help more patients. If you are an
+  eligible type O\, B - or A - donor\, consider making a Power Red donation
+ . Red blood cells are the most commonly transfused blood component. Stream
+ line your donation experience and save up to 15 minutes by visiting RedCro
+ ssBlood.org/RapidPass to complete your pre-donation reading and health his
+ tory questions on the day of your appointment.\nSource: Keene Public Libra
+ ry
+END:VEVENT
+BEGIN:VEVENT
+UID:b5dd723d164bd0b0@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261202T200000Z
+DTEND:20261202T210000Z
+SUMMARY:KPL Trustees Fine Art Cttee
+LOCATION:Miller-Vincent Room
+URL:https://keenenh.libcal.com/event/16292147
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:12cc3fcb122d6b99@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261207T210000Z
 DTEND:20261207T220000Z
 SUMMARY:Library Build a Rama
@@ -630,7 +1452,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:38828a9c3501cab0@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261209T153000Z
 DTEND:20261209T161500Z
 SUMMARY:Holiday Storytime with Kim Wallach
@@ -643,8 +1465,44 @@ DESCRIPTION:Come celebrate the season with Kim Wallach.  Kim will share st
  ic Library
 END:VEVENT
 BEGIN:VEVENT
+UID:dace9c18961a6cc8@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261211T213000Z
+DTEND:20261211T223000Z
+SUMMARY:Kids Comic Club
+LOCATION:Kay Fox Room
+URL:https://keenenh.libcal.com/event/17443366
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
+ gether\, discuss great graphic novels\, and watch interviews and tutorials
+  from our favorite artists. All skill levels are welcome\, and materials w
+ ill be provided! Meetings will be held on the second Friday of each month.
+ \n\nRegistration is appreciated. Questions or Concerns call the library 60
+ 3.352.0157.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:68a6c8508437808a@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261214T150000Z
+DTEND:20261214T170000Z
+SUMMARY:Community Resources: Childcare Aware of NH
+LOCATION:Circulation Lobby
+URL:https://keenenh.libcal.com/event/17094634
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Every second Monday of the month Child Care Aware of New Hamps
+ hire will be in the circulation lobby to connect families with resources. 
+ Child Care Aware® of New Hampshire seeks to improve the quality and acces
+ sibility of child care for families and providers alike. \n\nThrough Child
+  Care Aware® of New Hampshire\, Southern New Hampshire Services provides 
+ Child Care Resource & Referral (CCR&R) services to educate and support fam
+ ilies\, providers and the community regarding child care needs. We help ad
+ minister and maintain a free and confidential referral database of child c
+ are providers to connect families in need with available and qualified chi
+ ld care.\nSource: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:6a895cf082248a7b@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261214T210000Z
 DTEND:20261214T220000Z
 SUMMARY:Library Build a Rama
@@ -657,7 +1515,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:cb5578fd3ea9ae1e@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261221T210000Z
 DTEND:20261221T220000Z
 SUMMARY:Library Build a Rama
@@ -669,8 +1527,28 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:778b1e20aa2869f9@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261224T213000Z
+DTEND:20261225T010000Z
+SUMMARY:Library Closes at 4:30 pm
+URL:https://keenenh.libcal.com/event/15484698
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:a9320c7eb75a0ffc@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Library Closed for the Holiday
+URL:https://keenenh.libcal.com/event/15484676
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:537c4160a72da8dd@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART:20261228T210000Z
 DTEND:20261228T220000Z
 SUMMARY:Library Build a Rama
@@ -682,8 +1560,105 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
  ld-a-Rama club is open to kids of all ages.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:dbb8562cf7e5e044@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20261231T213000Z
+DTEND:20270101T010000Z
+SUMMARY:Library Closes at 4:30 for Holiday
+URL:https://keenenh.libcal.com/event/15484904
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:572172c473254d33@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Library Closed for the Holiday
+URL:https://keenenh.libcal.com/event/15795559
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Source: Keene Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:6577b073956f9906@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART:20270210T170000Z
+DTEND:20270210T220000Z
+SUMMARY:American Red Cross Blood Drive
+LOCATION:Heberton Hall
+URL:https://keenenh.libcal.com/event/17124293
+CATEGORIES:kids\,Keene Public Library
+DESCRIPTION:Join KPL and the Red Cross for a summer blood drive! Consider 
+ donating blood to help others in need. Please call 1-800-RED CROSS (1-800-
+ 733-2767) or visit RedCrossBlood.org and enter: KEENE to schedule an appoi
+ ntment. Maximize your blood donation and help more patients. If you are an
+  eligible type O\, B - or A - donor\, consider making a Power Red donation
+ . Red blood cells are the most commonly transfused blood component. Stream
+ line your donation experience and save up to 15 minutes by visiting RedCro
+ ssBlood.org/RapidPass to complete your pre-donation reading and health his
+ tory questions on the day of your appointment.\nSource: Keene Public Libra
+ ry
+END:VEVENT
+BEGIN:VEVENT
+UID:04a75a2c7455cc15@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T163000
+DTEND;TZID=America/New_York:20260819T180000
+SUMMARY:Friends of the Library
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/friends-of-the-library-4/2026-08-19/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Monthly meeting of the Friends of the Library. Community atten
+ dance and commentary is welcome! \nFriends of the Library\nSource: Brooks 
+ Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:dd015cbc49dcc43a@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T180000
+DTEND;TZID=America/New_York:20260826T200000
+SUMMARY:Amanda Janoo Campaign Kickoff
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/amanda-janoo-campaign-kickoff/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Windham County for Amanda Janoo is sponsoring an event kicking
+  off Amanda’s general election campaign for Governor of Vermont on Wedne
+ sday\, August 26\, from 6-8 PM in the Brooks Library Community Room. Those
+  of us who worked to help her win the Democratic primary welcome everyone 
+ who wants to learn more about Amanda Janoo\, why she has been exciting Ver
+ monters around the state\, and how you can help her become our next govern
+ or.\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:234f48e1617b3e0f@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260901T180000
+DTEND;TZID=America/New_York:20260901T204500
+SUMMARY:Mineralogical Society
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/mineralogical-society-5/2026-09-01/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Join the Brattleboro Mineralogical Society to discuss Minerals
+  and other Geological topics!\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:9bd1d611fea1418d@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260902T153000
+DTEND;TZID=America/New_York:20260902T170000
+SUMMARY:Vermont Pastel Society
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/vermont-pastel-society-3/2026-09-02/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:pastel painting\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
 UID:6f697dbf5dc2a728@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260903T150000
 DTEND;TZID=America/New_York:20260903T170000
 SUMMARY:LEGO-Palooza
@@ -698,52 +1673,312 @@ DESCRIPTION:Join us on the first Thursday of every month after school from
  urce: Brooks Memorial Library
 END:VEVENT
 BEGIN:VEVENT
-UID:3470d06ac58a10ef@kidcal
-DTSTAMP:20260818T112706Z
-DTSTART;TZID=America/New_York:20260818T080000
-DTEND;TZID=America/New_York:20260818T170000
-SUMMARY:Summer Infant and Toddler Playgroup
-LOCATION:Fletcher Memorial Library\, 88 Main Street\, Ludlow\, VT\, 05149
-URL:https://vermontjournal.com/event/summer-infant-and-toddler-playgroup/2
- 026-08-18/
-CATEGORIES:kids\,Vermont Journal & Shopper
-DESCRIPTION:LUDLOW\, Vt. – The summer infant and toddler playgroup at th
- e Fletcher Memorial Library\, 88 Main Street\, is held on Tuesday mornings
- \, from 10:30 a.m. – 12 p.m. This playgroup is best suited for children 
- ages 5 and younger\, and is a great opportunity for kids and families to m
- eet and enjoy interactive time together. Whether it’s playing with cars\
- , cooking up a meal in the play kitchen\, or sharing a story\, there are p
- lenty of activities available to choose from.\nSource: Vermont Journal & S
- hopper
+UID:455ff46b4d427d63@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260904T133000
+DTEND;TZID=America/New_York:20260904T150000
+SUMMARY:WFC Collage Club
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/wfc-collage-club-2/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Women’s Freedom Center Femmes and Thems Collage Club\nSource
+ : Brooks Memorial Library
 END:VEVENT
 BEGIN:VEVENT
-UID:07ca682392e7de5f@kidcal
-DTSTAMP:20260818T112706Z
-DTSTART;TZID=America/New_York:20260818T100000
-DTEND;TZID=America/New_York:20260818T113000
-SUMMARY:Playgroup for Wee Littles (0-5) and Caregivers
-LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
-  States
-URL:https://vermontjournal.com/event/playgroup-for-wee-littles-0-5-caregiv
- ers/2026-08-18/
-CATEGORIES:kids\,Vermont Journal & Shopper
-DESCRIPTION:CHESTER\, Vt. – Whiting Library is home to a weekly playgrou
- p for the Wee Littles (0-5 years old) and their caregivers on Tuesdays\, f
- rom 10-11:30 a.m. This is a free\, fun\, and relaxed gathering where littl
- e kids play while their grown-ups supervise and socialize. \nYou don’t n
- eed to pre-register\; you can just drop into the library Community Room. S
- tay as long or as little as you like. Our playtime is geared towards careg
- ivers who want to find friendships and build connections with their childr
- en and the greater wee little people (0-5 years old) community. \nFun and 
- games\, plus art and craft projects in the community room downstairs – a
- vailable to enjoy when the Community Room is not booked for other events. 
- \nEveryone learns best through play. Contact our youth librarian for more 
- information via youthlibrarian@whitinglibrary.org\, or call 802-875-2277.\
- nSource: Vermont Journal & Shopper
+UID:7b92935f21edff8e@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260904T170000
+DTEND;TZID=America/New_York:20260904T190000
+SUMMARY:Friends of Brooks Memorial Library Ice Cream Social at Gallery Walk
+LOCATION:Gallery Walk\, Harmony Place\, Brattleboro\, Vermont\, 05301\, Un
+ ited States
+URL:https://brookslibraryvt.org/event/friends-of-brooks-memorial-library-i
+ ce-cream-social-at-gallery-walk/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:The Friends of Brooks Memorial Library invite you to an old fa
+ shioned ice cream social at September’s Gallery Walk to celebrate Librar
+ y Card Sign Up Month. Join us from 5-7pm or until the ice cream runs out! 
+ Dairy and vegan options available. Ice cream is by donation.\nSource: Broo
+ ks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:b51401f3056eb0fe@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260907T100000
+DTEND;TZID=America/New_York:20260907T210000
+SUMMARY:LIBRARY CLOSED
+LOCATION:Brooks Memorial Library\, 224 Main Street\, Brattleboro\, VT\, 05
+ 301\, United States
+URL:https://brookslibraryvt.org/event/library-closed-26/2026-09-07/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:The library will be closed in observation of Labor Day.\nSourc
+ e: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:0569d4b385d7e925@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260907T190000
+DTEND;TZID=America/New_York:20260907T210000
+SUMMARY:Brattleboro Great Books Group
+LOCATION:Meeting Room D – Quiet Reading Room\, 224 Main Street\, Brattle
+ boro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/brattleboro-great-books-group-4/2026
+ -09-07/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Monthly discussion of “Great Books”\nSource: Brooks Memori
+ al Library
+END:VEVENT
+BEGIN:VEVENT
+UID:2ffee80f4c14d708@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260909T183000
+DTEND;TZID=America/New_York:20260909T200000
+SUMMARY:Joyriding: Sex\, Drugs and Adventure on the 1970s Gringo Trail - B
+ ook Launch with Joyce Marcel
+LOCATION:Main Reading Room
+URL:https://brookslibraryvt.org/event/joyriding-sex-drugs-and-adventure-on
+ -the-1970s-gringo-trail-book-launch-with-joyce-marcel/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:All are welcome to the formal roll-out of Joyce Marcel’s new
+  book\, Joyriding: Sex\, Drugs and Adventure on the 1970s Gringo Trail\, b
+ eing held in the Main Reading Room at 6:30 p.m. on Wednesday\, September 9
+ th. \nMarcel\, one of Vermont’s best-known journalists\, will be intervi
+ ewed by someone who knows her well\, her husband\, The Commons news editor
+  Randy Holhut. They will talk about the adventures she describes in her bo
+ ok — which include galloping a race horse up a snow-capped volcano\, bei
+ ng cured of hepatitis by a witch doctor\, and\, improbably\, becoming ship
+ wrecked in the Amazon — as well as her creative process. \nThe talk will
+  be recorded by BCTV and later broadcast on its Community Channel 1078 and
+  website brattleboro.tv\, as well as on its YouTube page. \nWe hope you ca
+ n join us for the stories and laughter in what promises to be an engaging 
+ conversation and delightful event. \nSigned copies will be available for s
+ ale. More about the book can be found on Joyce’s website: https://new.jo
+ ycemarcel.com/\nSource: Brooks Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:544e55015b44814f@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260915T190000
+DTEND;TZID=America/New_York:20260915T210000
+SUMMARY:SEVT Audubon Society
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/sevt-audubon-society-3/2026-09-15/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Join South Eastern Vermont’s Audubon Society for a monthly p
+ rogram featuring nature and the environment.\nSource: Brooks Memorial Libr
+ ary
+END:VEVENT
+BEGIN:VEVENT
+UID:b7cbf4f8dc7f45da@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260916T163000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Friends of the Library
+LOCATION:Meeting Room A – Community Meeting Room\, 224 Main Street\, Bra
+ ttleboro\, VT\, 05301\, United States
+URL:https://brookslibraryvt.org/event/friends-of-the-library-4/2026-09-16/
+CATEGORIES:kids\,Brooks Memorial Library
+DESCRIPTION:Monthly meeting of the Friends of the Library. Community atten
+ dance and commentary is welcome! \nFriends of the Library\nSource: Brooks 
+ Memorial Library
+END:VEVENT
+BEGIN:VEVENT
+UID:7ab0bb491e02fa64@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T150000
+DTEND;TZID=America/New_York:20260819T160000
+SUMMARY:Putney Amblers Walking Group
+URL:https://putneylibrary.org/event/putney-amblers-walking-group-3/2026-08
+ -19/
+CATEGORIES:kids\,Putney Public Library
+DESCRIPTION:Would you like to get outside and walk in the company of other
+ s? The Putney Amblers is a casual walking group sponsored by Putney Public
+  Library. Moseying with others is a great way to get out and be a part of 
+ a community group.\nThe Putney Amblers meet for walks at 3:00 pm on Wednes
+ days\, changing spots and routes each week. Please feel free to join us on
+  an impromptu basis\, or email Susan Heimer to register to get weekly loca
+ tion and weather-related updates: heimer.susan@gmail.com Walks will last f
+ rom 60-90 minutes depending on the will of the group.\nSource: Putney Publ
+ ic Library
+END:VEVENT
+BEGIN:VEVENT
+UID:5b55783db9162ecb@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T150000
+DTEND;TZID=America/New_York:20260826T160000
+SUMMARY:Putney Amblers Walking Group
+URL:https://putneylibrary.org/event/putney-amblers-walking-group-3/2026-08
+ -26/
+CATEGORIES:kids\,Putney Public Library
+DESCRIPTION:Would you like to get outside and walk in the company of other
+ s? The Putney Amblers is a casual walking group sponsored by Putney Public
+  Library. Moseying with others is a great way to get out and be a part of 
+ a community group.\nThe Putney Amblers meet for walks at 3:00 pm on Wednes
+ days\, changing spots and routes each week. Please feel free to join us on
+  an impromptu basis\, or email Susan Heimer to register to get weekly loca
+ tion and weather-related updates: heimer.susan@gmail.com Walks will last f
+ rom 60-90 minutes depending on the will of the group.\nSource: Putney Publ
+ ic Library
+END:VEVENT
+BEGIN:VEVENT
+UID:f5410572c7a46f7e@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T100000
+DTEND;TZID=America/New_York:20260821T113000
+SUMMARY:Explore the Mysteries of our Brook
+URL:https://moorefreelibrary.org/event/explore-the-mysteries-of-our-brook/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Join us at the end of the Summer Reading Program – Aug. 21\,
+  10:00 am to unearth the mysteries of our local brook.  The workshop will
+  be run by Bonnyvale Environmental Education Ctr.  (BEEC).  Please let u
+ s know that you are coming.  802-365-7948.\nSource: Moore Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd0877f8afa5b7e@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260827T170000
+DTEND;TZID=America/New_York:20260827T180000
+SUMMARY:Technology Help at the MFL
+URL:https://moorefreelibrary.org/event/technology-help-at-the-mfl-11/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Need basic tech help or to practice your technology skills?  
+ We can help you at the library. \nHere is how it works: We will be offerin
+ g one-to-one tech help with basic computer or mobile device questions.  T
+ he appts will be for 30 min scheduled by a phone call to the library.  80
+ 2-365-7948.  The service will be offered the 2nd and 4th Thursday of the 
+ month from 5:00 to 6:00 pm. \n(thanks to the Friends of the MFL for fundin
+ g the project and Cameron Misnick for providing the service.)\nSource: Moo
+ re Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:1b3da68dcf35928d@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260910T170000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Technology Help at the MFL
+URL:https://moorefreelibrary.org/event/technology-help-at-the-mfl-12/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Need basic tech help or to practice your technology skills?  
+ We can help you at the library. \nHere is how it works: We will be offerin
+ g one-to-one tech help with basic computer or mobile device questions.  T
+ he appts will be for 30 min scheduled by a phone call to the library.  80
+ 2-365-7948.  The service will be offered the 2nd and 4th Thursday of the 
+ month from 5:00 to 6:00 pm. \n(thanks to the Friends of the MFL for fundin
+ g the project and Cameron Misnick for providing the service.)\nSource: Moo
+ re Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:d3206f6f05c65a4e@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260919T103000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:State Representative Emily Long Office Hours
+URL:https://moorefreelibrary.org/event/state-representative-emily-long-off
+ ice-hours-6/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Join State Representative Emily Long for her Office Hours at t
+ he MFL.  Saturday\, September 19\, 10:30 to 12:00.  All are welcome.\nSo
+ urce: Moore Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:3925d6f857a903df@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260924T170000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Technology Help at the MFL
+URL:https://moorefreelibrary.org/event/technology-help-at-the-mfl-13/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Need basic tech help or to practice your technology skills?  
+ We can help you at the library. \nHere is how it works: We will be offerin
+ g one-to-one tech help with basic computer or mobile device questions.  T
+ he appts will be for 30 min scheduled by a phone call to the library.  80
+ 2-365-7948.  The service will be offered the 2nd and 4th Thursday of the 
+ month from 5:00 to 6:00 pm. \n(thanks to the Friends of the MFL for fundin
+ g the project and Cameron Misnick for providing the service.)\nSource: Moo
+ re Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:f2b4f3bb36b6be0d@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261008T170000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Technology Help at the MFL
+URL:https://moorefreelibrary.org/event/technology-help-at-the-mfl-14/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Need basic tech help or to practice your technology skills?  
+ We can help you at the library. \nHere is how it works: We will be offerin
+ g one-to-one tech help with basic computer or mobile device questions.  T
+ he appts will be for 30 min scheduled by a phone call to the library.  80
+ 2-365-7948.  The service will be offered the 2nd and 4th Thursday of the 
+ month from 5:00 to 6:00 pm. \n(thanks to the Friends of the MFL for fundin
+ g the project and Cameron Misnick for providing the service.)\nSource: Moo
+ re Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:d842da7b9dc0cb48@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261017T103000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:State Representative Emily Long Office Hours
+URL:https://moorefreelibrary.org/event/state-representative-emily-long-off
+ ice-hours-7/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Join State Representative Emily Long for her Office Hours at t
+ he MFL.  Saturday\, September 19\, 10:30 to 12:00.  All are welcome.\nSo
+ urce: Moore Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:d9f1f0212a28dfaa@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261022T170000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Technology Help at the MFL
+URL:https://moorefreelibrary.org/event/technology-help-at-the-mfl-15/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Need basic tech help or to practice your technology skills?  
+ We can help you at the library. \nHere is how it works: We will be offerin
+ g one-to-one tech help with basic computer or mobile device questions.  T
+ he appts will be for 30 min scheduled by a phone call to the library.  80
+ 2-365-7948.  The service will be offered the 2nd and 4th Thursday of the 
+ month from 5:00 to 6:00 pm. \n(thanks to the Friends of the MFL for fundin
+ g the project and Cameron Misnick for providing the service.)\nSource: Moo
+ re Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:fa6b08ba7ae52b8c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261112T170000
+DTEND;TZID=America/New_York:20261112T180000
+SUMMARY:Technology Help at the MFL
+URL:https://moorefreelibrary.org/event/technology-help-at-the-mfl-16/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Need basic tech help or to practice your technology skills?  
+ We can help you at the library. \nHere is how it works: We will be offerin
+ g one-to-one tech help with basic computer or mobile device questions.  T
+ he appts will be for 30 min scheduled by a phone call to the library.  80
+ 2-365-7948.  The service will be offered the 2nd and 4th Thursday of the 
+ month from 5:00 to 6:00 pm. \n(thanks to the Friends of the MFL for fundin
+ g the project and Cameron Misnick for providing the service.)\nSource: Moo
+ re Free Library
+END:VEVENT
+BEGIN:VEVENT
+UID:63458602c2128e4e@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20261219T103000
+DTEND;TZID=America/New_York:20261219T120000
+SUMMARY:State Representative Emily Long Office Hours
+URL:https://moorefreelibrary.org/event/state-representative-emily-long-off
+ ice-hours-8/
+CATEGORIES:kids\,Moore Free Library
+DESCRIPTION:Join State Representative Emily Long for her Office Hours at t
+ he MFL.  Saturday\, September 19\, 10:30 to 12:00.  All are welcome.\nSo
+ urce: Moore Free Library
 END:VEVENT
 BEGIN:VEVENT
 UID:9c65053e002a0473@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260819T100000
 DTEND;TZID=America/New_York:20260819T110000
 SUMMARY:Story Hour at Whiting Library!
@@ -760,8 +1995,86 @@ DESCRIPTION:CHESTER\, Vt. – Story Hour is geared for preschoolers\, but
  ention span and interest each week.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
+UID:db270bb4ec753810@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T133000
+DTEND;TZID=America/New_York:20260819T153000
+SUMMARY:Page to Screen Film Series
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/page-to-screen-film-series/2026-08-19/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Watch and chat about a movie in a friendly e
+ nvironment. Reading the book is not a requirement. Free popcorn will be se
+ rved. \nTo find out which film is screening\, call Whiting Library at 802-
+ 875-2277 or visit www.whitinglibrary.org/events.\nSource: Vermont Journal 
+ & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:e656bee5c43def67@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T173000
+DTEND;TZID=America/New_York:20260819T193000
+SUMMARY:Morrisville Live: Summer Music Series
+LOCATION:Oxbow Riverfront Park\, Portland Street\, Morrisville\, VT\, 0566
+ 1\, United States
+URL:https://vermontjournal.com/event/morrisville-live-summer-music-series/
+ 2026-08-19/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:Summer means music at Oxbow Park. Morrisville Live is a free\,
+  seven-week concert series held Wednesday evenings\, July 8–August 19\, 
+ 2026 (5:30–7:30 PM). Enjoy an eclectic mix of R&B\, soul\, blues\, rock\
+ , and more in a relaxed\, scenic setting in the heart of the Lamoille Vall
+ ey—just minutes from Stowe. \nA longtime community tradition\, Morrisvil
+ le Live brings together residents and visitors for great music\, local foo
+ d\, crafts\, and family-friendly activities. Bring a chair or blanket\, ga
+ ther with friends and family\, and enjoy a welcoming summer evening by the
+  river.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:83f3991ad8af70f5@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T180000
+DTEND;TZID=America/New_York:20260819T193000
+SUMMARY:Paint N Sip
+LOCATION:The Apiary\, 84 Pleasant Street\, Claremont\, 03743
+URL:https://vermontjournal.com/event/paint-n-sip-2/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CLAREMONT\, N.H. – The Apiary\, 84 Pleasant Street in Clarem
+ ont\, N.H.\, will host a guided watercolor painted experience led by artis
+ t Tabitha Randall to create your own sea shells on Wednesday\, Aug. 19\, f
+ rom 6-7:30 p.m. BYOB\, beverages\, and snacks.\nSource: Vermont Journal & 
+ Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:9774a7fdd0a0e244@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T170000
+DTEND;TZID=America/New_York:20260820T190000
+SUMMARY:GMALL Presents Ada: My Mother the Architect
+LOCATION:Manchester Community Library\, 138 Cemetery Avenue\, Manchester\,
+  05255
+URL:https://vermontjournal.com/event/gmall-presents-ada-my-mother-the-arch
+ itect/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:Green Mountain Academy is excited to present the documentary f
+ ilm screening of Ada: My Mother the Architect. Ada Karmi Melamede is one o
+ f the most accomplished architects in the world\, but very little is known
+  about her outside of her home country of Israel. The movie is a deeply mo
+ ving portrait of an extraordinary woman directed by her daughter\, filmmak
+ er and former architect. It profiles a woman and artist deeply tested by t
+ he realities of career and motherhood\, and a unique mother-daughter bond.
+  Despite personal sacrifices\, Ada’s work gave physical form to some of 
+ Israel’s highest democratic ideals\, most notably in the Supreme Court B
+ uilding in Jerusalem\, the Open University\, Ben Gurion Airport\, and nume
+ rous civic institutions around the country. A talk back with producer/dire
+ ctor Yael Melamede will follow the screening. For more information or to p
+ urchase tickets\, please call our office at 802-867-0111 or visit www.gree
+ nmtnacademy.org.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
 UID:0659561197e1ea71@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260821T080000
 DTEND;TZID=America/New_York:20260821T170000
 SUMMARY:Summer Infant and Toddler Playgroup
@@ -780,7 +2093,7 @@ DESCRIPTION:LUDLOW\, Vt. – The summer infant and toddler playgroup at th
 END:VEVENT
 BEGIN:VEVENT
 UID:6e48ad1c88749b57@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260821T150000
 DTEND;TZID=America/New_York:20260821T180000
 SUMMARY:Level Up Your Games: Games Group for School Aged Kids
@@ -798,8 +2111,26 @@ DESCRIPTION:CHESTER\, Vt. – Whiting Library provides a wide variety of g
  me Group.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
+UID:175beb647ece116c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T173000
+DTEND;TZID=America/New_York:20260821T203000
+SUMMARY:Friday Night Music Series at Jackson Gore
+LOCATION:Jackson Gore\, Okemo Mountain Resort\, 111 Jackson Gore Road\, Lu
+ dlow\, VT\, 05149\, United States
+URL:https://vermontjournal.com/event/friday-night-music-series-at-jackson-
+ gore-4/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:The Jackson Gore Summer Music Series is back! Friday Nights 5:
+ 30pm – 8:30pm at the Jackson Gore Courtyard. Bring your best lawn chairs
+  & picnic blankets and enjoy live music from local favorites. Food and a s
+ election of alcoholic and non-alcoholic beverages will be available for pu
+ rchase. Sponsored by William Raveis Vermont Properties\nSource: Vermont Jo
+ urnal & Shopper
+END:VEVENT
+BEGIN:VEVENT
 UID:63bc6c879ec2ee21@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260821T190000
 DTEND;TZID=America/New_York:20260821T210000
 SUMMARY:The Family Vacation & Classic Clowntown Cinema Double Feature
@@ -819,7 +2150,7 @@ DESCRIPTION:Tickets by donation at the door!\nFriday\, Aug 21 at 7 PM\nSat
 END:VEVENT
 BEGIN:VEVENT
 UID:df50163e422ba7ca@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260822T110000
 DTEND;TZID=America/New_York:20260822T170000
 SUMMARY:Best of Vermont Summer Festival
@@ -836,7 +2167,7 @@ DESCRIPTION:LUDLOW\, Vt. – Experience everything you love about summer i
 END:VEVENT
 BEGIN:VEVENT
 UID:93e4f4106c180e64@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260822T140000
 DTEND;TZID=America/New_York:20260822T160000
 SUMMARY:The Family Vacation & Classic Clowntown Cinema Double Feature
@@ -856,7 +2187,7 @@ DESCRIPTION:Tickets by donation at the door!\nFriday\, Aug 21 at 7 PM\nSat
 END:VEVENT
 BEGIN:VEVENT
 UID:e94fa41113f1cf22@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260823T110000
 DTEND;TZID=America/New_York:20260823T170000
 SUMMARY:Best of Vermont Summer Festival
@@ -872,8 +2203,22 @@ DESCRIPTION:LUDLOW\, Vt. – Experience everything you love about summer i
  ome owners\, and visitors alike.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
+UID:e3a276ee06c1461a@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260824T090000
+DTEND;TZID=America/New_York:20260824T100000
+SUMMARY:Total Body Fit - Strength
+LOCATION:Spring House\, Jackson Gore\, Ludlow\, VT\, 05149
+URL:https://vermontjournal.com/event/total-body-fit-strength/2026-08-24/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:This full-body strength class uses dumbbells and bodyweight to
+  build muscle\, support bone health\, and improve the way you move and fee
+ l every day. Expect functional movements\, energizing intervals\, and a wh
+ ole lot of encouragement along the way.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
 UID:a8c782a6fe2340c6@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260824T110000
 DTEND;TZID=America/New_York:20260824T170000
 SUMMARY:Best of Vermont Summer Festival
@@ -889,8 +2234,69 @@ DESCRIPTION:LUDLOW\, Vt. – Experience everything you love about summer i
  ome owners\, and visitors alike.\nSource: Vermont Journal & Shopper
 END:VEVENT
 BEGIN:VEVENT
+UID:afd5b7baad0a0e9c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260825T080000
+DTEND;TZID=America/New_York:20260825T170000
+SUMMARY:Summer Infant and Toddler Playgroup
+LOCATION:Fletcher Memorial Library\, 88 Main Street\, Ludlow\, VT\, 05149
+URL:https://vermontjournal.com/event/summer-infant-and-toddler-playgroup/2
+ 026-08-25/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:LUDLOW\, Vt. – The summer infant and toddler playgroup at th
+ e Fletcher Memorial Library\, 88 Main Street\, is held on Tuesday mornings
+ \, from 10:30 a.m. – 12 p.m. This playgroup is best suited for children 
+ ages 5 and younger\, and is a great opportunity for kids and families to m
+ eet and enjoy interactive time together. Whether it’s playing with cars\
+ , cooking up a meal in the play kitchen\, or sharing a story\, there are p
+ lenty of activities available to choose from.\nSource: Vermont Journal & S
+ hopper
+END:VEVENT
+BEGIN:VEVENT
+UID:ef64e85addf85374@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T113000
+SUMMARY:Playgroup for Wee Littles (0-5) and Caregivers
+LOCATION:Whiting Library\, 117 Main Street\, Chester\, VT\, 05143\, United
+  States
+URL:https://vermontjournal.com/event/playgroup-for-wee-littles-0-5-caregiv
+ ers/2026-08-25/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:CHESTER\, Vt. – Whiting Library is home to a weekly playgrou
+ p for the Wee Littles (0-5 years old) and their caregivers on Tuesdays\, f
+ rom 10-11:30 a.m. This is a free\, fun\, and relaxed gathering where littl
+ e kids play while their grown-ups supervise and socialize. \nYou don’t n
+ eed to pre-register\; you can just drop into the library Community Room. S
+ tay as long or as little as you like. Our playtime is geared towards careg
+ ivers who want to find friendships and build connections with their childr
+ en and the greater wee little people (0-5 years old) community. \nFun and 
+ games\, plus art and craft projects in the community room downstairs – a
+ vailable to enjoy when the Community Room is not booked for other events. 
+ \nEveryone learns best through play. Contact our youth librarian for more 
+ information via youthlibrarian@whitinglibrary.org\, or call 802-875-2277.\
+ nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
+UID:aac0e39223cab79b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260825T110000
+DTEND;TZID=America/New_York:20260825T170000
+SUMMARY:Best of Vermont Summer Festival
+LOCATION:Okemo Field\, Route 103 (& Bixby Road)\, Ludlow
+URL:https://vermontjournal.com/event/best-of-vermont-summer-festival/2026-
+ 08-25/
+CATEGORIES:kids\,Vermont Journal & Shopper
+DESCRIPTION:LUDLOW\, Vt. – Experience everything you love about summer i
+ n Vermont at the Best of Vermont Summer Festival\, presented by Mary W. Da
+ vis Realtor & Associates. Enjoy live music\, craft beverage producers\, ch
+ eese and maple makers\, specialty foods\, artisan products\, fine art\, an
+ d a fun kids zone. The festival welcomes locals\, new residents\, second-h
+ ome owners\, and visitors alike.\nSource: Vermont Journal & Shopper
+END:VEVENT
+BEGIN:VEVENT
 UID:f04d0779753a5fb9@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260824T100000
 DTEND;TZID=America/New_York:20260824T120000
 SUMMARY:Monday Morning Playgroup
@@ -903,7 +2309,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:c58d6d54a53b3743@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260826T100000
 DTEND;TZID=America/New_York:20260826T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -918,7 +2324,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:d55c370e0f0ed8ad@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260831T100000
 DTEND;TZID=America/New_York:20260831T120000
 SUMMARY:Monday Morning Playgroup
@@ -931,7 +2337,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:8cef16409f9b1b72@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260901T100000
 DTEND;TZID=America/New_York:20260901T113000
 SUMMARY:Nature Play
@@ -955,7 +2361,7 @@ DESCRIPTION:Nature Play at The Commons\nJoin the Springfield Area Parent C
 END:VEVENT
 BEGIN:VEVENT
 UID:7b1b849f78c63a5e@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260902T100000
 DTEND;TZID=America/New_York:20260902T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -970,7 +2376,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:124ec226b00fa927@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260909T100000
 DTEND;TZID=America/New_York:20260909T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -985,7 +2391,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:8b3dc15c8082bff4@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260914T100000
 DTEND;TZID=America/New_York:20260914T120000
 SUMMARY:Monday Morning Playgroup
@@ -998,7 +2404,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:2857c6ea394029c1@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260916T100000
 DTEND;TZID=America/New_York:20260916T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -1013,7 +2419,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:4134e5519d7ae02e@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260921T100000
 DTEND;TZID=America/New_York:20260921T120000
 SUMMARY:Monday Morning Playgroup
@@ -1026,7 +2432,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:7bc85e092b99c4bb@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260923T100000
 DTEND;TZID=America/New_York:20260923T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -1041,7 +2447,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:77d1620ff0fc04b2@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260928T100000
 DTEND;TZID=America/New_York:20260928T120000
 SUMMARY:Monday Morning Playgroup
@@ -1054,7 +2460,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:f0e6dcf7c585a7ef@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20260930T100000
 DTEND;TZID=America/New_York:20260930T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -1069,7 +2475,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:9369f052ebfe48a4@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20261005T100000
 DTEND;TZID=America/New_York:20261005T120000
 SUMMARY:Monday Morning Playgroup
@@ -1082,7 +2488,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:4dd9ce2c9d10e891@kidcal
-DTSTAMP:20260818T112706Z
+DTSTAMP:20260819T112441Z
 DTSTART;TZID=America/New_York:20261007T100000
 DTEND;TZID=America/New_York:20261007T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -1094,5 +2500,846 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
  n to ages 0 – 6 and their siblings of any age. No need to register\, jus
  t show up! Email krista.wilson@sapcc-vt.org for more information.\nSource:
   Springfield Area Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c8f8d5f7b8902ff3@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260903T170000
+DTEND;TZID=America/New_York:20260903T183000
+SUMMARY:Meet New Municipal Manager: A reception with Aaron Patt!
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/events/meet-new-municipal-manager-a-rece
+ ption-with-aaron-pat/
+CATEGORIES:kids\,Rockingham Free Public Library
+DESCRIPTION:Location: Rockingham Free Public Library Free and Open to the 
+ Public | Refreshments!\nSource: Rockingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e5975d2f962de890@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260827T150000
+DTEND;TZID=America/New_York:20260827T170000
+SUMMARY:Lowell Lake Kayak Paddle with Rockingham Free Public Library
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/events/lowell-lake-kayak-paddle-with-roc
+ kingham-free-public-library/
+CATEGORIES:kids\,Rockingham Free Public Library
+DESCRIPTION:Lowell Lake Kayak Paddle with Rockingham Free Public Library T
+ hursday\, August 27 at 3pm Location: Lowell Lake State Park (260 Ice House
+  Road\, Londonderry\, VT 05148) Try out a foldable kayak and join our volu
+ nteer-guided paddle program at beautiful Lowell Lake! Equipment is provide
+ d! Pre-registration is required. Please visit the library to sign up and 
+ … Read moreLowell Lake Kayak Paddle with Rockingham Free Public Library\
+ nSource: Rockingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:dd2fd1e699c76646@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T090000
+DTEND;TZID=America/New_York:20260819T100000
+SUMMARY:Exercise Group in Dorset
+LOCATION:United Church of Dorset
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Exercise Group in Dorset — Exercise group at United Church o
+ f Dorset & East Rupert Mondays and Wednesdays 9-10am\nSource: GNAT-TV Regi
+ onal Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:55c61e671e5f2d40@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T090000
+DTEND;TZID=America/New_York:20260819T103000
+SUMMARY:Veggie Van Go-Bennington: Open to the Public
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Veggie Van Go-Bennington: Open to the Public — Are you looki
+ ng to add more fresh fruits and veggies to your diet? The Vermont Foodbank
+ ’s VeggieVanGo (VVG) events are a great way to expand your menu! We part
+ ner with schools and healthcare organizations around the state to distribu
+ te fresh produce. You do not need to register or provide personal informat
+ ion to receive food\, and there are no age or income requirements for Vegg
+ ieVanGo. Every month\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:26791fa7012fb6e5@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T110000
+SUMMARY:Story Time at the Dorset Village Library
+LOCATION:Dorset Village Public Library
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Story Time at the Dorset Village Library — Join us every Wed
+ nesday for Story Time! We engage in music and movement and read lots of st
+ ories! ***** This calendar serves as a valuable resource for our local com
+ munity. Unless specifically noted\, GNAT-TV is not the host or organizer o
+ f these events. For inquiries or to confirm that an event is still schedul
+ ed\, please reach out directly to the organizing entity. Event organizers 
+ who wish to upd\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:5d9cc131ffb4e8ec@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T113000
+SUMMARY:Weekly Playgroup in Arlington
+LOCATION:Arlington Community House
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Playgroup in Arlington — Sunrise Family Resource Cent
+ er is hosting weekly playgroups in Arlington\, Bennington and Pownal. Thes
+ e playgroups are geared for children prenatal through six years old and si
+ blings are welcome. For More information\, contact Tiffany Gaghich at 802-
+ 442-6934.\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:780ec594c437858e@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T110000
+DTEND;TZID=America/New_York:20260819T123000
+SUMMARY:The Baby Café: Free Weekly Information & Support
+LOCATION:Bennington Community Market
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:The Baby Café: Free Weekly Information & Support — The Baby
+  Café: Free Information & Support to Families As anyone who has ever care
+ d for a newborn knows\, the first days\, weeks\, and months are often fill
+ ed with more questions than answers: Is the baby eating enough? Are they s
+ leeping too much or too little? Is this much spit up normal? The list goes
+  on and on. But one subject that seems to top the list of new parent/careg
+ iver concerns is breastfe\nSource: GNAT-TV Regional Calendar (mountain tow
+ ns)
+END:VEVENT
+BEGIN:VEVENT
+UID:eb902b797dc33ac2@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T130000
+DTEND;TZID=America/New_York:20260819T140000
+SUMMARY:Weekly Story Time in Londonderry
+LOCATION:15 Old School St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Story Time in Londonderry — Join Ms. Madeline for a s
+ tructured story time full of stories\, songs\, and interactive play! Every
+  Wednesday at 1:00pm at South Londonderry Free Library.\nSource: GNAT-TV R
+ egional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:6ab975ba1f170c6d@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T170000
+DTEND;TZID=America/New_York:20260819T180000
+SUMMARY:Gourmet Club in Dorset
+LOCATION:13 Church St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Gourmet Club in Dorset — Wednesday\, August 19th at 5:00PM M
+ ake a dish to share and have good food and good conversation with us at Go
+ urmet Club. Each meeting has its own theme\, our theme this month is Cockt
+ ail Hour. You bring your serving utensils and beverage\, we will provide p
+ lates\, cups/bowls and silverware. No registration.\nSource: GNAT-TV Regio
+ nal Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:083a9f828df32b1c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T170000
+DTEND;TZID=America/New_York:20260819T180000
+SUMMARY:Italian Conversation Group at MCL
+LOCATION:Manchester Community Library
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Italian Conversation Group at MCL — Looking to practice your
+  Italian. Look no further. This conversation group meets every week and we
+ lcomes new participants. It is open to all ability levels.\nSource: GNAT-T
+ V Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:d0ada91713742888@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260819T193000
+DTEND;TZID=America/New_York:20260819T213000
+SUMMARY:Shakespeare in the Woods Performance
+LOCATION:3567 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Shakespeare in the Woods Performance — Shakespeare in the Wo
+ ods (SitW) is proud to announce its 6th Repertory Season of fierce\, cutti
+ ng-edge outdoor theatre. Hailed by audiences as “The best Shakespeare yo
+ u’ll ever see”\, the burgeoning\, award-winning company will present t
+ wo new provocative adaptations of LEAR and MERRY WIVES. Performances will 
+ occur during August 12- 30\, at venue partner The Equinox Golf Resort & Sp
+ a in Manchester\, Ve\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:eefbfd73ba2d1099@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T100000
+DTEND;TZID=America/New_York:20260820T113000
+SUMMARY:Weekly Playgroup in Bennington
+LOCATION:22 Willow Brook Dr
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Playgroup in Bennington — Sunrise Family Resource Cen
+ ter is hosting weekly playgroups in Arlington\, Bennington and Pownal. The
+ se playgroups are geared for children prenatal through six years old and s
+ iblings are welcome. COVID safety protocols will be followed. For More inf
+ ormation contact Tiffany Gaghich at 802-442-6934. ***** This calendar serv
+ es as a valuable resource for our local community. Unless specifically not
+ ed\,\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:a9c0dcc54f7a2a61@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T120000
+DTEND;TZID=America/New_York:20260820T140000
+SUMMARY:Third Thursdays Luncheon in Winhall
+LOCATION:3 River Rd
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Third Thursdays Luncheon in Winhall — Please join us on the 
+ 3rd Thursday of each month at 12:00 at the Winhall Community Arts Center f
+ or lunch and dessert. These luncheons are open to anyone in the community 
+ and are free of charge! Please let us know if you’re joining us so we kn
+ ow how much food we will need! WAYS TO RSVP : Email us at 802wcac@gmail.co
+ m Go to our website www.winhallcommunityartscenter.org Or call Laura at 80
+ 2-342-7810\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:84078df39b17e3ba@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T130000
+DTEND;TZID=America/New_York:20260820T160000
+SUMMARY:Coffee & Crafts in Winhall
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Coffee & Crafts in Winhall — Coffee & crafts every Tuesday a
+ nd Thursday. www.winhallcommunityartscenter.org/ *** This calendar serves 
+ as a valuable resource for our local community. Unless specifically noted\
+ , GNAT-TV is not the host or organizer of these events. For inquiries or t
+ o confirm that an event is still scheduled\, please reach out directly to 
+ the organizing entity. Event organizers who wish to update information can
+ \nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:150c544de75cad43@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T130000
+DTEND;TZID=America/New_York:20260820T160000
+SUMMARY:Open Art /Open Gallery
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Open Art /Open Gallery — www.winhallcommunityartscenter.org/
+  *** This calendar serves as a valuable resource for our local community. 
+ Unless specifically noted\, GNAT-TV is not the host or organizer of these 
+ events. For inquiries or to confirm that an event is still scheduled\, ple
+ ase reach out directly to the organizing entity. Event organizers who wish
+  to update information can contact us at events@gnat-tv.org.\nSource: GNAT
+ -TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:1b0c09638cd7b6ba@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T153000
+DTEND;TZID=America/New_York:20260820T163000
+SUMMARY:The Check Mates After School
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:The Check Mates After School — Click here for more informati
+ on. *** This calendar serves as a valuable resource for our local communit
+ y. Unless specifically noted\, GNAT-TV is not the host or organizer of the
+ se events. For inquiries or to confirm that an event is still scheduled\, 
+ please reach out directly to the organizing entity. Event organizers who w
+ ish to update information can contact us at events@gnat-tv.org.\nSource: G
+ NAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:5effdc03c6239871@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T160000
+DTEND;TZID=America/New_York:20260820T190000
+SUMMARY:Manchester Farmers Market
+LOCATION:709 Depot St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Manchester Farmers Market — Open Thursdays from May 21st-Oct
+  15th from 4-7pm Debit\, EBT\, Farm to Family coupons accepted. 709 depot 
+ street Manchester VT (across from RK miles).\nSource: GNAT-TV Regional Cal
+ endar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:7de569ea4e0d208b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T170000
+DTEND;TZID=America/New_York:20260820T180000
+SUMMARY:A Place of Inclusion
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:A Place of Inclusion — Are you filled with questions or look
+ ing for guidance? Do you have a child or friend or family member living wi
+ th special needs or disabilities? We invite you on the third Thursday of e
+ very month to come and visit with us at the Manchester Library for an even
+ ing of inclusion\, support\, information and community! Children are ALWAY
+ S included! Moms of children living with special needs or disabilitie\nSou
+ rce: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:65348bc7a37a4504@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T170000
+DTEND;TZID=America/New_York:20260820T190000
+SUMMARY:GMALL Presents – Ada: My Mother the Architect
+LOCATION:Manchester Community Library
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:GMALL Presents – Ada: My Mother the Architect — Green Moun
+ tain Academy is excited to present the documentary film screening of Ada: 
+ My Mother the Architect. Ada Karmi Melamede is one of the most accomplishe
+ d architects in the world\, but very little is known about her outside of 
+ her home country of Israel. The movie is a deeply moving portrait of an ex
+ traordinary woman directed by her daughter\, filmmaker and former architec
+ t. It profiles a woman\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:80d34e0eb7f7b2bf@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T180000
+DTEND;TZID=America/New_York:20260820T200000
+SUMMARY:Movie Night in Dorset
+LOCATION:13 Church St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Movie Night in Dorset — We’re showing lots of great new an
+ d popular movies. Free admission and free popcorn\, you can also bring you
+ r own snacks! We have limited space for seating so please register\, call 
+ 802-867-5774. 1975 | PG | 2h 4min When a massive killer shark unleashes ch
+ aos on a beach community off Long Island\, it's up to the local police chi
+ ef\, a marine biologist\, and an old seafarer to hunt the beast down.\nSou
+ rce: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:5f00bcb6a8a8a80b@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T180000
+DTEND;TZID=America/New_York:20260820T210000
+SUMMARY:Gaming in the Gallery
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Gaming in the Gallery — www.winhallcommunityartscenter.org/c
+ alendar-upcoming-events\nSource: GNAT-TV Regional Calendar (mountain towns
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:fa4bdd7c69614152@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260820T193000
+DTEND;TZID=America/New_York:20260820T213000
+SUMMARY:Shakespeare in the Woods Performance
+LOCATION:3567 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Shakespeare in the Woods Performance — Shakespeare in the Wo
+ ods (SitW) is proud to announce its 6th Repertory Season of fierce\, cutti
+ ng-edge outdoor theatre. Hailed by audiences as “The best Shakespeare yo
+ u’ll ever see”\, the burgeoning\, award-winning company will present t
+ wo new provocative adaptations of LEAR and MERRY WIVES. Performances will 
+ occur during August 12- 30\, at venue partner The Equinox Golf Resort & Sp
+ a in Manchester\, Ve\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:86442249b4397765@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:Music at the Arlington Farmers Market
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Music at the Arlington Farmers Market — June 5 - Ransom Note
+ s - Ed Ransom Contemporary\, Country June 12 - Jester Fretless - Barry Hym
+ an Jazz\, Country 4:00-5:30 "Life Traditional Music" filled with Scottish 
+ and Irish tunes played by your local musicians! At the Arlington Inn & Spa
+  5:30-8:00 June 19 - Jake Geppert guitar June 26 - Winter Kill - "Mark & C
+ larke" Jazz\, Contemporary July 3 - "Life Traditional Music" filled with S
+ cottish and I\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:c50b90f579b2b0be@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T103000
+DTEND;TZID=America/New_York:20260821T110000
+SUMMARY:Northshire Bookstore: Story Time with our Booksellers
+LOCATION:4869 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Northshire Bookstore: Story Time with our Booksellers — Join
+  us in person in our Manchester Center\, Vermont store for story time with
+  our fabulous staff! We'll share some recent favorite picture books with y
+ our little ones. If you have questions about this or any other Northshire 
+ event\, please write us at events@northshire.com.\nSource: GNAT-TV Regiona
+ l Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:217531c21d25d653@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T130000
+DTEND;TZID=America/New_York:20260821T160000
+SUMMARY:Neighbors Food Pantry in Londonderry
+LOCATION:2051 N Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Neighbors Food Pantry in Londonderry — The Neighbors Pantry 
+ is open on the 1st and 3rd Friday of every month from 1:00-4:00 PM.\nSourc
+ e: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:31eeef5b624f0cdf@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T160000
+DTEND;TZID=America/New_York:20260821T190000
+SUMMARY:Arlington Village Farmers Market
+LOCATION:Arlington
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Arlington Village Farmers Market — Come to the market and se
+ e how we have grown! Vendors\, food\, music\, kid's activities\, socializa
+ tion! Fresh vegetables\, locally grown beef\, pork\, sourdough bread. eggs
+ \, sourdough bagels\, baked goods\, maple syrup\, flowers\, plants\, herbs
+ \, art\, jewelry\, handmade crafts and more. EVERY FRIDAY\, IN THE VILLAGE
+  OF ARLINGTON Tavern open\, plus small plates at the Arlington Inn - Weekl
+ y Music - Martha's Used\nSource: GNAT-TV Regional Calendar (mountain towns
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:9fec6fd199da2246@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T180000
+DTEND;TZID=America/New_York:20260821T190000
+SUMMARY:Northshire Bookstore: Heather Newman - unidentified domestic object
+LOCATION:4869 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Northshire Bookstore: Heather Newman - unidentified domestic o
+ bject — Join us for a poetry reading with Heather Newman\, as she celebr
+ ates her latest collection. Like a "wild canary" in our social coal mine\,
+  whose song is "all barb and quip\," Heather Newman mixes honesty\, indign
+ ation\, and irreverence with sly wit. The satiric poems in Unidentified Do
+ mestic Object teach us to question our complacency\, challenge the traditi
+ onal roles assigned us\, an\nSource: GNAT-TV Regional Calendar (mountain t
+ owns)
+END:VEVENT
+BEGIN:VEVENT
+UID:ebd82017a75aede3@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T183000
+DTEND;TZID=America/New_York:20260821T213000
+SUMMARY:Game Night In The Gallery
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Game Night In The Gallery — Bring a board game or use one of
+  ours! Popcorn is provided\, bring a beverage and other snacks if you woul
+ d like! *** This calendar serves as a valuable resource for our local comm
+ unity. Unless specifically noted\, GNAT-TV is not the host or organizer of
+  these events. For inquiries or to confirm that an event is still schedule
+ d\, please reach out directly to the organizing entity. Event organizers w
+ h\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:4533a5b5bc7e7114@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260821T193000
+DTEND;TZID=America/New_York:20260821T213000
+SUMMARY:Shakespeare in the Woods Performance
+LOCATION:3567 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Shakespeare in the Woods Performance — Shakespeare in the Wo
+ ods (SitW) is proud to announce its 6th Repertory Season of fierce\, cutti
+ ng-edge outdoor theatre. Hailed by audiences as “The best Shakespeare yo
+ u’ll ever see”\, the burgeoning\, award-winning company will present t
+ wo new provocative adaptations of LEAR and MERRY WIVES. Performances will 
+ occur during August 12- 30\, at venue partner The Equinox Golf Resort & Sp
+ a in Manchester\, Ve\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:f1cfddc37e79d32c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260822T090000
+DTEND;TZID=America/New_York:20260822T110000
+SUMMARY:Saturday Coffee Hour in Rupert
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Saturday Coffee Hour in Rupert — Join us 9-11 Saturday morni
+ ngs for weekly coffee hour! Gather with neighbors and friends for hot coff
+ ee\, tea\, hot chocolate\, and homemade baked goods.\nSource: GNAT-TV Regi
+ onal Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:89fbf55dd1f294c5@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260822T090000
+DTEND;TZID=America/New_York:20260822T130000
+SUMMARY:VNA & Hospice Thrift Shop - Open Every Saturday
+LOCATION:Thrift Shop at VNA & Hospice of the Southwest Region
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:VNA & Hospice Thrift Shop - Open Every Saturday — VNA & Hosp
+ ice of the Southwest Region’s Thrift Shop is officially open every Satur
+ day\, 9am-1pm\, in addition to our regular hours\, Monday-Friday\, 11am-3p
+ m. Proceeds from the shop benefit our mission of providing award-winning\,
+  compassionate care for residents of Franklin\, Bennington and Rutland Cou
+ nties. The Thrift Shop is also open M-F 11am-3pm. Donations accepted M-F d
+ uring operating hours. Quest\nSource: GNAT-TV Regional Calendar (mountain 
+ towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:134e43b5e1a33b01@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260822T090000
+DTEND;TZID=America/New_York:20260822T130000
+SUMMARY:West River Farmers Market
+LOCATION:2242 N Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:West River Farmers Market — The West River Farmers Market ho
+ sts 40+ vendors\, selling everything from vegetables and eggs to ceramics 
+ and jewelry\, all made locally by devoted members of our community. The We
+ st River Farmers Market is located at the intersection of Rt 100 & Rt 11 i
+ n Londonderry\, VT\, 05148 Parking is available at The Mill Open Saturdays
+ : 9AM – 1PM Memorial Day to Columbus Day Weekend 2026 Market Dates: Satu
+ rday\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:37b8c05d88d68edc@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260822T193000
+DTEND;TZID=America/New_York:20260822T213000
+SUMMARY:Shakespeare in the Woods Performance
+LOCATION:3567 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Shakespeare in the Woods Performance — Shakespeare in the Wo
+ ods (SitW) is proud to announce its 6th Repertory Season of fierce\, cutti
+ ng-edge outdoor theatre. Hailed by audiences as “The best Shakespeare yo
+ u’ll ever see”\, the burgeoning\, award-winning company will present t
+ wo new provocative adaptations of LEAR and MERRY WIVES. Performances will 
+ occur during August 12- 30\, at venue partner The Equinox Golf Resort & Sp
+ a in Manchester\, Ve\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:2868367f85dedfa9@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260823T100000
+DTEND;TZID=America/New_York:20260823T140000
+SUMMARY:Dorset Farmers Market
+LOCATION:H.N. Williams Store
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Dorset Farmers Market — We are a year-round\, producer-only 
+ market! This means the folks who you see behind the stands all summer and 
+ winter are the ones creating the products being sold. No outside manufactu
+ rers or intermediates involved! Because of this\, you can ask any and all 
+ questions about how the products you buy got to the market and into your h
+ ands. We value vendor/customer relationships and offer pre-ordering/pi\nSo
+ urce: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:94d86b44c42ef3f8@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260823T173000
+DTEND;TZID=America/New_York:20260823T183000
+SUMMARY:Weekly Meditation Community at WCAC - New Day/ Time
+LOCATION:Winhall Community Arts Center
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Meditation Community at WCAC - New Day/ Time\nSource: G
+ NAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:fd5001ec59014840@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260823T193000
+DTEND;TZID=America/New_York:20260823T213000
+SUMMARY:Shakespeare in the Woods Performance
+LOCATION:3567 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Shakespeare in the Woods Performance — Shakespeare in the Wo
+ ods (SitW) is proud to announce its 6th Repertory Season of fierce\, cutti
+ ng-edge outdoor theatre. Hailed by audiences as “The best Shakespeare yo
+ u’ll ever see”\, the burgeoning\, award-winning company will present t
+ wo new provocative adaptations of LEAR and MERRY WIVES. Performances will 
+ occur during August 12- 30\, at venue partner The Equinox Golf Resort & Sp
+ a in Manchester\, Ve\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:8bc9532246773c23@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260824T090000
+DTEND;TZID=America/New_York:20260824T100000
+SUMMARY:Exercise Group in Dorset
+LOCATION:United Church of Dorset
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Exercise Group in Dorset — Exercise group at United Church o
+ f Dorset & East Rupert Mondays and Wednesdays 9-10am\nSource: GNAT-TV Regi
+ onal Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:bc8152f31a44d37c@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T103000
+SUMMARY:Musikgarten: Playing Outdoors
+LOCATION:138 Cemetery Ave
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Musikgarten: Playing Outdoors — This 10-week program is open
+  to drop-in attendance\; however\, it is recommended that you attend all t
+ en weeks\, as each session builds upon the last. Southern Vermont Musikgar
+ ten instructor Evan Leontis offers caregivers the opportunity to play with
+  their babies and young children in a musical setting\, engaging in music 
+ and movement activities designed to delight the child and awaken his or he
+ r curi\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:20f25b5954a66d56@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260825T090000
+DTEND;TZID=America/New_York:20260825T130000
+SUMMARY:Quilters Group in Dorset
+LOCATION:United Church of Dorset
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Quilters Group in Dorset — Quilters at United Church of Dors
+ et & East Rupert Tuesdays 9am-1pm\nSource: GNAT-TV Regional Calendar (moun
+ tain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:ae3ffbfa421c5419@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260825T130000
+DTEND;TZID=America/New_York:20260825T160000
+SUMMARY:Coffee & Crafts in Winhall
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Coffee & Crafts in Winhall — Coffee & crafts every Tuesday a
+ nd Thursday. www.winhallcommunityartscenter.org/ *** This calendar serves 
+ as a valuable resource for our local community. Unless specifically noted\
+ , GNAT-TV is not the host or organizer of these events. For inquiries or t
+ o confirm that an event is still scheduled\, please reach out directly to 
+ the organizing entity. Event organizers who wish to update information can
+ \nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:78c8e0b9cadccee0@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260825T173000
+DTEND;TZID=America/New_York:20260825T190000
+SUMMARY:The Battle of Hubbardton: The Rear Guard Action that Saved America
+  with Author Bruce Venter
+LOCATION:138 Cemetery Ave
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:The Battle of Hubbardton: The Rear Guard Action that Saved Ame
+ rica with Author Bruce Venter — Dr. Bruce Venter will speak on his award
+ -winning book\, The Battle of Hubbardton: The Rear Guard that Saved Americ
+ a\, as part of the Manchester Historical Society and MCL’s collaborative
+  Vermont 250 lecture series. Hubbardton\, a British tactical victory fough
+ t on July 7\, 1777\, was one of the first engagements in General John Burg
+ oyne’s campaign to capture\nSource: GNAT-TV Regional Calendar (mountain 
+ towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:0680910b22cc48c1@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260825T180000
+DTEND;TZID=America/New_York:20260825T190000
+SUMMARY:Free Qigong Class
+LOCATION:The Arlington Common
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Free Qigong Class — Join us on Tuesdays from 6:00–7:00 PM 
+ for Qigong\, a gentle\, flowing practice focused on breath\, balance\, and
+  energy—free and open to the public.\nSource: GNAT-TV Regional Calendar 
+ (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:25c2570b61fbc8e9@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T090000
+DTEND;TZID=America/New_York:20260826T100000
+SUMMARY:Exercise Group in Dorset
+LOCATION:United Church of Dorset
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Exercise Group in Dorset — Exercise group at United Church o
+ f Dorset & East Rupert Mondays and Wednesdays 9-10am\nSource: GNAT-TV Regi
+ onal Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:98392bb20f5be935@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T110000
+SUMMARY:Story Time at the Dorset Village Library
+LOCATION:Dorset Village Public Library
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Story Time at the Dorset Village Library — Join us every Wed
+ nesday for Story Time! We engage in music and movement and read lots of st
+ ories! ***** This calendar serves as a valuable resource for our local com
+ munity. Unless specifically noted\, GNAT-TV is not the host or organizer o
+ f these events. For inquiries or to confirm that an event is still schedul
+ ed\, please reach out directly to the organizing entity. Event organizers 
+ who wish to upd\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:ca008f55b805f9ab@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T113000
+SUMMARY:Weekly Playgroup in Arlington
+LOCATION:Arlington Community House
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Playgroup in Arlington — Sunrise Family Resource Cent
+ er is hosting weekly playgroups in Arlington\, Bennington and Pownal. Thes
+ e playgroups are geared for children prenatal through six years old and si
+ blings are welcome. For More information\, contact Tiffany Gaghich at 802-
+ 442-6934.\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:d52195fd1e6afebd@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T233000
+SUMMARY:Kits & Cubs at Merck
+LOCATION:Merck Forest & Farmland Center
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Kits & Cubs at Merck — Kits & Cubs Merck Forest & Farmland C
+ enter\, 3270 VT-315\, Rupert\, VT 05768\, USA Bring your toddlers and pres
+ choolers (18 months to 5 years old) for an unforgettable outdoor adventure
+ ! Every session is packed with nature-themed activities\, songs\, stories\
+ , and take-home crafts designed to spark curiosity.\nSource: GNAT-TV Regio
+ nal Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:1ade252ce0af38be@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T110000
+DTEND;TZID=America/New_York:20260826T123000
+SUMMARY:The Baby Café: Free Weekly Information & Support
+LOCATION:Bennington Community Market
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:The Baby Café: Free Weekly Information & Support — The Baby
+  Café: Free Information & Support to Families As anyone who has ever care
+ d for a newborn knows\, the first days\, weeks\, and months are often fill
+ ed with more questions than answers: Is the baby eating enough? Are they s
+ leeping too much or too little? Is this much spit up normal? The list goes
+  on and on. But one subject that seems to top the list of new parent/careg
+ iver concerns is breastfe\nSource: GNAT-TV Regional Calendar (mountain tow
+ ns)
+END:VEVENT
+BEGIN:VEVENT
+UID:bf1c0c651d73e7df@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T110000
+DTEND;TZID=America/New_York:20260826T123000
+SUMMARY:Veggie Van Go - Bennington: Open to the Public | Food for Youths t
+ oo
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Veggie Van Go - Bennington: Open to the Public | Food for Yout
+ hs too — Are you looking to add more fresh fruits and veggies to your di
+ et? The Vermont Foodbank’s VeggieVanGo (VVG) events are a great way to e
+ xpand your menu! We partner with schools and healthcare organizations arou
+ nd the state to distribute fresh produce. You do not need to register or p
+ rovide personal information to receive food\, and there are no age or inco
+ me requirements for Veg\nSource: GNAT-TV Regional Calendar (mountain towns
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:348a742a88146617@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T130000
+DTEND;TZID=America/New_York:20260826T140000
+SUMMARY:Weekly Story Time in Londonderry
+LOCATION:15 Old School St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Story Time in Londonderry — Join Ms. Madeline for a s
+ tructured story time full of stories\, songs\, and interactive play! Every
+  Wednesday at 1:00pm at South Londonderry Free Library.\nSource: GNAT-TV R
+ egional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:892f82e212217a58@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T140000
+DTEND;TZID=America/New_York:20260826T150000
+SUMMARY:Monthly Video Announcement Day
+LOCATION:GNAT-TV - Greater Northshire Access Television
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Monthly Video Announcement Day — Got an Announcement? Say It
+  on Camera—For FREE! Have an event\, announcement\, or call to action yo
+ u want the whole community to hear? Reach thousands of local viewers—wit
+ hout spending a dime—at GNAT TV’s Video Announcement Day! Held the las
+ t Wednesday of every month\, this is your chance to record a professional\
+ , ready-to-air video announcement at the GNAT TV studio. We’ll help you 
+ craft your messag\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:5331f7661834078a@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T170000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Italian Conversation Group at MCL
+LOCATION:Manchester Community Library
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Italian Conversation Group at MCL — Looking to practice your
+  Italian. Look no further. This conversation group meets every week and we
+ lcomes new participants. It is open to all ability levels.\nSource: GNAT-T
+ V Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:ae80c5769c2be4da@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260826T193000
+DTEND;TZID=America/New_York:20260826T213000
+SUMMARY:Shakespeare in the Woods Performance
+LOCATION:3567 Main St
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Shakespeare in the Woods Performance — Shakespeare in the Wo
+ ods (SitW) is proud to announce its 6th Repertory Season of fierce\, cutti
+ ng-edge outdoor theatre. Hailed by audiences as “The best Shakespeare yo
+ u’ll ever see”\, the burgeoning\, award-winning company will present t
+ wo new provocative adaptations of LEAR and MERRY WIVES. Performances will 
+ occur during August 12- 30\, at venue partner The Equinox Golf Resort & Sp
+ a in Manchester\, Ve\nSource: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:937a06745f24c45e@kidcal
+DTSTAMP:20260819T112441Z
+DTSTART;TZID=America/New_York:20260827T100000
+DTEND;TZID=America/New_York:20260827T113000
+SUMMARY:Weekly Playgroup in Bennington
+LOCATION:22 Willow Brook Dr
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Playgroup in Bennington — Sunrise Family Resource Cen
+ ter is hosting weekly playgroups in Arlington\, Bennington and Pownal. The
+ se playgroups are geared for children prenatal through six years old and s
+ iblings are welcome. COVID safety protocols will be followed. For More inf
+ ormation contact Tiffany Gaghich at 802-442-6934. ***** This calendar serv
+ es as a valuable resource for our local community. Unless specifically not
+ ed\,\nSource: GNAT-TV Regional Calendar (mountain towns)
 END:VEVENT
 END:VCALENDAR
