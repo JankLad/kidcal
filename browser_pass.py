@@ -111,10 +111,85 @@ def chrome_is_running() -> int:
     return sum(1 for line in out.splitlines() if "chrome.exe" in line.lower())
 
 FB_HOME = "https://www.facebook.com/"
+COOKIES = ROOT / "fb_cookies.txt"            # transferred session (gitignored)
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
 
 def _slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:50]
+
+
+def load_cookies(src: str) -> list[dict]:
+    """Parse a transferred FB session into Playwright cookie dicts.
+
+    Accepts: a file or inline "c_user=..; xs=.." string, a cookie-extension JSON
+    export, or a Netscape cookies.txt. The two load-bearing cookies are c_user
+    and xs. This is how KidCal authenticates WITHOUT the interactive login that
+    spins forever from a fresh/non-profiled Chrome (reCAPTCHA + pre_auth 2FA loop):
+    a human logs in on their trusted profiled browser, exports the session, and
+    the automation reuses it (docs/FLYER_SOURCING.md §3c)."""
+    p = Path(src)
+    text = (p.read_text(encoding="utf-8") if p.exists() else src).strip()
+    out = []
+    if text.startswith("["):                                   # extension JSON
+        for c in json.loads(text):
+            out.append({"name": c["name"], "value": c["value"],
+                        "domain": c.get("domain", ".facebook.com"), "path": c.get("path", "/")})
+    elif "\t" in text and "facebook" in text:                  # Netscape cookies.txt
+        for ln in text.splitlines():
+            if ln.startswith("#") or not ln.strip():
+                continue
+            f = ln.split("\t")
+            if len(f) >= 7:
+                out.append({"name": f[5], "value": f[6], "domain": f[0], "path": f[2]})
+    else:                                                      # "name=value; name=value"
+        for kv in text.replace("\n", ";").split(";"):
+            if "=" in kv:
+                k, v = kv.split("=", 1)
+                out.append({"name": k.strip(), "value": v.strip(),
+                            "domain": ".facebook.com", "path": "/"})
+    for c in out:
+        if not c["domain"].startswith("."):
+            c["domain"] = "." + c["domain"]
+    return [{"name": c["name"], "value": c["value"], "domain": c["domain"], "path": c["path"]} for c in out]
+
+
+def _flyer_score(alt: str) -> int:
+    """Words FB transcribed in an image's ALT ('...text that says "<words>"').
+    A real flyer transcribes many words; a recap PHOTO ('image of 3 people') ~0.
+    This is the flyer-vs-photo signal (NS2) — no separate OCR needed."""
+    m = re.search(r"text that says[,:]?\s*['\"]?(.+)$", alt or "", re.I)
+    return len(re.findall(r"[A-Za-z]{2,}", m.group(1))) if m else 0
+
+
+# --- non-local / shared-post screen (NS4) ---------------------------------------
+# Rec-dept Pages sometimes SHARE a national post (a World-Cup match, a viral
+# graphic). Its ALT scores like a flyer but the event isn't ours. Real local
+# flyers reliably name the town or the state; shared national posts name a
+# faraway place / TV broadcast and never our region. Drop the latter.
+_IN_REGION = re.compile(
+    r"\b(?:VT|NH|Vermont|New\s+Hampshire|Bellows\s+Falls|Rockingham|Charlestown|"
+    r"Saxtons\s+River|Westminster|Grafton|Walpole|Springfield|Chester|Brattleboro|"
+    r"Ludlow|Alstead|Langdon|Acworth|Athens|Cambridgeport|Putney|BFUHS)\b", re.I)
+# Other US state abbreviations, CASE-SENSITIVE so lowercase English words
+# ('in', 'me', 'or', 'pa') don't false-match. VT/NH deliberately excluded.
+_OTHER_STATE = re.compile(
+    r"\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|"
+    r"MO|MT|NE|NV|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|WA|WV|WI|WY)\b")
+_FAR_CITY = re.compile(
+    r"\b(?:Los\s+Angeles|New\s+York|Boston|Chicago|Miami|Dallas|Houston|Atlanta|"
+    r"Seattle|Denver|Nashville|Philadelphia)\b", re.I)
+_BROADCAST = re.compile(r"\b(?:vs\.?)\s+\w", re.I)   # "USA vs Paraguay" etc.
+
+
+def _non_local(alt: str) -> bool:
+    """True when an ALT names a faraway place / national broadcast and NO
+    in-region place — i.e. almost certainly a SHARED post, not a local event."""
+    a = alt or ""
+    if _IN_REGION.search(a):
+        return False
+    return bool(_OTHER_STATE.search(a) or _FAR_CITY.search(a) or _BROADCAST.search(a))
 
 
 # --------------------------------------------------------------------------- FB
@@ -176,8 +251,9 @@ def fb_harvest_page(context, name: str, url: str) -> int:
         print(f"  ! not logged in — run:  python browser_pass.py --login")
         page.close()
         return 0
-    # Load a chunk of the feed.
-    for _ in range(6):
+    # Load a deeper chunk of the feed (more scroll = more weekend/music/festival
+    # posts, which sit further down than the pinned/recent ones).
+    for _ in range(12):
         page.mouse.wheel(0, 3000)
         page.wait_for_timeout(1500)
 
@@ -189,17 +265,43 @@ def fb_harvest_page(context, name: str, url: str) -> int:
             .map(e => ({src: e.currentSrc || e.src, alt: e.getAttribute('alt') || ''}))
         """,
     )
-    # Keep the ones whose alt text looks like a flyer (mentions text / an event word).
-    kws = re.compile(r"image of text|camp|program|regist|summer|ages?|storytime|"
-                     r"kids|children|free|schedule|event", re.I)
-    picked, seen = [], set()
+    # NS3 — post CAPTIONS: the who/when/cost text the flyer image often omits.
+    caps = page.eval_on_selector_all(
+        "div[data-ad-comet-preview='message'], div[data-ad-preview='message'], "
+        "div[data-testid='post_message']",
+        "els => els.map(e => (e.innerText||'').replace(/\\s+/g,' ').trim()).filter(t => t.length > 15)")
+    caps = list(dict.fromkeys(caps))            # dedupe, preserve order
+
+    # Also mine visible COMMENT text — event details, dates, and registration
+    # links often live in the thread rather than the caption/flyer. Best-effort:
+    # FB's comment markup is obfuscated and varies, so this is wrapped and the
+    # harvest never depends on it. Comments feed flyer.py's date/time/link parse.
+    try:
+        cmts = page.eval_on_selector_all(
+            "div[role='article'][aria-label*='omment'], "
+            "div[aria-label*='omment'] div[dir='auto']",
+            "els => els.map(e => (e.innerText||'').replace(/\\s+/g,' ').trim())")
+    except Exception:  # noqa: BLE001
+        cmts = []
+    capset = set(caps)
+    cmts = [c for c in dict.fromkeys(cmts) if len(c) > 20 and c not in capset][:40]
+
+    # NS2 — keep real flyers, drop recap PHOTOS. A flyer's ALT transcribes many
+    # words ('...text that says "SUMMER CAMP..."') or FB tags it 'image of text';
+    # a recap photo ('image of one or more people, swimming') fails both.
+    picked, photos, shared, seen = [], 0, 0, set()
     for im in imgs:
         src, alt = im.get("src", ""), im.get("alt", "")
-        if not src or src in seen:
+        if not src or "scontent" not in src or src in seen:
             continue
-        if "scontent" in src and (kws.search(alt) or len(alt) > 120):
-            seen.add(src)
-            picked.append(im)
+        seen.add(src)
+        if _flyer_score(alt) >= 6 or re.search(r"image of text", alt, re.I):
+            if _non_local(alt):          # NS4 — shared national post, not ours
+                shared += 1
+            else:
+                picked.append(im)
+        else:
+            photos += 1
 
     media_dir = MEDIA / _slug(name)
     media_dir.mkdir(parents=True, exist_ok=True)
@@ -215,9 +317,14 @@ def fb_harvest_page(context, name: str, url: str) -> int:
         except Exception as e:  # noqa: BLE001
             print(f"    (image {i} download failed: {e})")
         lines.append(f"[flyer {i}] {alt}")
+    for i, cap in enumerate(caps, 1):                 # captions feed flyer.py's date/time/cost parse
+        lines.append(f"[caption {i}] {cap}")
+    for i, cmt in enumerate(cmts, 1):                 # comments too (dates/links in the thread)
+        lines.append(f"[comment {i}] {cmt}")
     out.write_text("\n".join(lines), encoding="utf-8")
     page.close()
-    print(f"  {name}: {len(picked)} flyer candidate(s) -> {out} (images in {media_dir})")
+    print(f"  {name}: {len(picked)} flyer(s) + {len(caps)} caption(s) + "
+          f"{len(cmts)} comment(s) ({photos} recap photo(s), {shared} shared/non-local skipped) -> {out}")
     return len(picked)
 
 
@@ -263,12 +370,56 @@ def recdesk_programs(context, base: str) -> list[dict]:
     return out
 
 
+# ------------------------------------------------------------------ cookie harvest
+def run_cookie_harvest(cookies_path: str, source_filter, headed: bool) -> None:
+    """Login-free FB harvest using a TRANSFERRED cookie — no persistent profile,
+    no interactive login, nothing to spin. Reuses fb_harvest_page, so the output
+    feeds flyer.py unchanged. The productionized cookie path; the human logs in
+    once on their trusted browser and exports the session (FLYER_SOURCING.md §3c)."""
+    from playwright.sync_api import sync_playwright  # local-only import
+    cookies = load_cookies(cookies_path)
+    names = {c["name"] for c in cookies}
+    if "c_user" not in names or "xs" not in names:
+        sys.exit(f"  ! {cookies_path} is missing c_user and/or xs — export both from a "
+                 f"browser currently logged into Facebook (docs/FLYER_SOURCING.md §3c).")
+    sources = json.loads(SOURCES.read_text(encoding="utf-8"))
+    fb = [s for s in sources if s.get("type") == "facebook_flyer"
+          and s.get("enabled", True)          # gated-but-unapproved groups stay listed, unharvested
+          and (not source_filter or s["name"] == source_filter)]
+    if not fb:
+        print("No matching facebook_flyer sources.")
+        return
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=not headed)
+        context = browser.new_context(user_agent=BROWSER_UA,
+                                      viewport={"width": 1280, "height": 1600})
+        context.add_cookies(cookies)
+        page = context.new_page()
+        page.goto(FB_HOME, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(2500)
+        if not _logged_in(page):
+            browser.close()
+            sys.exit("  ! the transferred cookie did NOT authenticate (expired/incomplete). "
+                     "Re-export c_user + xs from a browser that is currently logged in.")
+        page.close()
+        total = 0
+        for s in fb:
+            total += fb_harvest_page(context, s["name"], s["url"])
+        browser.close()
+    print(f"\nHarvested {total} flyer candidate(s) into {INBOX}. Next: python flyer.py")
+
+
 # --------------------------------------------------------------------------- main
 def main() -> None:
     from playwright.sync_api import sync_playwright  # local-only import
 
     ap = argparse.ArgumentParser()
     ap.add_argument("--login", action="store_true", help="one-time Facebook login")
+    ap.add_argument("--cookies", nargs="?", const=str(COOKIES), metavar="FILE",
+                    help="login-free harvest via a transferred session cookie "
+                         "(default: fb_cookies.txt). Export c_user+xs from a "
+                         "browser already logged into Facebook. Sidesteps the "
+                         "interactive login / 2FA loop entirely.")
     ap.add_argument("--source", help="only this source name")
     ap.add_argument("--recdesk", help="test the recdesk handler against a base URL")
     ap.add_argument("--headed", action="store_true", help="show the browser")
@@ -296,6 +447,11 @@ def main() -> None:
             print(f"  {d:<12} {name:<24} {user}")
         print("\nUse:  python browser_pass.py --login --chrome-profile "
               "\"<folder, name, or email>\"")
+        return
+
+    # --- cookie-transfer mode: login-free, skips all profile/login machinery ---
+    if args.cookies:
+        run_cookie_harvest(args.cookies, args.source, args.headed)
         return
 
     # --- real-profile mode: NOT POSSIBLE, by Chrome's design ----------------
@@ -409,6 +565,7 @@ def main() -> None:
             sources = json.loads(SOURCES.read_text(encoding="utf-8"))
             fb = [s for s in sources
                   if s.get("type") == "facebook_flyer" and s.get("pass") == "local"
+                  and s.get("enabled", True)     # gated-but-unapproved groups stay listed, unharvested
                   and (not args.source or s["name"] == args.source)]
             if not fb:
                 print("No matching facebook_flyer sources.")
