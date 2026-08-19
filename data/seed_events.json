@@ -198,5 +198,41 @@
     "age": "all ages",
     "town": "Saxtons River, VT",
     "description": "Community Chili Fest fundraiser for the 24 Main Street Community Building, Saxtons River (~6 mi). Saturday Sept 26 2026. SAVE-THE-DATE flyer — start time not yet published (11am is a placeholder); VERIFY the time before relying on it. Source: flyer via Saxtons River FB group, read Aug 18 2026."
+  },
+  {
+    "title": "Homegrown Festival — Next Stage Arts",
+    "location": "Next Stage Arts, 15 Kimball Hill, Putney, VT 05346",
+    "start_local": "2026-08-30T16:00",
+    "duration_min": 180,
+    "url": "https://www.nextstagearts.org/",
+    "source": "Next Stage Arts (page)",
+    "category": "festival",
+    "age": "all ages",
+    "town": "Putney, VT",
+    "description": "Outdoor music festival: The Gaslight Tinkers, NECCA (New England Center for Circus Arts), and Zara Bode's Little Big Band. Sunday Aug 30 2026 — gates 3pm, performances 4pm. Family-friendly (circus arts). Source: Next Stage Arts FB page + nextstagearts.org, read Aug 18 2026."
+  },
+  {
+    "title": "The Thief of Bagdad (1924) with Live Pipe Organ",
+    "location": "Epsilon Spires, 190 Main St, Brattleboro, VT 05301",
+    "start_local": "2026-08-28T19:00",
+    "duration_min": 150,
+    "url": "https://www.epsilonspires.org/",
+    "source": "Epsilon Spires (page)",
+    "category": "film",
+    "age": "all ages",
+    "town": "Brattleboro, VT",
+    "description": "Douglas Fairbanks silent-film classic with a live Estey pipe-organ score by Jeff Rapsis; billed 'Appropriate for All-Ages.' Friday Aug 28 2026, doors 7pm. First in the Maximalist Mythologies series. Source: Epsilon Spires FB page, read Aug 18 2026."
+  },
+  {
+    "title": "Dark Sarcasm — Pink Floyd Tribute",
+    "location": "Bellows Falls Opera House, 7 Village Square, Bellows Falls, VT 05101",
+    "start_local": "2026-09-12T19:30",
+    "duration_min": 150,
+    "url": "https://www.bellowsfallsoperahouse.com/",
+    "source": "Bellows Falls Opera House (page)",
+    "category": "music",
+    "age": "all ages",
+    "town": "Bellows Falls, VT",
+    "description": "Pink Floyd tribute band 'Dark Sarcasm' at the Bellows Falls Opera House (0 mi). Saturday Sept 12 2026 — doors 6:30pm, show 7:30pm. Source: BFOH Facebook page, read Aug 18 2026."
   }
 ]
