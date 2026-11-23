@@ -27,7 +27,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ce4c5e628bd02bdd@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260721T103000
 DTEND;TZID=America/New_York:20260721T111500
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260815T000000Z
@@ -43,7 +43,7 @@ DESCRIPTION:Interactive read/sing/play preschool storytime. Drop-in friend
 END:VEVENT
 BEGIN:VEVENT
 UID:61c34a4a86c4866d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260724T103000
 DTEND;TZID=America/New_York:20260724T120000
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260815T000000Z
@@ -59,7 +59,7 @@ DESCRIPTION:Drop-in morning of play\, stories\, and friends for toddlers\,
 END:VEVENT
 BEGIN:VEVENT
 UID:09955615106be319@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T130000
 RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260815T000000Z
@@ -74,7 +74,7 @@ DESCRIPTION:Drop in and get creative with LEGO Club — build\, design\, a
 END:VEVENT
 BEGIN:VEVENT
 UID:d6d71801cf4c0e24@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260720T120000
 DTEND;TZID=America/New_York:20260720T133000
 RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260815T000000Z
@@ -88,7 +88,7 @@ DESCRIPTION:Board games and card games for kids. Summer schedule (through
 END:VEVENT
 BEGIN:VEVENT
 UID:d428c2b43cbbf796@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260721T093000
 DTEND;TZID=America/New_York:20260721T110000
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -104,7 +104,7 @@ DESCRIPTION:Free weekly playgroup for families with children through age 5
 END:VEVENT
 BEGIN:VEVENT
 UID:bf6b21a99d6a9e20@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260722T103000
 DTEND;TZID=America/New_York:20260722T110000
 RRULE:FREQ=WEEKLY;BYDAY=WE
@@ -117,7 +117,7 @@ DESCRIPTION:30 minutes of stories\, songs\, and fun for kids 5 & under and
 END:VEVENT
 BEGIN:VEVENT
 UID:e7dc13bf110a2262@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260723T103000
 DTEND;TZID=America/New_York:20260723T113000
 RRULE:FREQ=WEEKLY;BYDAY=TH
@@ -132,7 +132,7 @@ DESCRIPTION:Enriching music and movement for toddlers and preschoolers (ag
 END:VEVENT
 BEGIN:VEVENT
 UID:25ec937f6b34bfd6@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260820T180000
 DTEND;TZID=America/New_York:20260820T190000
 SUMMARY:Youth Field Hockey Sign-Ups — Rockingham Recreation (Terrier Pup
@@ -148,7 +148,7 @@ DESCRIPTION:In-person sign-ups for youth field hockey (Terrier Pups)\, gra
 END:VEVENT
 BEGIN:VEVENT
 UID:a8bbe919a8642fd8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260831T090000
 DTEND;TZID=America/New_York:20260831T093000
 SUMMARY:Rockingham Youth Soccer — Registration Deadline (Grades Pre-K-6)
@@ -163,7 +163,7 @@ DESCRIPTION:Fall youth soccer\, Boys & Girls grades Pre-K-6th\; cost $40.
 END:VEVENT
 BEGIN:VEVENT
 UID:8d50c8288f7d6bdd@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260821T163000
 DTEND;TZID=America/New_York:20260821T193000
 SUMMARY:Vernon Food Truck Fridays — Governor Hunt House
@@ -180,7 +180,7 @@ DESCRIPTION:Family food-truck night\, 4:30-7:30pm\, rain or shine (indoor
 END:VEVENT
 BEGIN:VEVENT
 UID:b1801a46e880282c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260918T163000
 DTEND;TZID=America/New_York:20260918T193000
 SUMMARY:Vernon Food Truck Fridays — Governor Hunt House
@@ -195,7 +195,7 @@ DESCRIPTION:Family food-truck night\, 4:30-7:30pm\, rain or shine (indoor
 END:VEVENT
 BEGIN:VEVENT
 UID:b1fd89dd0367439b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261009T163000
 DTEND;TZID=America/New_York:20261009T193000
 SUMMARY:Vernon Food Truck Fridays — Governor Hunt House
@@ -210,7 +210,7 @@ DESCRIPTION:Family food-truck night\, 4:30-7:30pm\, rain or shine (indoor
 END:VEVENT
 BEGIN:VEVENT
 UID:bba0cd5472c574a8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260820T103000
 DTEND;TZID=America/New_York:20260820T111500
 SUMMARY:Summertime Story Time — Wilder Memorial Library
@@ -226,7 +226,7 @@ DESCRIPTION:Summertime story time\, best for ages 0-5\; kids from all town
 END:VEVENT
 BEGIN:VEVENT
 UID:a471d66b78d218e8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260912T120000
 DTEND;TZID=America/New_York:20260912T133000
 SUMMARY:Dog Costume Contest — Weston Town Fair
@@ -241,7 +241,7 @@ DESCRIPTION:Free-to-enter dog costume contest (Best Overall / Funniest / B
 END:VEVENT
 BEGIN:VEVENT
 UID:91527ab7c999be1b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260905T110000
 DTEND;TZID=America/New_York:20260905T150000
 SUMMARY:Grafton Food & Antique Tractor/Car/Truck Festival + Mac & Cheese C
@@ -259,7 +259,7 @@ DESCRIPTION:Grafton Historical Society annual food & antique tractor/car/t
 END:VEVENT
 BEGIN:VEVENT
 UID:2dd36dd463f0b45a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260926T110000
 DTEND;TZID=America/New_York:20260926T140000
 SUMMARY:Chili Fest — Saxtons River
@@ -274,7 +274,7 @@ DESCRIPTION:Community Chili Fest fundraiser for the 24 Main Street Communi
 END:VEVENT
 BEGIN:VEVENT
 UID:0d81e13f050175ba@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260830T160000
 DTEND;TZID=America/New_York:20260830T190000
 SUMMARY:Homegrown Festival — Next Stage Arts
@@ -289,7 +289,7 @@ DESCRIPTION:Outdoor music festival: The Gaslight Tinkers\, NECCA (New Engl
 END:VEVENT
 BEGIN:VEVENT
 UID:8f305565240cd54b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260828T190000
 DTEND;TZID=America/New_York:20260828T213000
 SUMMARY:The Thief of Bagdad (1924) with Live Pipe Organ
@@ -303,7 +303,7 @@ DESCRIPTION:Douglas Fairbanks silent-film classic with a live Estey pipe-o
 END:VEVENT
 BEGIN:VEVENT
 UID:633e4a79c38afc2b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260912T193000
 DTEND;TZID=America/New_York:20260912T220000
 SUMMARY:Dark Sarcasm — Pink Floyd Tribute
@@ -318,7 +318,7 @@ DESCRIPTION:Pink Floyd tribute band 'Dark Sarcasm' at the Bellows Falls Op
 END:VEVENT
 BEGIN:VEVENT
 UID:6051bb86245a176d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260829T120000
 DTEND;TZID=America/New_York:20260829T130000
 SUMMARY:Community Cookout — Burgers & Hot Dogs
@@ -330,7 +330,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:bb4b64c0f6f207eb@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260818T193000
 DTEND;TZID=America/New_York:20260818T203000
 SUMMARY:Pond Hill Pro Rodeo — Vermont State Fair (Rutland)
@@ -342,7 +342,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:f3e6b6405d147e08@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260819T190000
 DTEND;TZID=America/New_York:20260819T200000
 SUMMARY:Demolition Derby — Vermont State Fair (Rutland)
@@ -354,7 +354,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:c9e7292cab93ae63@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260820T180000
 DTEND;TZID=America/New_York:20260820T190000
 SUMMARY:Tractor Pull — Vermont State Fair (Rutland)
@@ -366,7 +366,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:8a51dcefedd0b112@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260821T090000
 DTEND;TZID=America/New_York:20260821T100000
 SUMMARY:Summer Reading Program: 'Unearth a Story'
@@ -377,7 +377,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
 END:VEVENT
 BEGIN:VEVENT
 UID:adf4ba6ff6823137@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260819T173000
 DTEND;TZID=America/New_York:20260819T183000
 SUMMARY:Live Jazz & Crepes with Zara Bode
@@ -388,7 +388,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
 END:VEVENT
 BEGIN:VEVENT
 UID:f58bcaf60d3d862a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260903T154500
 DTEND;TZID=America/New_York:20260903T164500
 SUMMARY:New England Youth Theatre: The Phantom of the Opera
@@ -399,7 +399,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
 END:VEVENT
 BEGIN:VEVENT
 UID:0476baddaef6de34@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260823T190000
 DTEND;TZID=America/New_York:20260823T200000
 SUMMARY:Homage to Bob Dylan: Blood on the Tracks
@@ -412,7 +412,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Happenings in and Around Sp
 END:VEVENT
 BEGIN:VEVENT
 UID:036bb86569a9fd3b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260904T193000
 DTEND;TZID=America/New_York:20260904T203000
 SUMMARY:Helen Gillet (Live Jazz) — Jamaica Town Hall
@@ -423,7 +423,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Jamaica\, Vermont 05343 (pa
 END:VEVENT
 BEGIN:VEVENT
 UID:8008016578110fae@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260904T090000
 DTEND;TZID=America/New_York:20260904T100000
 SUMMARY:NH Combo Hoops — Fall Basketball Development (Keene)
@@ -435,7 +435,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Keene NH Kids Programs\, Ac
 END:VEVENT
 BEGIN:VEVENT
 UID:8865db0445ac5690@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260911T090000
 DTEND;TZID=America/New_York:20260911T100000
 SUMMARY:The Romp — Fun for All Ages
@@ -446,7 +446,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Life in Brattleboro Vermont
 END:VEVENT
 BEGIN:VEVENT
 UID:414c467a83572223@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260913T100000
 DTEND;TZID=America/New_York:20260913T110000
 SUMMARY:September Sunflower Festival
@@ -457,7 +457,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Life in Brattleboro Vermont
 END:VEVENT
 BEGIN:VEVENT
 UID:205efb81ee50777f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260827T090000
 DTEND;TZID=America/New_York:20260827T100000
 SUMMARY:Community Lunch — Second Congregational Church
@@ -469,7 +469,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Londonderry Vermont Communi
 END:VEVENT
 BEGIN:VEVENT
 UID:989fb4ba105a7a98@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260908T090000
 DTEND;TZID=America/New_York:20260908T100000
 SUMMARY:Emerald City Ballet — Children's Classes
@@ -481,7 +481,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Londonderry Vermont Communi
 END:VEVENT
 BEGIN:VEVENT
 UID:4c49c6cbda2c8da4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260918T094500
 DTEND;TZID=America/New_York:20260918T104500
 SUMMARY:Main Street Arts: Family Art with Valerie Kosednar
@@ -492,7 +492,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Saxtons River (group)\, 202
 END:VEVENT
 BEGIN:VEVENT
 UID:016b942b581d6aa5@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261010T100000
 DTEND;TZID=America/New_York:20261010T170000
 SUMMARY:Newfane Heritage Festival
@@ -508,7 +508,7 @@ DESCRIPTION:52-year family festival on the Newfane Common (~22 mi): juried
 END:VEVENT
 BEGIN:VEVENT
 UID:7fdd525de34ebccc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261113T183000
 DTEND;TZID=America/New_York:20261113T203000
 SUMMARY:The Man From Beyond (1922) with Live Pipe Organ — Houdini Centen
@@ -525,7 +525,7 @@ DESCRIPTION:Harry Houdini silent adventure (1922) with a live Estey pipe-o
 END:VEVENT
 BEGIN:VEVENT
 UID:78360f1f50fed55d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260824T090000
 DTEND;TZID=America/New_York:20260824T100000
 SUMMARY:Fabrics Frank'S Crafts It'S Material World Make Take
@@ -537,7 +537,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:785471dc5613637e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260826T163000
 DTEND;TZID=America/New_York:20260826T173000
 SUMMARY:Open Ope En Practice Wednesday August Claremont Park
@@ -549,7 +549,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:d8baf0321c2a5d55@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260825T100000
 DTEND;TZID=America/New_York:20260825T110000
 SUMMARY:Mountain Mountain Regional High High Fall Fall New
@@ -561,7 +561,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:2622cf15614f5551@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260909T200000
 DTEND;TZID=America/New_York:20260909T210000
 SUMMARY:Joyriding Sex Drugs And Adventure On The Gringo
@@ -572,7 +572,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
 END:VEVENT
 BEGIN:VEVENT
 UID:856cb0a5f51fa669@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T110000
 SUMMARY:Wellwood Orchards Harvest Festial Pyo Apples Es Live
@@ -583,7 +583,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Growing Up In Saxtons River
 END:VEVENT
 BEGIN:VEVENT
 UID:87851abe872e2c86@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T110000
 SUMMARY:Wellwood Orchards Harvest Festival Pyo Apples Es Live
@@ -596,7 +596,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Happenings in and Around Sp
 END:VEVENT
 BEGIN:VEVENT
 UID:b5f45d285bf784e4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260828T090000
 DTEND;TZID=America/New_York:20260828T100000
 SUMMARY:River&Rye Live Music August Fri Aug Brendan Bartow
@@ -607,7 +607,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Jamaica\, Vermont 05343 (pa
 END:VEVENT
 BEGIN:VEVENT
 UID:bff8554a738b4553@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260821T090000
 DTEND;TZID=America/New_York:20260821T100000
 SUMMARY:Small Acts Of Kindness Create Big Opportunities School
@@ -619,7 +619,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Keene NH Kids Programs\, Ac
 END:VEVENT
 BEGIN:VEVENT
 UID:ea8cebb9a0f35912@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260828T193000
 DTEND;TZID=America/New_York:20260828T203000
 SUMMARY:Night Of Laughter Anightoflaughter Andastonishinent And Astonishme
@@ -631,7 +631,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Life in Brattleboro Vermont
 END:VEVENT
 BEGIN:VEVENT
 UID:646ac65c5e650d5c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260905T090000
 DTEND;TZID=America/New_York:20260905T100000
 SUMMARY:Workers Workersoverbillionaires Over Billionaires Maydaystrong Org
@@ -644,7 +644,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Londonderry Vermont Communi
 END:VEVENT
 BEGIN:VEVENT
 UID:a58759f681ee8554@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260830T090000
 DTEND;TZID=America/New_York:20260830T100000
 SUMMARY:Diddict Ppi Reprise Recreating Iconic Phish Shows Aug
@@ -655,7 +655,7 @@ DESCRIPTION:Promoted from a Facebook flyer via The Stone Church (page)\, 2
 END:VEVENT
 BEGIN:VEVENT
 UID:d0011c26073de5ce@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260912T120000
 DTEND;TZID=America/New_York:20260912T130000
 SUMMARY:Kaa Coho Inn Motor Lodge Sponsored By Dog
@@ -666,7 +666,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Weston\, VT Community Hub (
 END:VEVENT
 BEGIN:VEVENT
 UID:f0ab35976c234e7d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260827T090000
 DTEND;TZID=America/New_York:20260827T100000
 SUMMARY:Community Lunch Thursday Aug Th Noon Second Congregational
@@ -677,7 +677,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Weston\, VT Community Hub (
 END:VEVENT
 BEGIN:VEVENT
 UID:f8266203e5e5f402@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T100000
 SUMMARY:He Main Event Of The Century North Walpole
@@ -689,7 +689,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:37b1789b8ea7297a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260919T230000
 DTEND;TZID=America/New_York:20260920T000000
 SUMMARY:Ch The Bar And Grill Cubhase Good Drinks
@@ -701,7 +701,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Alstead/Acworth/Charlestown
 END:VEVENT
 BEGIN:VEVENT
 UID:b933a05db0b2e7de@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260919T190000
 DTEND;TZID=America/New_York:20260919T200000
 SUMMARY:Wellfonte Bellows Falls Opera House Lana Condon September
@@ -712,7 +712,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Bellows Falls Opera House (
 END:VEVENT
 BEGIN:VEVENT
 UID:c70130e74d5614df@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260911T090000
 DTEND;TZID=America/New_York:20260911T100000
 SUMMARY:Cubl Deadline Extended To Sept Register Today Riverjamremp
@@ -723,7 +723,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
 END:VEVENT
 BEGIN:VEVENT
 UID:267ba9672159c9b2@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260907T090000
 DTEND;TZID=America/New_York:20260907T100000
 SUMMARY:Summer Bb Schedule Save The Date For Grillin'
@@ -734,7 +734,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Brattleboro\, Vermont (grou
 END:VEVENT
 BEGIN:VEVENT
 UID:57875d665f6541f4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260917T090000
 DTEND;TZID=America/New_York:20260917T100000
 SUMMARY:Great Event For An Even Greater Cause Est
@@ -745,7 +745,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Growing Up In Bellows Falls
 END:VEVENT
 BEGIN:VEVENT
 UID:2cf0656ce7107e4c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20270311T100000
 DTEND;TZID=America/New_York:20270311T110000
 SUMMARY:Wellwood Orchards Harvest Festial Pyo Apples Es Live
@@ -756,7 +756,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Growing Up In Saxtons River
 END:VEVENT
 BEGIN:VEVENT
 UID:12a7bf0e06e8b1a9@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260915T173000
 DTEND;TZID=America/New_York:20260915T183000
 SUMMARY:America Turns The Storics Of Our National Parks
@@ -769,7 +769,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Happenings in and Around Sp
 END:VEVENT
 BEGIN:VEVENT
 UID:9073e4796f3f779f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260908T090000
 DTEND;TZID=America/New_York:20260908T100000
 SUMMARY:Upcoming Availability At At At
@@ -781,7 +781,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Londonderry news! Community
 END:VEVENT
 BEGIN:VEVENT
 UID:fa0c7a21b29590dc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260912T200000
 DTEND;TZID=America/New_York:20260912T210000
 SUMMARY:Coffee Frostwoodgallery& Frostwood Gallery The Coffee Factory Pres
@@ -794,7 +794,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Londonderry news! Community
 END:VEVENT
 BEGIN:VEVENT
 UID:4fcb702bee5e2113@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261010T080000
 DTEND;TZID=America/New_York:20261010T090000
 SUMMARY:Indoor Tag Sale Saturday October Am Pm Sunday
@@ -806,7 +806,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Londonderry Vermont Communi
 END:VEVENT
 BEGIN:VEVENT
 UID:cea15980ab90ab13@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260919T170000
 DTEND;TZID=America/New_York:20260919T180000
 SUMMARY:Fourth Annual Athens Athens Chili Community Cook Off
@@ -817,7 +817,7 @@ DESCRIPTION:Promoted from a Facebook flyer via Saxtons River (group)\, 202
 END:VEVENT
 BEGIN:VEVENT
 UID:2c45e573b910df33@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20260908T090000
 DTEND;TZID=America/New_York:20260908T100000
 SUMMARY:Denson'S Tiny Univ Summer Sertember Special Guests Frid
@@ -828,7 +828,7 @@ DESCRIPTION:Promoted from a Facebook flyer via The Stone Church (page)\, 2
 END:VEVENT
 BEGIN:VEVENT
 UID:939f214f30cbe07a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261123T210000Z
 DTEND:20261123T220000Z
 SUMMARY:Library Build a Rama
@@ -841,7 +841,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:3753b75d04409165@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261125T213000Z
 DTEND:20261126T010000Z
 SUMMARY:Library Closes at 4:30 pm
@@ -851,7 +851,7 @@ DESCRIPTION:Source: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:e0ec6c019202f71c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Keene Public Library closed for the Holiday
@@ -861,7 +861,7 @@ DESCRIPTION:Source: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:bc8a3518303154ec@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261130T210000Z
 DTEND:20261130T220000Z
 SUMMARY:Library Build a Rama
@@ -874,7 +874,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:7b480d1b8d69dcbd@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261201T203000Z
 DTEND:20261201T213000Z
 SUMMARY:Kids STEAM: DIY Puzzles
@@ -890,7 +890,7 @@ DESCRIPTION:Kids STEAM has a new day of the week while Miss Scout is out.
 END:VEVENT
 BEGIN:VEVENT
 UID:335a4b44d52560d1@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261202T170000Z
 DTEND:20261202T220000Z
 SUMMARY:American Red Cross Blood Drive
@@ -910,7 +910,7 @@ DESCRIPTION:Join KPL and the Red Cross for a winter blood drive! Consider
 END:VEVENT
 BEGIN:VEVENT
 UID:b5dd723d164bd0b0@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261202T200000Z
 DTEND:20261202T210000Z
 SUMMARY:KPL Trustees Fine Art Cttee
@@ -921,7 +921,7 @@ DESCRIPTION:Source: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:1429a5a931bbeabd@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261202T223000Z
 DTEND:20261203T003000Z
 SUMMARY:Sublimation printing
@@ -937,7 +937,7 @@ DESCRIPTION:Come learn about sublimation printing using our Epson sublimat
 END:VEVENT
 BEGIN:VEVENT
 UID:2cc2538a1c507dfd@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261203T230000Z
 DTEND:20261204T000000Z
 SUMMARY:Bonnie Tomlinson Author and Home Organizer
@@ -956,7 +956,7 @@ DESCRIPTION:Bonnie Borromeo Tomlinson is the author of STEP BUYING BINS an
 END:VEVENT
 BEGIN:VEVENT
 UID:869422db0133f789@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261205T160000Z
 DTEND:20261205T190000Z
 SUMMARY:Friends of KPL Pop-Up Sale
@@ -973,7 +973,7 @@ DESCRIPTION:Shop for your next cozy evening read or holiday gifts\, all wh
 END:VEVENT
 BEGIN:VEVENT
 UID:014cc541a00f3be9@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261205T180000Z
 DTEND:20261205T200000Z
 SUMMARY:Holiday Tea - Celebrate the Winter Solstice
@@ -982,16 +982,16 @@ URL:https://keenenh.libcal.com/event/17091130
 CATEGORIES:kids\,Keene Public Library
 DESCRIPTION:Celebrate the Winter Solstice at Keene Public Library’s Annu
  al Tea Party on Saturday\, December 5\, 2026\, from 1–3 pm ! Join us for
-  a special presentation by a guest presenter from American Stonehenge to d
- iscover the history\, traditions\, and wonders of the Winter Solstice. Gat
- her with friends\, sip something warm\, enjoy delicious goodies\, and welc
- ome the winter season with an afternoon of warmth\, wonder\, and discovery
- !\n\nRegistration is required. For more information please email Amy akrae
- mer@keenenh.gov or call 603 352-0157\nSource: Keene Public Library
+  a special presentation about America's Stonehenge. Learn about the histor
+ y\, traditions\, and wonders of the Winter Solstice. Gather with friends\,
+  sip something warm\, enjoy delicious goodies\, and welcome the winter sea
+ son with an afternoon of warmth\, wonder\, and discovery!\n\nRegistration 
+ is required. For more information please email Amy akraemer@keenenh.gov or
+  call 603 352-0157\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:033b0a1b3bb634c4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261207T160000Z
 DTEND:20261207T180000Z
 SUMMARY:Community Resources: Monadnock Peer Support
@@ -1009,7 +1009,7 @@ DESCRIPTION:Get information and connect with services through Monadnock Pe
 END:VEVENT
 BEGIN:VEVENT
 UID:12cc3fcb122d6b99@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261207T210000Z
 DTEND:20261207T220000Z
 SUMMARY:Library Build a Rama
@@ -1022,7 +1022,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:b070a72a1e1aad07@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261208T230000Z
 DTEND:20261209T000000Z
 SUMMARY:Holiday Garland
@@ -1036,7 +1036,7 @@ DESCRIPTION:Create a beautiful garland to highlight the winter holidays. P
 END:VEVENT
 BEGIN:VEVENT
 UID:38828a9c3501cab0@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261209T153000Z
 DTEND:20261209T161500Z
 SUMMARY:Holiday Storytime with Kim Wallach
@@ -1050,7 +1050,7 @@ DESCRIPTION:Come celebrate the season with Kim Wallach.  Kim will share st
 END:VEVENT
 BEGIN:VEVENT
 UID:fa25a6b56fba6de3@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261209T223000Z
 DTEND:20261210T003000Z
 SUMMARY:Beginning Sewing
@@ -1066,7 +1066,7 @@ DESCRIPTION:Come learn the basics of sewing by making a simple small zippe
 END:VEVENT
 BEGIN:VEVENT
 UID:5613c6ab2e8d49aa@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261210T230000Z
 DTEND:20261211T003000Z
 SUMMARY:So you want to start a family?
@@ -1085,7 +1085,7 @@ DESCRIPTION:Raising your children is a constitutional right.  Marriage is
 END:VEVENT
 BEGIN:VEVENT
 UID:dace9c18961a6cc8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261211T213000Z
 DTEND:20261211T223000Z
 SUMMARY:Kids Comic Club
@@ -1101,7 +1101,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:f629a81eaeb5e39c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261212T200000Z
 DTEND:20261212T220000Z
 SUMMARY:Joy to the World Cheshiremen Chorus and UpGray'd Quartet
@@ -1116,7 +1116,7 @@ DESCRIPTION:Great music brings us together! All are Welcome! Back by popul
 END:VEVENT
 BEGIN:VEVENT
 UID:68a6c8508437808a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261214T150000Z
 DTEND:20261214T170000Z
 SUMMARY:Community Resources: Childcare Aware of NH
@@ -1136,7 +1136,7 @@ DESCRIPTION:Every second Monday of the month Child Care Aware of New Hamps
 END:VEVENT
 BEGIN:VEVENT
 UID:6a895cf082248a7b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261214T210000Z
 DTEND:20261214T220000Z
 SUMMARY:Library Build a Rama
@@ -1149,7 +1149,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:7f0b28db447049d7@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261215T203000Z
 DTEND:20261215T213000Z
 SUMMARY:Kids STEAM: Snow Globes
@@ -1163,22 +1163,22 @@ DESCRIPTION:Kids STEAM has a new day of the week while Miss Scout is out.
 END:VEVENT
 BEGIN:VEVENT
 UID:1e29e4748ef1e8fe@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261215T210000Z
 DTEND:20261215T220000Z
 SUMMARY:Children's Solstice Celebration
 LOCATION:Heberton Hall
 URL:https://keenenh.libcal.com/event/17916173
 CATEGORIES:kids\,Keene Public Library
-DESCRIPTION:The shortest day of the year is coming! Join us for an evening
-  of singing\, crafting\, and learning about the winter solstice. Presented
-  by educators from The Grammar School in Putney\, VT. This event is design
- ed for preschool and elementary aged children and their families. Registra
- tion is Required.\nSource: Keene Public Library
+DESCRIPTION:The shortest day of the year is coming! Join us for an afterno
+ on of singing\, crafting\, and learning about the winter solstice. Present
+ ed by educators from The Grammar School in Putney\, VT. This event is desi
+ gned for preschool and elementary aged children and their families. Regist
+ ration is Required.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:e3572be9e1e24b4e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261218T150000Z
 DTEND:20261218T223000Z
 SUMMARY:Gift Wrap Card Making Studio
@@ -1191,7 +1191,7 @@ DESCRIPTION:Card making and gift wrapping. We will provide all the bells a
 END:VEVENT
 BEGIN:VEVENT
 UID:00872d5d072548ae@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261219T150000Z
 DTEND:20261219T193000Z
 SUMMARY:Gift wrap - Card Making studio
@@ -1204,7 +1204,7 @@ DESCRIPTION:Card making and gift wrapping. We will provide all the bells a
 END:VEVENT
 BEGIN:VEVENT
 UID:9a99b11f443bfeec@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261221T150000Z
 DTEND:20261221T223000Z
 SUMMARY:Gift Wrap Card Making Studio
@@ -1217,7 +1217,7 @@ DESCRIPTION:Card making and gift wrapping. We will provide all the bells a
 END:VEVENT
 BEGIN:VEVENT
 UID:cb5578fd3ea9ae1e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261221T210000Z
 DTEND:20261221T220000Z
 SUMMARY:Library Build a Rama
@@ -1230,7 +1230,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:b303350e8ea2e6ac@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261222T150000Z
 DTEND:20261223T003000Z
 SUMMARY:Gift Wrap Card Making Studio
@@ -1243,7 +1243,7 @@ DESCRIPTION:Card making and gift wrapping. We will provide all the bells a
 END:VEVENT
 BEGIN:VEVENT
 UID:bd33513195ce958b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261223T150000Z
 DTEND:20261224T003000Z
 SUMMARY:Gift Wrap Card Making Studio
@@ -1256,7 +1256,7 @@ DESCRIPTION:Card making and gift wrapping. We will provide all the bells a
 END:VEVENT
 BEGIN:VEVENT
 UID:5c61b1e4dba1431a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261224T150000Z
 DTEND:20261224T200000Z
 SUMMARY:Last Minute Gift Wrap Studio
@@ -1269,7 +1269,7 @@ DESCRIPTION:Card making and gift wrapping. We will provide all the bells a
 END:VEVENT
 BEGIN:VEVENT
 UID:778b1e20aa2869f9@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261224T213000Z
 DTEND:20261225T010000Z
 SUMMARY:Library Closes at 4:30 pm
@@ -1279,7 +1279,7 @@ DESCRIPTION:Source: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:a9320c7eb75a0ffc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Library Closed for the Holiday
@@ -1289,7 +1289,7 @@ DESCRIPTION:Source: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:537c4160a72da8dd@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261228T210000Z
 DTEND:20261228T220000Z
 SUMMARY:Library Build a Rama
@@ -1302,7 +1302,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:848ffc53232dfc6c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261231T160000Z
 DTEND:20261231T173000Z
 SUMMARY:Noon Year's Eve
@@ -1311,13 +1311,12 @@ URL:https://keenenh.libcal.com/event/15484906
 CATEGORIES:kids\,Keene Public Library
 DESCRIPTION:Join us for another Noon Year's Eve countdown to 2027! Get rea
  dy to boogie in the New Year with games\, music\, refreshments\, and craft
- ing activities! All ages are welcome. The program is designed for children
-  and families. Registration is encouraged and appreciated so we can be pre
- pared to serve all.\nSource: Keene Public Library
+ ing activities! The program is designed for young children and families. R
+ egistration is encouraged and appreciated.\nSource: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:dbb8562cf7e5e044@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20261231T213000Z
 DTEND:20270101T010000Z
 SUMMARY:Library Closes at 4:30 for Holiday
@@ -1327,7 +1326,7 @@ DESCRIPTION:Source: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:572172c473254d33@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Library Closed for the Holiday
@@ -1337,7 +1336,7 @@ DESCRIPTION:Source: Keene Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:fd9030c9fc3ae273@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270104T210000Z
 DTEND:20270104T220000Z
 SUMMARY:Library Build a Rama
@@ -1350,7 +1349,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:fe25f7f17850b7e0@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270108T213000Z
 DTEND:20270108T223000Z
 SUMMARY:Kids Comic Club
@@ -1366,7 +1365,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:710feca70cc19b71@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270111T210000Z
 DTEND:20270111T220000Z
 SUMMARY:Library Build a Rama
@@ -1379,7 +1378,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:73234b355933e21f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270112T230000Z
 DTEND:20270113T000000Z
 SUMMARY:An herbalist's perspective on  Autoimmune conditions
@@ -1413,7 +1412,7 @@ DESCRIPTION:Lior Sadeh\, from Three Fold Herbal Healing presents An herbal
 END:VEVENT
 BEGIN:VEVENT
 UID:53a51d1f8b7c5ad6@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270113T153000Z
 DTEND:20270113T161500Z
 SUMMARY:Preschool Storytime
@@ -1431,7 +1430,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:a59653de31c8165e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270114T153000Z
 DTEND:20270114T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1450,7 +1449,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:01ce42e21e495f6e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270120T153000Z
 DTEND:20270120T161500Z
 SUMMARY:Preschool Storytime
@@ -1468,7 +1467,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:6ee3fc42568db25f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270121T153000Z
 DTEND:20270121T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1487,7 +1486,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:eeb6302b3c8ee76e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270125T210000Z
 DTEND:20270125T220000Z
 SUMMARY:Library Build a Rama
@@ -1500,7 +1499,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:b2e07c09ad14e42c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270127T153000Z
 DTEND:20270127T161500Z
 SUMMARY:Preschool Storytime
@@ -1518,7 +1517,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:5a3856db58da9570@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270128T153000Z
 DTEND:20270128T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1537,7 +1536,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:ea805a7f134ccd9a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270201T210000Z
 DTEND:20270201T220000Z
 SUMMARY:Library Build a Rama
@@ -1550,7 +1549,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:d7fb1a7aa3acc7c1@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270203T153000Z
 DTEND:20270203T161500Z
 SUMMARY:Preschool Storytime
@@ -1568,7 +1567,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:46588c6beea80e31@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270204T153000Z
 DTEND:20270204T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1587,7 +1586,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:6bb5ff8ec296c1ce@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270208T210000Z
 DTEND:20270208T220000Z
 SUMMARY:Library Build a Rama
@@ -1600,7 +1599,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:3eb676981ae36795@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270210T153000Z
 DTEND:20270210T161500Z
 SUMMARY:Preschool Storytime
@@ -1618,7 +1617,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:6577b073956f9906@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270210T170000Z
 DTEND:20270210T220000Z
 SUMMARY:American Red Cross Blood Drive
@@ -1638,7 +1637,7 @@ DESCRIPTION:Join KPL and the Red Cross for a summer blood drive! Consider
 END:VEVENT
 BEGIN:VEVENT
 UID:7a67cbcc8b996a75@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270211T153000Z
 DTEND:20270211T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1657,7 +1656,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:5bdc052326251153@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270212T213000Z
 DTEND:20270212T223000Z
 SUMMARY:Kids Comic Club
@@ -1673,7 +1672,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:4dc4f8236ecd7642@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270217T153000Z
 DTEND:20270217T161500Z
 SUMMARY:Preschool Storytime
@@ -1691,7 +1690,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:ae29fa59a15fa034@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270218T153000Z
 DTEND:20270218T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1710,7 +1709,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:34f8dc4e9746a454@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270222T210000Z
 DTEND:20270222T220000Z
 SUMMARY:Library Build a Rama
@@ -1723,7 +1722,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:c135125e0fb6736d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270224T153000Z
 DTEND:20270224T161500Z
 SUMMARY:Preschool Storytime
@@ -1741,7 +1740,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:481f2fa214b348ee@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270224T230000Z
 DTEND:20270225T010000Z
 SUMMARY:Reel Night Out Movie: Three Men and a Baby (1987)
@@ -1755,7 +1754,7 @@ DESCRIPTION:Three bachelors play dad to an infant left at their door in th
 END:VEVENT
 BEGIN:VEVENT
 UID:201b6a621a73ae6a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270225T153000Z
 DTEND:20270225T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1774,7 +1773,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:11dbb562b2c969a5@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270301T210000Z
 DTEND:20270301T220000Z
 SUMMARY:Library Build a Rama
@@ -1787,7 +1786,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:853f24da3b07fbfa@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270303T153000Z
 DTEND:20270303T161500Z
 SUMMARY:Preschool Storytime
@@ -1805,7 +1804,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:ea3516c795794307@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270304T153000Z
 DTEND:20270304T161500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1824,7 +1823,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:4e9254f4ba9efbb5@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270308T210000Z
 DTEND:20270308T220000Z
 SUMMARY:Library Build a Rama
@@ -1837,7 +1836,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:455957dc350b5132@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270309T230000Z
 DTEND:20270310T000000Z
 SUMMARY:Histamine Unlocked: Seasonal Allergies\, Intolerances\, and Mast C
@@ -1871,7 +1870,7 @@ DESCRIPTION:Lior Sadeh of Three Fold Herbal Healing presents: \n\nHistamin
 END:VEVENT
 BEGIN:VEVENT
 UID:7e8f2778591ce6f4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270312T213000Z
 DTEND:20270312T223000Z
 SUMMARY:Kids Comic Club
@@ -1887,7 +1886,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:96ab85b25a35d5a8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270315T200000Z
 DTEND:20270315T210000Z
 SUMMARY:Library Build a Rama
@@ -1900,7 +1899,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:3dc9f14729c5f0c0@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270322T200000Z
 DTEND:20270322T210000Z
 SUMMARY:Library Build a Rama
@@ -1913,7 +1912,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:94dba90af63af624@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270324T143000Z
 DTEND:20270324T151500Z
 SUMMARY:Pre-school Story Time
@@ -1930,7 +1929,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:41f0a0155fe23da9@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270325T143000Z
 DTEND:20270325T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1948,7 +1947,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:512fb0738166fca2@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270329T200000Z
 DTEND:20270329T210000Z
 SUMMARY:Library Build a Rama
@@ -1961,7 +1960,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:d998353d328dd389@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270331T143000Z
 DTEND:20270331T151500Z
 SUMMARY:Pre-school Story Time
@@ -1978,7 +1977,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:d3448799b02622ba@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270401T143000Z
 DTEND:20270401T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -1996,7 +1995,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:cf744ae6688c1acf@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270405T200000Z
 DTEND:20270405T210000Z
 SUMMARY:Library Build a Rama
@@ -2009,7 +2008,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:e7721e950197b159@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270407T143000Z
 DTEND:20270407T151500Z
 SUMMARY:Pre-school Story Time
@@ -2026,7 +2025,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:d504dca13af8d9bc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270408T143000Z
 DTEND:20270408T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -2044,7 +2043,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:2a9737df5a971f34@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270409T203000Z
 DTEND:20270409T213000Z
 SUMMARY:Kids Comic Club
@@ -2060,7 +2059,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:3c9e07b4b1451cd2@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270412T200000Z
 DTEND:20270412T210000Z
 SUMMARY:Library Build a Rama
@@ -2073,7 +2072,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:f102996c3a592b42@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270414T143000Z
 DTEND:20270414T151500Z
 SUMMARY:Pre-school Story Time
@@ -2090,7 +2089,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:48175948bd4bcbf3@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270415T143000Z
 DTEND:20270415T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -2108,7 +2107,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:d11b1e731a73dbd3@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270416T140000Z
 DTEND:20270416T210000Z
 SUMMARY:FKPL Book Sale
@@ -2124,7 +2123,7 @@ DESCRIPTION:It's time once again for the Friends of Keene Public Library t
 END:VEVENT
 BEGIN:VEVENT
 UID:53c991033b1c2d5b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270417T140000Z
 DTEND:20270417T210000Z
 SUMMARY:FKPL Book Sale
@@ -2140,7 +2139,7 @@ DESCRIPTION:It's time once again for the Friends of Keene Public Library t
 END:VEVENT
 BEGIN:VEVENT
 UID:8408b248f960680e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270418T140000Z
 DTEND:20270418T180000Z
 SUMMARY:FKPL Book Sale: $5/Bag Day
@@ -2157,7 +2156,7 @@ DESCRIPTION:It's time once again for the Friends of Keene Public Library t
 END:VEVENT
 BEGIN:VEVENT
 UID:2593e094c342f0d6@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270419T200000Z
 DTEND:20270419T210000Z
 SUMMARY:Library Build a Rama
@@ -2170,7 +2169,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:110ee7ecf73b63f4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270421T143000Z
 DTEND:20270421T151500Z
 SUMMARY:Pre-school Story Time
@@ -2187,7 +2186,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:1ba64582d8e46216@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270422T143000Z
 DTEND:20270422T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -2205,7 +2204,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:4f93b87ee8102ae7@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270426T200000Z
 DTEND:20270426T210000Z
 SUMMARY:Library Build a Rama
@@ -2218,7 +2217,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:6407c766601afbca@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270428T143000Z
 DTEND:20270428T151500Z
 SUMMARY:Pre-school Story Time
@@ -2235,7 +2234,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:4bf25ce28349a68b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270429T143000Z
 DTEND:20270429T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -2253,7 +2252,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:28e64621943fe7b0@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270503T200000Z
 DTEND:20270503T210000Z
 SUMMARY:Library Build a Rama
@@ -2266,7 +2265,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:c77c554db18904f3@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270505T143000Z
 DTEND:20270505T151500Z
 SUMMARY:Pre-school Story Time
@@ -2283,7 +2282,7 @@ DESCRIPTION:Preschool storytimes are geared towards pre-kindergarteners ag
 END:VEVENT
 BEGIN:VEVENT
 UID:f0c70e6a39e60ac2@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270506T143000Z
 DTEND:20270506T151500Z
 SUMMARY:Book time with Babies and Toddlers
@@ -2301,7 +2300,7 @@ DESCRIPTION:We'll share books\, songs\, rhymes\, and bounce and snuggle. T
 END:VEVENT
 BEGIN:VEVENT
 UID:d3ce9b91b98029bf@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270510T200000Z
 DTEND:20270510T210000Z
 SUMMARY:Library Build a Rama
@@ -2314,7 +2313,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:e830b1a60be1e088@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270511T220000Z
 DTEND:20270511T230000Z
 SUMMARY:Taking the Time to Pause for Menopause with Lior Sideh
@@ -2343,7 +2342,7 @@ DESCRIPTION:Lior Sadeh of Three Fold Herbal Healing presents:Taking the Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:d068794817104a88@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270514T203000Z
 DTEND:20270514T213000Z
 SUMMARY:Kids Comic Club
@@ -2359,7 +2358,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:8aeeff795075abdc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270517T200000Z
 DTEND:20270517T210000Z
 SUMMARY:Library Build a Rama
@@ -2372,7 +2371,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:ef84ec2673153ead@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270524T200000Z
 DTEND:20270524T210000Z
 SUMMARY:Library Build a Rama
@@ -2385,7 +2384,7 @@ DESCRIPTION:Calling all builders! Come build with LEGO® bricks\, we have
 END:VEVENT
 BEGIN:VEVENT
 UID:9c7bf93d46e932fd@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270611T203000Z
 DTEND:20270611T213000Z
 SUMMARY:Kids Comic Club
@@ -2401,7 +2400,7 @@ DESCRIPTION:For comic fans ages 8-12! We'll meet once a month to create to
 END:VEVENT
 BEGIN:VEVENT
 UID:97f3fb121ca63928@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART:20270713T220000Z
 DTEND:20270713T230000Z
 SUMMARY:Why am I Fatiqued?
@@ -2433,7 +2432,7 @@ DESCRIPTION:Lior Sadeh of Three Fold Herbal Healing presents: Why am I Fat
 END:VEVENT
 BEGIN:VEVENT
 UID:1bf08afd201fd186@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261123T173000
 DTEND;TZID=America/New_York:20261123T190000
 SUMMARY:Financial Empowerment
@@ -2453,7 +2452,7 @@ DESCRIPTION:Financial Q & A with SEVCA and Mascoma Bank \nAll are welcome
 END:VEVENT
 BEGIN:VEVENT
 UID:0a17fdd6816dc3f3@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:Next Gen Brattleboro Launch Event Recording - Communal Viewing & D
@@ -2471,7 +2470,7 @@ DESCRIPTION:This is an opportunity for a communal viewing of the recording
 END:VEVENT
 BEGIN:VEVENT
 UID:5fdba18771f5b315@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261124T123000
 DTEND;TZID=America/New_York:20261124T140000
 SUMMARY:Puppet Making Workshop!
@@ -2489,7 +2488,7 @@ DESCRIPTION:Looking for something to do while school’s out? Join us on 
 END:VEVENT
 BEGIN:VEVENT
 UID:7627f424f93ce226@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261124T153000
 DTEND;TZID=America/New_York:20261124T163000
 SUMMARY:Read to a Dog
@@ -2506,7 +2505,7 @@ DESCRIPTION:Come start a new year of reading by reading to a dog! Read out
 END:VEVENT
 BEGIN:VEVENT
 UID:97d23c65009b3a6c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T210000
 SUMMARY:EARLY CLOSING
@@ -2519,7 +2518,7 @@ DESCRIPTION:The library will close at 6:00 p.m. in observance of Thanksgiv
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e8cfe176397e69@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261126T100000
 DTEND;TZID=America/New_York:20261126T180000
 SUMMARY:LIBRARY CLOSED
@@ -2532,7 +2531,7 @@ DESCRIPTION:The library will be closed in observation of Thanksgiving Day.
 END:VEVENT
 BEGIN:VEVENT
 UID:0647dcdd69c859bc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261127T100000
 DTEND;TZID=America/New_York:20261127T180000
 SUMMARY:LIBRARY CLOSED
@@ -2545,7 +2544,7 @@ DESCRIPTION:The library will be closed in observation of Thanksgiving.\nSo
 END:VEVENT
 BEGIN:VEVENT
 UID:ca7ea23915b16200@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261128T100000
 DTEND;TZID=America/New_York:20261128T170000
 SUMMARY:Friends of the Library Book Sale Kick Off
@@ -2564,7 +2563,7 @@ DESCRIPTION:The Friends of the Library’s Annual Book Sale will begin on
 END:VEVENT
 BEGIN:VEVENT
 UID:265e10e50b45f944@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261201T100000
 DTEND;TZID=America/New_York:20261201T150000
 SUMMARY:World AIDS DAY - Quilt Panel Display
@@ -2587,7 +2586,7 @@ DESCRIPTION:All are welcome to join The AIDS Project of Southern Vermont w
 END:VEVENT
 BEGIN:VEVENT
 UID:7cb212dfbf89703c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T153000
 DTEND;TZID=America/New_York:20261202T170000
 SUMMARY:Vermont Pastel Society
@@ -2599,7 +2598,7 @@ DESCRIPTION:pastel painting\nSource: Brooks Memorial Library
 END:VEVENT
 BEGIN:VEVENT
 UID:b6708df42c4d5bc1@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Charter Revision Commission's Public Information Meeting
@@ -2616,7 +2615,7 @@ DESCRIPTION:Brattleboro’s Charter Revision Commission will hold a public
 END:VEVENT
 BEGIN:VEVENT
 UID:86e0f287f5fa3ca8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T150000
 DTEND;TZID=America/New_York:20261203T170000
 SUMMARY:LEGO-Palooza
@@ -2632,7 +2631,7 @@ DESCRIPTION:Join us on the first Thursday of every month after school from
 END:VEVENT
 BEGIN:VEVENT
 UID:483983e5736bab2a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261204T133000
 DTEND;TZID=America/New_York:20261204T150000
 SUMMARY:Women's Freedom Center's Femmes & Thems Collage Club
@@ -2650,7 +2649,7 @@ DESCRIPTION:The Women’s Freedom Center is hosting a Femmes and Thems
 END:VEVENT
 BEGIN:VEVENT
 UID:b6b88171b7114198@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261205T140000
 DTEND;TZID=America/New_York:20261205T160000
 SUMMARY:Meet the Judges: Brattleboro Festival of Miniatures
@@ -2670,7 +2669,7 @@ DESCRIPTION:What qualifies a person to judge a miniature window contest? W
 END:VEVENT
 BEGIN:VEVENT
 UID:9c0c7c6c91bd50ea@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T210000
 SUMMARY:Brattleboro Great Books Group
@@ -2684,7 +2683,7 @@ DESCRIPTION:Monthly discussion of “Great Books”\nSource: Brooks Memori
 END:VEVENT
 BEGIN:VEVENT
 UID:99773041b3fabf16@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T140000
 DTEND;TZID=America/New_York:20261125T150000
 SUMMARY:Putney Amblers Walking Group
@@ -2702,7 +2701,7 @@ DESCRIPTION:Would you like to get outside and walk in the company of other
 END:VEVENT
 BEGIN:VEVENT
 UID:39bc17bebec5068f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:Library Closed for Thanksgiving
@@ -2712,7 +2711,7 @@ DESCRIPTION:Source: Putney Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:410a5142f58b217d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Thanksgiving - Library Closed
@@ -2722,7 +2721,7 @@ DESCRIPTION:Source: Moore Free Library
 END:VEVENT
 BEGIN:VEVENT
 UID:f5dce47ee3d4e5fc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261127T103000
 DTEND;TZID=America/New_York:20261127T120000
 SUMMARY:Wool Crafters
@@ -2734,7 +2733,7 @@ DESCRIPTION:Wool Crafters meet every Friday from 10:30 to 12:00.   All a
 END:VEVENT
 BEGIN:VEVENT
 UID:5349d8626ad992f9@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261204T103000
 DTEND;TZID=America/New_York:20261204T120000
 SUMMARY:Wool Crafters
@@ -2746,7 +2745,7 @@ DESCRIPTION:Wool Crafters meet every Friday from 10:30 to 12:00.   All a
 END:VEVENT
 BEGIN:VEVENT
 UID:cd62b27be89c8f1f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261211T103000
 DTEND;TZID=America/New_York:20261211T120000
 SUMMARY:Wool Crafters
@@ -2758,7 +2757,7 @@ DESCRIPTION:Wool Crafters meet every Friday from 10:30 to 12:00.   All a
 END:VEVENT
 BEGIN:VEVENT
 UID:62443686043c5da3@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261218T103000
 DTEND;TZID=America/New_York:20261218T120000
 SUMMARY:Wool Crafters
@@ -2770,7 +2769,7 @@ DESCRIPTION:Wool Crafters meet every Friday from 10:30 to 12:00.   All a
 END:VEVENT
 BEGIN:VEVENT
 UID:63458602c2128e4e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261219T103000
 DTEND;TZID=America/New_York:20261219T120000
 SUMMARY:State Representative Emily Long Office Hours
@@ -2783,7 +2782,7 @@ DESCRIPTION:Join State Representative Emily Long for her Office Hours at t
 END:VEVENT
 BEGIN:VEVENT
 UID:b4c1f3cf991701c4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Christmas Day - Library Closed
@@ -2792,22 +2791,8 @@ CATEGORIES:kids\,Moore Free Library
 DESCRIPTION:Source: Moore Free Library
 END:VEVENT
 BEGIN:VEVENT
-UID:35cade92a9d0ef6a@kidcal
-DTSTAMP:20261122T181721Z
-DTSTART;TZID=America/New_York:20261123T100000
-DTEND;TZID=America/New_York:20261123T120000
-SUMMARY:Monday Morning Playgroup
-LOCATION:VT
-URL:https://sapcc-vt.org/event/monday-morning-playgroup-2/2026-11-23/
-CATEGORIES:kids\,Springfield Area Parent Child Center
-DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
- ion changes seasonally. Open to ages 0 – 6 and their siblings of any age
- . No need to register\, just show up! Email kayla.bapp@sapcc-vt.org for mo
- re information.\nSource: Springfield Area Parent Child Center
-END:VEVENT
-BEGIN:VEVENT
 UID:0c5d59871a4bd82d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Closing Early
@@ -2818,7 +2803,7 @@ DESCRIPTION:Source: Springfield Area Parent Child Center
 END:VEVENT
 BEGIN:VEVENT
 UID:a6888cbd98d425a4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T100000
 DTEND;TZID=America/New_York:20261125T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -2833,7 +2818,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:d410db71e9451f29@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261129
 SUMMARY:Closed for Break
@@ -2844,7 +2829,7 @@ DESCRIPTION:Closed for Break\nSource: Springfield Area Parent Child Center
 END:VEVENT
 BEGIN:VEVENT
 UID:1e52094070d5359c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Closed for Break
@@ -2855,7 +2840,7 @@ DESCRIPTION:Closed for Break\nSource: Springfield Area Parent Child Center
 END:VEVENT
 BEGIN:VEVENT
 UID:ff5c0d4bfa4b8504@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261130T100000
 DTEND;TZID=America/New_York:20261130T120000
 SUMMARY:Monday Morning Playgroup
@@ -2869,7 +2854,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:05ab92f44aff5828@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T100000
 DTEND;TZID=America/New_York:20261202T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -2884,7 +2869,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:a64c2da36c7de70f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T173000
 DTEND;TZID=America/New_York:20261203T190000
 SUMMARY:SAPCC Dads' Group
@@ -2903,7 +2888,7 @@ DESCRIPTION:Join Chris Strong\, SAPCC Food Program Coordinator\, the first
 END:VEVENT
 BEGIN:VEVENT
 UID:e37d6b0358169ed4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261207T100000
 DTEND;TZID=America/New_York:20261207T120000
 SUMMARY:Monday Morning Playgroup
@@ -2917,7 +2902,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:b439a7574354e602@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261209T100000
 DTEND;TZID=America/New_York:20261209T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -2932,7 +2917,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:76a7f62a0758cd84@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261214T100000
 DTEND;TZID=America/New_York:20261214T120000
 SUMMARY:Monday Morning Playgroup
@@ -2946,7 +2931,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:e5081b8cdd77439e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261216T100000
 DTEND;TZID=America/New_York:20261216T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -2961,7 +2946,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:4317a51584a177e4@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261221T100000
 DTEND;TZID=America/New_York:20261221T120000
 SUMMARY:Monday Morning Playgroup
@@ -2975,7 +2960,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:54a8b594a0c8e5f8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261223T100000
 DTEND;TZID=America/New_York:20261223T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -2990,7 +2975,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
 END:VEVENT
 BEGIN:VEVENT
 UID:06b041b5df557428@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20270104T100000
 DTEND;TZID=America/New_York:20270104T120000
 SUMMARY:Monday Morning Playgroup
@@ -3004,7 +2989,7 @@ DESCRIPTION:Weekly playgroup – fun activities\, games and a snack! Locat
 END:VEVENT
 BEGIN:VEVENT
 UID:47da0898b8545716@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20270106T100000
 DTEND;TZID=America/New_York:20270106T113000
 SUMMARY:Wednesday Morning Playgroup
@@ -3018,8 +3003,40 @@ DESCRIPTION:Weekly playgroup – fun activities\, games\, and a snack! Ope
   Springfield Area Parent Child Center
 END:VEVENT
 BEGIN:VEVENT
+UID:f705b7d4780e7271@kidcal
+DTSTAMP:20261123T223222Z
+DTSTART;TZID=America/New_York:20270107T173000
+DTEND;TZID=America/New_York:20270107T190000
+SUMMARY:SAPCC Dads' Group
+LOCATION:Springfield Area Parent Child Center\, 80 Jack and Jill Ln\, Nort
+ h Springfield\, VT\, 05150\, United States
+URL:https://sapcc-vt.org/event/sapcc-dads-group-3/2027-01-07/
+CATEGORIES:kids\,Springfield Area Parent Child Center
+DESCRIPTION:Join Chris Strong\, SAPCC Food Program Coordinator\, the first
+  Thursday of every month for Playgroup and dinner! \n\n\nTime: 5:30-7pm \n
+ \n\nLocation: PlayWorks Playground at Springfield Area Parent Child Center
+ \, 80 Jack and Jill Ln\, North Springfield\, VT 05150 \n\n\n\n\n\nAll male
+  caregivers and their children are welcome to join us on the playground at
+  SAPCC for playgroup\, dinner included! \n\n\nCome have fun! \n\n\nEmail K
+ ayla with any questions at kayla.bapp@sapcc-vt.org\nSource: Springfield Ar
+ ea Parent Child Center
+END:VEVENT
+BEGIN:VEVENT
+UID:58f068877beff988@kidcal
+DTSTAMP:20261123T223222Z
+DTSTART;TZID=America/New_York:20261205T110000
+DTEND;TZID=America/New_York:20261205T120000
+SUMMARY:Gingerbread Jamboree
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/events/gingerbread-jamboree-2/
+CATEGORIES:kids\,Rockingham Free Public Library
+DESCRIPTION:Decorate a Gingerbread Cookie and stay for the Friends of the 
+ Library holiday party!\nSource: Rockingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:5cb8360d2582d22b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261225T110000
 DTEND;TZID=America/New_York:20261225T120000
 SUMMARY:Library Closed
@@ -3031,7 +3048,7 @@ DESCRIPTION:Source: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:d588d6a333df9b51@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261212T120000
 DTEND;TZID=America/New_York:20261212T140000
 SUMMARY:The Great Holiday Cookie Swap!
@@ -3042,13 +3059,13 @@ CATEGORIES:kids\,Rockingham Free Public Library
 DESCRIPTION:Saturday\, 12/12 @ 12pm at the Rockingham Free Public Library 
  On your mark\, get set\, swap! The Great Holiday Cookie Swap ~ where the R
  ockingham Library becomes the beloved Bake Off Tent! Enjoy treats\, swap r
- ecipes\, and a holiday screening of Bake-Off! There are so many ways to ge
- t in on the fun! Love to … Read moreThe Great Holiday Cookie Swap!\nSour
- ce: Rockingham Free Public Library
+ ecipes\, and holiday cheer! There are so many ways to get in on the fun! L
+ ove to bake?! Make cookies … Read moreThe Great Holiday Cookie Swap!\nSo
+ urce: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:1530036fe57287af@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T100000
 DTEND;TZID=America/New_York:20261202T173000
 SUMMARY:AIDS Memorial Quilt in Bellows Falls for World AIDS Day
@@ -3062,7 +3079,7 @@ DESCRIPTION:For more information\, visit Bellows Falls Pride online!\nSour
 END:VEVENT
 BEGIN:VEVENT
 UID:8fd1aa0ac7efdfc2@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:A Merry Dickens Holiday Party!
@@ -3078,7 +3095,7 @@ DESCRIPTION:Join us on Saturday\, December 5 from 11am-1pm for the annual
 END:VEVENT
 BEGIN:VEVENT
 UID:565a6b9992da3dde@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20270109T110000
 DTEND;TZID=America/New_York:20270109T135000
 SUMMARY:1st Annual “Is winter over yet? Puzzle Race!
@@ -3091,7 +3108,7 @@ DESCRIPTION:Source: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
 UID:f7580a3558aeb1b3@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261126T103000
 DTEND;TZID=America/New_York:20261126T120000
 SUMMARY:Library Closed
@@ -3102,25 +3119,8 @@ CATEGORIES:kids\,Rockingham Free Public Library
 DESCRIPTION:Source: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
-UID:50f56216e09efcac@kidcal
-DTSTAMP:20261122T181721Z
-DTSTART;TZID=America/New_York:20261125T140000
-DTEND;TZID=America/New_York:20261125T150000
-SUMMARY:Intro to Kung Fu
-LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
- s\, VT 05101
-URL:https://rockinghamlibrary.org/events/intro-to-kung-fu/
-CATEGORIES:kids\,Rockingham Free Public Library
-DESCRIPTION:When: Wednesdays from 2pm-3pm Location: Top Floor Meeting Room
-  Learn the basics of Chinese martial arts in this fun\, active class. For 
- over 1\,500 years\, Kung Fu has provided a path to health and strength. Al
- l ages & abilities are welcome. Kung Fu is for everyone! Free and open to 
- the public.  For more information\, … Read moreIntro to Kung Fu\nSource
- : Rockingham Free Public Library
-END:VEVENT
-BEGIN:VEVENT
 UID:ecd5d17a0b49c054@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261211T160000
 DTEND;TZID=America/New_York:20261211T170000
 SUMMARY:Sew What! Sewing Circle & Mending Bee on the 2nd Friday of the mon
@@ -3136,8 +3136,28 @@ DESCRIPTION:Sew What! Sewing Circle & Mending Bee  Time: 2nd Friday of th
  e and open to the public.\nSource: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
+UID:c0dcf8f0852b0c10@kidcal
+DTSTAMP:20261123T223222Z
+DTSTART;TZID=America/New_York:20261209T120000
+DTEND;TZID=America/New_York:20261209T130000
+SUMMARY:Bellows Falls Community Health & Safety Meeting
+LOCATION:Rockingham Free Public Library\, 65 Westminster St\, Bellows Fall
+ s\, VT 05101
+URL:https://rockinghamlibrary.org/events/bellows-falls-community-health-sa
+ fety-meeting/
+CATEGORIES:kids\,Rockingham Free Public Library
+DESCRIPTION:Every second Wednesday of the month\, join the Bellows Falls P
+ olice Department\, Greater Falls Community Justice Center\, Greater Falls 
+ Connections\, Turning Point Recovery Center\, AIDS Project of Southern Ver
+ mont\, Parks Place\, WNESU and other town organizations and leadership fo
+ r a discussion about community health and safety at the Rockingham Fre
+ e Public Library (65 Westminster Street\, Bellows Falls\, VT).  Current c
+ ommunity … Read moreBellows Falls Community Health & Safety Meeting\nSou
+ rce: Rockingham Free Public Library
+END:VEVENT
+BEGIN:VEVENT
 UID:b707a2672cf511b1@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261212T110000
 DTEND;TZID=America/New_York:20261212T135000
 SUMMARY:The Rockingham Cribbage Club (2nd Saturday of the month)
@@ -3153,33 +3173,8 @@ DESCRIPTION:The Rockingham Cribbage Club When you see this cribbage hand\,
  Source: Rockingham Free Public Library
 END:VEVENT
 BEGIN:VEVENT
-UID:bd7ebeab5d5ac3e8@kidcal
-DTSTAMP:20261122T181721Z
-DTSTART;TZID=America/New_York:20261122T173000
-DTEND;TZID=America/New_York:20261122T183000
-SUMMARY:Weekly Meditation Community at WCAC - New Day/ Time
-LOCATION:Winhall Community Arts Center
-URL:https://tockify.com/gnatevents
-CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
-DESCRIPTION:Weekly Meditation Community at WCAC - New Day/ Time\nSource: G
- NAT-TV Regional Calendar (mountain towns)
-END:VEVENT
-BEGIN:VEVENT
-UID:dbcc0cbecfa1ecfa@kidcal
-DTSTAMP:20261122T181721Z
-DTSTART;TZID=America/New_York:20261123T090000
-DTEND;TZID=America/New_York:20261123T100000
-SUMMARY:Exercise Group in Dorset
-LOCATION:United Church of Dorset
-URL:https://tockify.com/gnatevents
-CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
-DESCRIPTION:Exercise Group in Dorset — Exercise group at United Church o
- f Dorset & East Rupert Mondays and Wednesdays 9-10am\nSource: GNAT-TV Regi
- onal Calendar (mountain towns)
-END:VEVENT
-BEGIN:VEVENT
 UID:ed5bfe1415639c7a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261124T090000
 DTEND;TZID=America/New_York:20261124T130000
 SUMMARY:Quilters Group in Dorset
@@ -3192,7 +3187,7 @@ DESCRIPTION:Quilters Group in Dorset — Quilters at United Church of Dors
 END:VEVENT
 BEGIN:VEVENT
 UID:9a0168b9e41ea110@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261124T130000
 DTEND;TZID=America/New_York:20261124T160000
 SUMMARY:Coffee & Crafts in Winhall
@@ -3208,7 +3203,7 @@ DESCRIPTION:Coffee & Crafts in Winhall — Coffee & crafts every Tuesday a
 END:VEVENT
 BEGIN:VEVENT
 UID:8ef1df5bab9e6e7b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261124T180000
 DTEND;TZID=America/New_York:20261124T190000
 SUMMARY:Free Qigong Class
@@ -3222,7 +3217,7 @@ DESCRIPTION:Free Qigong Class — Join us on Tuesdays from 6:00–7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:1a567bc90e8aeb12@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T090000
 DTEND;TZID=America/New_York:20261125T100000
 SUMMARY:Exercise Group in Dorset
@@ -3235,7 +3230,7 @@ DESCRIPTION:Exercise Group in Dorset — Exercise group at United Church o
 END:VEVENT
 BEGIN:VEVENT
 UID:56f485f6f3dd357c@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T100000
 DTEND;TZID=America/New_York:20261125T110000
 SUMMARY:Story Time at the Dorset Village Library
@@ -3252,7 +3247,7 @@ DESCRIPTION:Story Time at the Dorset Village Library — Join us every Wed
 END:VEVENT
 BEGIN:VEVENT
 UID:519d067dc61193db@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T100000
 DTEND;TZID=America/New_York:20261125T113000
 SUMMARY:Weekly Playgroup in Arlington
@@ -3267,7 +3262,7 @@ DESCRIPTION:Weekly Playgroup in Arlington — Sunrise Family Resource Cent
 END:VEVENT
 BEGIN:VEVENT
 UID:c623f30ee834bbed@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T110000
 DTEND;TZID=America/New_York:20261125T123000
 SUMMARY:The Baby Café: Free Weekly Information & Support
@@ -3285,7 +3280,7 @@ DESCRIPTION:The Baby Café: Free Weekly Information & Support — The Baby
 END:VEVENT
 BEGIN:VEVENT
 UID:d0c06832532e1efe@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T110000
 DTEND;TZID=America/New_York:20261125T123000
 SUMMARY:Veggie Van Go - Bennington: Open to the Public | Food for Youths t
@@ -3303,7 +3298,7 @@ DESCRIPTION:Veggie Van Go - Bennington: Open to the Public | Food for Yout
 END:VEVENT
 BEGIN:VEVENT
 UID:37abb04f80e4a16a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T130000
 DTEND;TZID=America/New_York:20261125T140000
 SUMMARY:Weekly Story Time in Londonderry
@@ -3317,7 +3312,7 @@ DESCRIPTION:Weekly Story Time in Londonderry — Join Ms. Madeline for a s
 END:VEVENT
 BEGIN:VEVENT
 UID:3100a5a8da469d6b@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T140000
 DTEND;TZID=America/New_York:20261125T150000
 SUMMARY:Monthly Video Announcement Day
@@ -3334,7 +3329,7 @@ DESCRIPTION:Monthly Video Announcement Day — Got an Announcement? Say It
 END:VEVENT
 BEGIN:VEVENT
 UID:ec6edd7bdebf4fa2@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261125T170000
 DTEND;TZID=America/New_York:20261125T180000
 SUMMARY:Italian Conversation Group at MCL
@@ -3348,7 +3343,7 @@ DESCRIPTION:Italian Conversation Group at MCL — Looking to practice your
 END:VEVENT
 BEGIN:VEVENT
 UID:dbf1cc60ecf1c345@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261126T100000
 DTEND;TZID=America/New_York:20261126T113000
 SUMMARY:Weekly Playgroup in Bennington
@@ -3365,7 +3360,7 @@ DESCRIPTION:Weekly Playgroup in Bennington — Sunrise Family Resource Cen
 END:VEVENT
 BEGIN:VEVENT
 UID:4f035103b61e4f73@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261126T130000
 DTEND;TZID=America/New_York:20261126T160000
 SUMMARY:Coffee & Crafts in Winhall
@@ -3381,7 +3376,7 @@ DESCRIPTION:Coffee & Crafts in Winhall — Coffee & crafts every Tuesday a
 END:VEVENT
 BEGIN:VEVENT
 UID:f8e5fd56c2d7db59@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261126T130000
 DTEND;TZID=America/New_York:20261126T160000
 SUMMARY:Open Art /Open Gallery
@@ -3397,7 +3392,7 @@ DESCRIPTION:Open Art /Open Gallery — www.winhallcommunityartscenter.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:0bfdf76db2bf3ca5@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261126T153000
 DTEND;TZID=America/New_York:20261126T163000
 SUMMARY:The Check Mates After School
@@ -3413,7 +3408,7 @@ DESCRIPTION:The Check Mates After School — Click here for more informati
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9869a926eba23a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261126T180000
 DTEND;TZID=America/New_York:20261126T210000
 SUMMARY:Gaming in the Gallery
@@ -3425,7 +3420,7 @@ DESCRIPTION:Gaming in the Gallery — www.winhallcommunityartscenter.org/c
 END:VEVENT
 BEGIN:VEVENT
 UID:064aec5b192f9f38@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261127T183000
 DTEND;TZID=America/New_York:20261127T203000
 SUMMARY:Fiber Fridays in Rupert
@@ -3441,7 +3436,7 @@ DESCRIPTION:Fiber Fridays in Rupert — Join us every fourth Friday of the
 END:VEVENT
 BEGIN:VEVENT
 UID:8e6b46d9dc4cf0c8@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261127T183000
 DTEND;TZID=America/New_York:20261127T213000
 SUMMARY:Game Night In The Gallery
@@ -3457,7 +3452,7 @@ DESCRIPTION:Game Night In The Gallery — Bring a board game or use one of
 END:VEVENT
 BEGIN:VEVENT
 UID:ab871d6f84b2932f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T110000
 SUMMARY:Saturday Coffee Hour in Rupert
@@ -3470,7 +3465,7 @@ DESCRIPTION:Saturday Coffee Hour in Rupert — Join us 9-11 Saturday morni
 END:VEVENT
 BEGIN:VEVENT
 UID:0732e587d03bb3c1@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T130000
 SUMMARY:VNA & Hospice Thrift Shop - Open Every Saturday
@@ -3488,7 +3483,7 @@ DESCRIPTION:VNA & Hospice Thrift Shop - Open Every Saturday — VNA & Hosp
 END:VEVENT
 BEGIN:VEVENT
 UID:4588095a67c8e2ce@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261129T173000
 DTEND;TZID=America/New_York:20261129T183000
 SUMMARY:Weekly Meditation Community at WCAC - New Day/ Time
@@ -3500,7 +3495,7 @@ DESCRIPTION:Weekly Meditation Community at WCAC - New Day/ Time\nSource: G
 END:VEVENT
 BEGIN:VEVENT
 UID:bda2bab4d78b661a@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261130T090000
 DTEND;TZID=America/New_York:20261130T100000
 SUMMARY:Exercise Group in Dorset
@@ -3513,7 +3508,7 @@ DESCRIPTION:Exercise Group in Dorset — Exercise group at United Church o
 END:VEVENT
 BEGIN:VEVENT
 UID:37c07ec78076fb91@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261201T090000
 DTEND;TZID=America/New_York:20261201T130000
 SUMMARY:Quilters Group in Dorset
@@ -3526,7 +3521,7 @@ DESCRIPTION:Quilters Group in Dorset — Quilters at United Church of Dors
 END:VEVENT
 BEGIN:VEVENT
 UID:a01200b1846e0b0d@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261201T130000
 DTEND;TZID=America/New_York:20261201T160000
 SUMMARY:Coffee & Crafts in Winhall
@@ -3542,7 +3537,7 @@ DESCRIPTION:Coffee & Crafts in Winhall — Coffee & crafts every Tuesday a
 END:VEVENT
 BEGIN:VEVENT
 UID:5e39e5dfc3dad08e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261201T180000
 DTEND;TZID=America/New_York:20261201T190000
 SUMMARY:Free Qigong Class
@@ -3556,7 +3551,7 @@ DESCRIPTION:Free Qigong Class — Join us on Tuesdays from 6:00–7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:44c332b9540f4883@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T090000
 DTEND;TZID=America/New_York:20261202T100000
 SUMMARY:Exercise Group in Dorset
@@ -3569,7 +3564,7 @@ DESCRIPTION:Exercise Group in Dorset — Exercise group at United Church o
 END:VEVENT
 BEGIN:VEVENT
 UID:433f25dbf4c218dc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T100000
 DTEND;TZID=America/New_York:20261202T110000
 SUMMARY:Story Time at the Dorset Village Library
@@ -3586,7 +3581,7 @@ DESCRIPTION:Story Time at the Dorset Village Library — Join us every Wed
 END:VEVENT
 BEGIN:VEVENT
 UID:9757d754b43e9256@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T100000
 DTEND;TZID=America/New_York:20261202T113000
 SUMMARY:Weekly Playgroup in Arlington
@@ -3601,7 +3596,7 @@ DESCRIPTION:Weekly Playgroup in Arlington — Sunrise Family Resource Cent
 END:VEVENT
 BEGIN:VEVENT
 UID:dc356e757e4a0bce@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T110000
 DTEND;TZID=America/New_York:20261202T123000
 SUMMARY:The Baby Café: Free Weekly Information & Support
@@ -3619,7 +3614,7 @@ DESCRIPTION:The Baby Café: Free Weekly Information & Support — The Baby
 END:VEVENT
 BEGIN:VEVENT
 UID:b9ecca2c57b0856f@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T130000
 DTEND;TZID=America/New_York:20261202T140000
 SUMMARY:Weekly Story Time in Londonderry
@@ -3633,7 +3628,7 @@ DESCRIPTION:Weekly Story Time in Londonderry — Join Ms. Madeline for a s
 END:VEVENT
 BEGIN:VEVENT
 UID:ff2d89cc4797e5e5@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T170000
 DTEND;TZID=America/New_York:20261202T180000
 SUMMARY:Italian Conversation Group at MCL
@@ -3647,7 +3642,7 @@ DESCRIPTION:Italian Conversation Group at MCL — Looking to practice your
 END:VEVENT
 BEGIN:VEVENT
 UID:672ed4cf269110ec@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Drawing Night at the Sheldon Store
@@ -3664,7 +3659,7 @@ DESCRIPTION:Drawing Night at the Sheldon Store — Join us for Drawing at
 END:VEVENT
 BEGIN:VEVENT
 UID:a25d2a34c2f87ccc@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T100000
 DTEND;TZID=America/New_York:20261203T113000
 SUMMARY:Weekly Playgroup in Bennington
@@ -3681,7 +3676,7 @@ DESCRIPTION:Weekly Playgroup in Bennington — Sunrise Family Resource Cen
 END:VEVENT
 BEGIN:VEVENT
 UID:a7d46683e2111bde@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T130000
 DTEND;TZID=America/New_York:20261203T160000
 SUMMARY:Coffee & Crafts in Winhall
@@ -3697,7 +3692,7 @@ DESCRIPTION:Coffee & Crafts in Winhall — Coffee & crafts every Tuesday a
 END:VEVENT
 BEGIN:VEVENT
 UID:715486cb2b3ef996@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T130000
 DTEND;TZID=America/New_York:20261203T160000
 SUMMARY:Open Art /Open Gallery
@@ -3713,7 +3708,7 @@ DESCRIPTION:Open Art /Open Gallery — www.winhallcommunityartscenter.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:db0d2dfb300bf17e@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T153000
 DTEND;TZID=America/New_York:20261203T163000
 SUMMARY:The Check Mates After School
@@ -3729,7 +3724,7 @@ DESCRIPTION:The Check Mates After School — Click here for more informati
 END:VEVENT
 BEGIN:VEVENT
 UID:64aed4266007d565@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T180000
 DTEND;TZID=America/New_York:20261203T190000
 SUMMARY:Fly-tying Club
@@ -3743,7 +3738,7 @@ DESCRIPTION:Fly-tying Club — Join a group of like-minded fly tyers for a
 END:VEVENT
 BEGIN:VEVENT
 UID:b0b50fbdfb5dab30@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261203T180000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Gaming in the Gallery
@@ -3755,7 +3750,7 @@ DESCRIPTION:Gaming in the Gallery — www.winhallcommunityartscenter.org/c
 END:VEVENT
 BEGIN:VEVENT
 UID:9eb36d4625c43e54@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261204T130000
 DTEND;TZID=America/New_York:20261204T160000
 SUMMARY:Neighbors Food Pantry in Londonderry
@@ -3768,7 +3763,7 @@ DESCRIPTION:Neighbors Food Pantry in Londonderry — The Neighbors Pantry
 END:VEVENT
 BEGIN:VEVENT
 UID:8ed171cecbbb43a6@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261204T183000
 DTEND;TZID=America/New_York:20261204T213000
 SUMMARY:Game Night In The Gallery
@@ -3784,7 +3779,7 @@ DESCRIPTION:Game Night In The Gallery — Bring a board game or use one of
 END:VEVENT
 BEGIN:VEVENT
 UID:e37e0a83f3e08fe6@kidcal
-DTSTAMP:20261122T181721Z
+DTSTAMP:20261123T223222Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T110000
 SUMMARY:Saturday Coffee Hour in Rupert
@@ -3794,5 +3789,51 @@ DESCRIPTION:Saturday Coffee Hour in Rupert — Join us 9-11 Saturday morni
  ngs for weekly coffee hour! Gather with neighbors and friends for hot coff
  ee\, tea\, hot chocolate\, and homemade baked goods.\nSource: GNAT-TV Regi
  onal Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:a22b0b4eaeaabe0b@kidcal
+DTSTAMP:20261123T223222Z
+DTSTART;TZID=America/New_York:20261205T090000
+DTEND;TZID=America/New_York:20261205T130000
+SUMMARY:VNA & Hospice Thrift Shop - Open Every Saturday
+LOCATION:Thrift Shop at VNA & Hospice of the Southwest Region
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:VNA & Hospice Thrift Shop - Open Every Saturday — VNA & Hosp
+ ice of the Southwest Region’s Thrift Shop is officially open every Satur
+ day\, 9am-1pm\, in addition to our regular hours\, Monday-Friday\, 11am-3p
+ m. Proceeds from the shop benefit our mission of providing award-winning\,
+  compassionate care for residents of Franklin\, Bennington and Rutland Cou
+ nties. The Thrift Shop is also open M-F 11am-3pm. Donations accepted M-F d
+ uring operating hours. Quest\nSource: GNAT-TV Regional Calendar (mountain 
+ towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:7c2fccd00d8ca5e1@kidcal
+DTSTAMP:20261123T223222Z
+DTSTART;TZID=America/New_York:20261205T130000
+DTEND;TZID=America/New_York:20261205T143000
+SUMMARY:Tales Well Told: The Bedquilt and A Quilting Bee in Our Village
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Tales Well Told: The Bedquilt and A Quilting Bee in Our Villag
+ e — In this enthralling performance\, two ageless American stories retur
+ n us to the days when quilting created community. We join a gaggle of town
+ swomen—and meet a solitary spinster—who fashion remarkable art for eve
+ ryday use. “Despite TV and films\, the Internet and special effects\, we
+  still crave simply to listen to a tale well told.” -Michele LaRue\nSour
+ ce: GNAT-TV Regional Calendar (mountain towns)
+END:VEVENT
+BEGIN:VEVENT
+UID:8b98a7a2a61f1843@kidcal
+DTSTAMP:20261123T223222Z
+DTSTART;TZID=America/New_York:20261206T173000
+DTEND;TZID=America/New_York:20261206T183000
+SUMMARY:Weekly Meditation Community at WCAC - New Day/ Time
+LOCATION:Winhall Community Arts Center
+URL:https://tockify.com/gnatevents
+CATEGORIES:kids\,GNAT-TV Regional Calendar (mountain towns)
+DESCRIPTION:Weekly Meditation Community at WCAC - New Day/ Time\nSource: G
+ NAT-TV Regional Calendar (mountain towns)
 END:VEVENT
 END:VCALENDAR
